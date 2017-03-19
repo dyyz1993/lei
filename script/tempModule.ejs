@@ -5,14 +5,22 @@ const mono = require(rootPath.concat("/module/monologue.js"));
 exports.select= ( conn,param ) => {
     param.page = param.page || 1;
     param.pagecount = param.pagecount || config.pagecount;
-
     let sql = mono().select('*','<%=table %>').limit(param.pagecount,(param.page - 1) * param.pagecount).query().sql;
     return conn.queryAsync(sql);
 }
 
+exports.count= ( conn,param ) => {
+    let sql = mono().select('*','<%=table %>').query().sql;
+    return conn.queryAsync(sql).then((result)=>{
+      return result.length;
+    });
+}
+
 exports.get = ( conn,param ) => {
     let sql = mono().select('*','<%=table %>').where({<%=PK%>:param.id}).query().sql;
-    return conn.queryAsync(sql);
+    return conn.queryAsync(sql).then((result)=>{
+      return result[0];
+    });
 }
 
 exports.add = ( conn,param ) => {

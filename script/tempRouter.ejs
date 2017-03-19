@@ -4,63 +4,65 @@ const <%=table%>Service = require(rootPath.concat("/service/<%=table%>Service.js
 const <%=table%>Router = express.Router();
 
 /*
- * title : 路由1
- * url : /api/test
+ * title : 查找并分页
+ * url : /<%=table%>/test/
  * method : get
- * code: 1 操作成功
- * code: 0 操作失败
+ * params : page query false 当前页
+ * params : pagecount query  false 每页多少个数（默认20个 ）
+ * code: 0 操作成功
+ * code: 1 操作失败
  * return :
- * ``` 
+ * ```
  * {
- *   hello:'world',
+
  * }
  * ```
  * */
-<%=table%>Router.get("/",<%=table%>Service.select);
+<%=table%>Router.get("/select",<%=table%>Service.select);
 
 /*
- * title : 路由1
- * url : /api/test
+ * title : 获取信息
+ * url : /<%=table%>/test/
  * method : get
  * params : id path true 用户名
- * code: 1 操作成功
- * code: 0 操作失败
+ * code: 0 操作成功
+ * code: 1 操作失败
  * return :
- * ``` 
+ * ```
  * {
- *   hello:'world',
+
  * }
  * ```
  * */
 <%=table%>Router.get("/:id",<%=table%>Service.get);
 
 /*
- * title : 路由1
- * url : /api/test
+ * title : 提交
+ * url : /<%=table%>/test/
  * method : post
  * params : name body true 用户名
- * code: 1 操作成功
- * code: 0 操作失败
+ * code: 0 操作成功
+ * code: 1 操作失败
  * */
 <%=table%>Router.post("/",<%=table%>Service.add);
 
 /*
- * title : 路由1
- * url : /api/test
+ * title : 修改
+ * url : /<%=table%>/test/
  * method : put
  * params : id path true 主键
- * code: 1 操作成功
- * code: 0 操作失败
+ * code: 0 操作成功
+ * code: 1 操作失败
  * */
 <%=table%>Router.put("/:id",<%=table%>Service.update);
 
 /*
- * title : 路由1
- * url : /api/test
+ * title : 删除
+ * url : /<%=table%>/test/
  * method : delete
  * params : id path true 主键
- * code: 1 操作成功
- * code: 0 操作失败
+ * code: 0 操作成功
+ * code: 1 操作失败
  * */
 <%=table%>Router.delete("/:id",<%=table%>Service.delete);
 

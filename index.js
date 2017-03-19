@@ -6,6 +6,7 @@ const bodyparser = require('body-parser');
 const ejs = require('ejs');
 const app = express();
 const logger = log4js.getLogger('system');
+const expressValidator = require('express-validator');
 
 // 静态文件中间件
 app.use('/public', express.static('public'));
@@ -26,6 +27,17 @@ app.use(session({
   // })
 }));
 
+// 配置参数校验
+app.use(expressValidator(
+  {
+    errorFormatter(param, msg, value) {
+      return {
+        param,
+        msg,
+        value,
+      };
+    },
+  }));
 // 设置ejs模板
 app.set('views', './views');
 app.set('view engine', 'html');
@@ -38,13 +50,13 @@ const favicon = require('serve-favicon');
 app.use(favicon(rootPath.concat('/public/favicon.ico')));
 
 // 404错误中间件
-app.use((req, res, next) => {
+app.use((req, res) => {
   logger.error(req.url.concat(' not found'));
   res.status(404).send(config.message.notfound);
 });
 
 // 服务器内中错误处理
-app.use((err, req, res, next) => {
+app.use((err, req, res) => {
   logger.error(err.stack);
   res.status(500).send(config.message.servererr);
 });
@@ -55,7 +67,7 @@ process.on('uncaughtException', (err) => {
 });
 
 // 开启web服务器
-const server = app.listen(config.port, () => logger.info('服务器启动成功!', '端口号:', config.port));
+app.listen(config.port, () => logger.info('服务器启动成功!', '端口号:', config.port));
 
 // 开始socket服务器
 // const io = require('socket.io')(server);

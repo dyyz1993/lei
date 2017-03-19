@@ -1,14 +1,36 @@
 'use strict';
 
-const hrcaseModule = require(rootPath.concat("/module/<%=table%>Module.js"));
+const <%=table%>Module = require(rootPath.concat("/module/<%=table%>Module.js"));
 const logger = log4js.getLogger('system');
 
-exports.select = Promise.coroutine(function* (req,res,next) {
-    let conn;
+//查询数据并分页
+exports.select = Promise.coroutine(function* (req,res) {
+    let conn,data;
     try {
         conn = yield util.getConnect();
-        let result = yield hrcaseModule.select(conn,req.query);
+
+        data = { };
+
+        Object.assign(data, req.query);
+
+        const result = yield Promise.all([ <%=table%>Module.select(conn, data), <%=table%>Module.count(conn, data) ]);
+
+        const obj = {
+          totalCount: result[1],
+          limitCount: req.query.pagecount || config.pagecount,
+          currentPage: req.query.page || 1,
+        };
+
+        result[1] = obj;
+
+        return res.json(util.success({ data: result }));
+
+        let result = yield <%=table%>Module.select(conn,req.query);
+
+
         return res.json(util.success( {data:result} ));
+
+
     } catch (error) {
         logger.error(error.stack);
         return res.json(config.message.error);
@@ -17,12 +39,15 @@ exports.select = Promise.coroutine(function* (req,res,next) {
     }
 });
 
-exports.get = Promise.coroutine(function* (req,res,next) {
+//获取具体记录
+exports.get = Promise.coroutine(function* (req,res) {
     let conn;
     try {
         conn = yield util.getConnect();
-        let result = yield hrcaseModule.get(conn,req.params);
-        return res.json(util.success( {data:result} ));
+
+        let <%=table%> = yield <%=table%>Module.get(conn,req.params);
+        return res.json(util.success( {data:<%=table%>} ));
+
     } catch (error) {
         logger.error(error.stack);
         return res.json(config.message.error);
@@ -31,12 +56,48 @@ exports.get = Promise.coroutine(function* (req,res,next) {
     }
 });
 
-exports.add = Promise.coroutine(function* (req,res,next) {
+exports.add = Promise.coroutine(function* (req,res) {
+    let conn,data;
+    try {
+        conn = yield util.getConnect();
+
+        req.checkParams('a', 'is not Empty').notEmpty();
+        req.checkQuery('b', 'is not Empty').notEmpty();
+        req.checkBody('c', 'is not Empty').notEmpty();
+
+        const errors = req.validationErrors();
+        if (errors) {
+          logger.warn(errors);
+          return res.json(util.fail({ data: errors }));
+        }
+
+        data = {
+          a:req.params.a,
+          b:req.query.b,
+          c:req.body.c
+        }
+
+        const id = yield <%=table%>Module.add(conn,data);
+
+        return res.json(util.success({data:{id:id}}));
+
+    } catch (error) {
+        logger.error(error.stack);
+        return res.json(config.message.error);
+    } finally {
+        conn.release();
+    }
+});
+
+//更新
+exports.update = Promise.coroutine(function* (req,res) {
     let conn;
     try {
         conn = yield util.getConnect();
-        yield hrcaseModule.add(conn,req.body);
+
+        yield <%=table%>Module.update(conn,req.body,req.params);
         return res.json(config.message.success);
+
     } catch (error) {
         logger.error(error.stack);
         return res.json(config.message.error);
@@ -45,25 +106,11 @@ exports.add = Promise.coroutine(function* (req,res,next) {
     }
 });
 
-exports.update = Promise.coroutine(function* (req,res,next) {
+exports.delete = Promise.coroutine(function* (req,res) {
     let conn;
     try {
         conn = yield util.getConnect();
-        yield hrcaseModule.update(conn,req.body,req.params);
-        return res.json(config.message.success);
-    } catch (error) {
-        logger.error(error.stack);
-        return res.json(config.message.error);
-    } finally {
-        conn.release();
-    }
-});
-
-exports.delete = Promise.coroutine(function* (req,res,next) {
-    let conn;
-    try {
-        conn = yield util.getConnect();
-        yield hrcaseModule.delete(conn,req.params);
+        yield <%=table%>Module.delete(conn,req.params);
         return res.json(config.message.success);
     } catch (error) {
         logger.error(error.stack);
