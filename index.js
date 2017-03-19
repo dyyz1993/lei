@@ -2,6 +2,7 @@
 
 global.util = require('./util.js');
 global.express = require('express');
+global.moment = require('moment');
 const bodyparser = require('body-parser');
 const ejs = require('ejs');
 const app = express();
