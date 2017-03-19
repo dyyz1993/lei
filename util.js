@@ -43,9 +43,9 @@ log4js.configure({
 /**
  * 连接redis数据库
  */
-const ioRedis = require('ioredis');
+const IoRedis = require('ioredis');
 exports.redisClient = () => {
-  return new ioRedis(config.redis);
+  return new IoRedis(config.redis);
 };
 // global.redisClient = exports.redisClient();
 
@@ -100,7 +100,8 @@ exports.parseForm = (req) => {
     form.parse(req, function (err, fields, files) {
       if (err) {
         if (err.code === 'ETOOBIG') {
-          return reject(new Error('ETOOBIG')); // 上传文件过大
+          // 上传文件过大
+          return reject(new Error('ETOOBIG'));
         }
         return reject(err);
       }
