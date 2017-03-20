@@ -2,6 +2,7 @@ module.exports = {
     extends : "lei",
     rules : {
         'promise/catch-or-return' : "off",
+         "semi": 2
     },
     globals : {
         express : false,
