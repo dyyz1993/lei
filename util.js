@@ -4,7 +4,7 @@
  * @Email:  dyyz1993@qq.com
  * @Filename: util.js
  * @Last modified by:   yingzhou xu
- * @Last modified time: 2017-04-14T10:31:09+08:00
+ * @Last modified time: 2017-04-14T16:13:11+08:00
  */
 /**
  * 全局设置
@@ -46,7 +46,7 @@ const logger = log4js.getLogger('system');
  */
 global.config = require('./config/config.base.js');
 
-if(process.env.NODE_ENV === 'pro'){
+if(process.env.NODE_ENV === 'production'){
   // 生产
   Object.assign(global.config, require('./config/config.pro.js'));
   logger.info('生产环境');
