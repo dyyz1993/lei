@@ -1,3 +1,13 @@
+/**
+ * @Author: yingzhou xu
+ * @Date:   2017-04-14T09:53:10+08:00
+ * @Email:  dyyz1993@qq.com
+ * @Filename: index.js
+ * @Last modified by:   yingzhou xu
+ * @Last modified time: 2017-04-14T10:51:05+08:00
+ */
+
+
 'use strict';
 
 global.util = require('./util.js');

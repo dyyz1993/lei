@@ -1,16 +1,17 @@
 /**
+ * @Author: yingzhou xu
+ * @Date:   2017-04-14T09:53:10+08:00
+ * @Email:  dyyz1993@qq.com
+ * @Filename: util.js
+ * @Last modified by:   yingzhou xu
+ * @Last modified time: 2017-04-14T10:31:09+08:00
+ */
+/**
  * 全局设置
  */
 global.rootPath = __dirname;
 global.Promise = require('bluebird');
 global.fs = Promise.promisifyAll(require('fs'));
-
-/**
- * 加载配置文件
- */
-global.config = require('./config.json');
-
-
 /**
  * 配置日志
  */
@@ -39,6 +40,24 @@ log4js.configure({
     },
   ],
 });
+const logger = log4js.getLogger('system');
+/**
+ * 加载配置文件
+ */
+global.config = require('./config/config.base.js');
+
+if(process.env.NODE_ENV === 'pro'){
+  // 生产
+  Object.assign(global.config, require('./config/config.pro.js'));
+  logger.info('生产环境');
+}else if(process.env.NODE_ENV === 'test'){
+  Object.assign(global.config, require('./config/config.test.js'));
+  logger.info('测试环境');
+}else {
+  Object.assign(global.config, require('./config/config.dev.js'));
+  logger.info('开发环境');
+}
+
 
 /**
  * 连接redis数据库
@@ -47,7 +66,6 @@ const IoRedis = require('ioredis');
 exports.redisClient = () => {
   return new IoRedis(config.redis);
 };
-// global.redisClient = exports.redisClient();
 
 /**
  * 加载数据库配置文件
@@ -57,7 +75,7 @@ Promise.promisifyAll(require('mysql/lib/Connection').prototype);
 Promise.promisifyAll(require('mysql/lib/Pool').prototype);
 exports.pool = mysql.createPool(config.mysql);
 
-/**
+/*
  * 获取数据库连接
  */
 exports.getConnect = () => {
@@ -114,14 +132,14 @@ exports.parseForm = (req) => {
   });
 };
 
-/**
+/*
  * 成功返回
  */
 exports.success = (obj) => {
   return Object.assign(obj, config.message.success);
 };
 
-/**
+/*
  * 返回失败
  */
 exports.fail = (obj) => {

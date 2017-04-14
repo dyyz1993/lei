@@ -7,7 +7,9 @@
     "test:report": "./node_modules/.bin/mocha",
     "test": "./node_modules/.bin/mocha --reporter mochawesome",
     "eslint": "./node_modules/.bin/eslint . --fix",
-    "dep-pro": "export NODE_ENV=production && pm2 start index.js -n threeticket -l debug.log --merge-logs --watch --ignore-watch='node_modules **/*.json **/*.log public'",
+    "dev":"SET NODE_ENV=dev && nodemon index ",
+    "test":"export NODE_ENV=test && nodemon index ",
+    "pro": "export NODE_ENV=production && pm2 start index.js -n threeticket -l debug.log --merge-logs --watch --ignore-watch='node_modules **/*.json **/*.log public'",
     "tinynote": "tinynote -source router/*.js -dist api.md",
     "api": "tinynote -source router/*.js -dist api.md && git add api.md && git commit -m 'updateApi' && git push origin master"
   },
