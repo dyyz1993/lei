@@ -4,7 +4,7 @@
  * @Email:  dyyz1993@qq.com
  * @Filename: config.base.js
  * @Last modified by:   yingzhou xu
- * @Last modified time: 2017-04-14T10:31:30+08:00
+ * @Last modified time: 2017-04-15T17:32:03+08:00
  */
 
 
@@ -17,4 +17,5 @@ module.exports = {
   },
   'pagecount': 20,
   'port': 8888,
+  'error_name': 'ticket1222', // 报错推送
 };

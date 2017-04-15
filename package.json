@@ -11,7 +11,8 @@
     "test":"export NODE_ENV=test && nodemon index ",
     "pro": "export NODE_ENV=production && pm2 start index.js -n threeticket -l debug.log --merge-logs --watch --ignore-watch='node_modules **/*.json **/*.log public'",
     "tinynote": "tinynote -source router/*.js -dist api.md",
-    "api": "tinynote -source router/*.js -dist api.md && git add api.md && git commit -m 'updateApi' && git push origin master"
+    "api": "tinynote -source router/*.js -dist api.md && git add api.md && git commit -m 'updateApi' && git push origin master",
+    "create": "node script/script"
   },
   "repository": {
     "type": "git",

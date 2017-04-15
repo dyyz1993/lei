@@ -1,3 +1,14 @@
+<!--
+@Author: yingzhou xu
+@Date:   2017-04-14T09:53:10+08:00
+@Email:  dyyz1993@qq.com
+@Filename: tempService.ejs
+@Last modified by:   yingzhou xu
+@Last modified time: 2017-04-15T19:18:01+08:00
+-->
+
+
+
 'use strict';
 
 const <%=table%>Module = require(rootPath.concat("/module/<%=table%>Module.js"));
@@ -25,10 +36,6 @@ exports.select = Promise.coroutine(function* (req,res) {
 
         return res.json(util.success({ data: result }));
 
-        let result = yield <%=table%>Module.select(conn,req.query);
-
-
-        return res.json(util.success( {data:result} ));
 
 
     } catch (error) {

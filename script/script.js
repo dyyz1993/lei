@@ -1,3 +1,13 @@
+/**
+ * @Author: yingzhou xu
+ * @Date:   2017-04-14T09:53:10+08:00
+ * @Email:  dyyz1993@qq.com
+ * @Filename: script.js
+ * @Last modified by:   yingzhou xu
+ * @Last modified time: 2017-04-15T19:17:32+08:00
+ */
+
+
 'use strict';
 
 global.Promise = require('bluebird');
@@ -22,7 +32,7 @@ const getTablePK = (fields) => {
     }
     return true;
   });
-    
+
   return pk;
 };
 
@@ -31,10 +41,15 @@ let conn;
 Promise.coroutine(function* () {
     // 获取命令行
   const table = process.argv[2];
-  conn = yield util.getConnect();
+  const isTrue = process.argv[3] || false;
+  let PK = 'user_id';
+  if(isTrue){
+    conn = yield util.getConnect();
+    const fields = yield getTableFaild(conn, table);
+    PK = getTablePK(fields);
+  }
+
     // 获取表的字段
-  const fields = yield getTableFaild(conn, table);
-  const PK = getTablePK(fields);
 
     // 读取路由模板
   let tmprouter = yield fs.readFileAsync('./script/tempRouter.ejs');
@@ -47,7 +62,7 @@ Promise.coroutine(function* () {
   const routerstr = 'app.use("/'.concat(table, '",require(rootPath.concat("/router/', table, 'Router.js")));');
   yield fs.writeFileAsync('./index.js', index.toString().replace('// 挂载自定义路由表(勿删)', '// 挂载自定义路由表(勿删)'.concat('\n', routerstr)));
   console.log('路由文件创建成功!');
-    
+
     // 读取服务模板
   let tmpservice = yield fs.readFileAsync('./script/tempService.ejs');
     // 编译模板
@@ -65,12 +80,12 @@ Promise.coroutine(function* () {
   console.log('模型文件创建成功!');
 
     // 读取测试模板
-  let tmptest = yield fs.readFileAsync('./script/temp.test.ejs');
+  // let tmptest = yield fs.readFileAsync('./script/temp.test.ejs');
     // 编译模板
-  tmptest = ejs.render(tmptest.toString(), { table, fields, PK });
+  // tmptest = ejs.render(tmptest.toString(), { table, fields, PK });
     // 写入模板
-  yield fs.writeFileAsync('./test/'.concat(table, '.test.js'), tmptest);
-  console.log('创建测试文件成功!');
+  // yield fs.writeFileAsync('./test/'.concat(table, '.test.js'), tmptest);
+  // console.log('创建测试文件成功!');
 
   process.exit(0);
 })().catch((err) => {
