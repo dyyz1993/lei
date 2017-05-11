@@ -4,7 +4,7 @@
  * @Email:  dyyz1993@qq.com
  * @Filename: index.js
  * @Last modified by:   yingzhou xu
- * @Last modified time: 2017-04-15T19:24:58+08:00
+ * @Last modified time: 2017-05-11T17:59:33+08:00
  */
 
 
@@ -20,6 +20,19 @@ const app = express();
 const logger = log4js.getLogger('system');
 const expressValidator = require('express-validator');
 
+// 跨域
+app.all('*', function (req, res, next) {
+  res.header('Access-Control-Allow-Origin', req.headers.origin);
+  res.header('Access-Control-Allow-Credentials', true);
+  res.header('Access-Control-Allow-Headers', 'Content-Type, Content-Length, Authorization, Accept, X-Requested-With , Cookie');
+  res.header('Access-Control-Allow-Methods', 'PUT, POST, GET, DELETE, OPTIONS, PATCH');
+
+  if (req.method === 'OPTIONS') {
+    res.sendStatus(200);
+  } else {
+    next();
+  }
+});
 // 静态文件中间件
 app.use('/public', express.static('public'));
 

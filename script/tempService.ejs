@@ -4,7 +4,7 @@
 @Email:  dyyz1993@qq.com
 @Filename: tempService.ejs
 @Last modified by:   yingzhou xu
-@Last modified time: 2017-04-15T19:18:01+08:00
+@Last modified time: 2017-05-11T18:02:49+08:00
 -->
 
 
@@ -68,11 +68,11 @@ exports.add = Promise.coroutine(function* (req,res) {
     try {
         conn = yield util.getConnect();
 
-        req.checkParams('a', 'is not Empty').notEmpty();
+        <!-- req.checkParams('a', 'is not Empty').notEmpty();
         req.checkQuery('b', 'is not Empty').notEmpty();
-        req.checkBody('c', 'is not Empty').notEmpty();
+        req.checkBody('c', 'is not Empty').notEmpty(); -->
 
-        const errors = req.validationErrors();
+        <!-- const errors = req.validationErrors();
         if (errors) {
           logger.warn(errors);
           return res.json(util.fail({ data: errors }));
@@ -82,11 +82,11 @@ exports.add = Promise.coroutine(function* (req,res) {
           a:req.params.a,
           b:req.query.b,
           c:req.body.c
-        }
+        } -->
 
-        const id = yield <%=table%>Module.add(conn,data);
+        const id = yield <%=table%>Module.add(conn,req.body);
 
-        return res.json(util.success({data:{id:id}}));
+        return res.json(util.success({data:id}));
 
     } catch (error) {
         logger.error(error.stack);

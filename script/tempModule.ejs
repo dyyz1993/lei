@@ -1,43 +1,82 @@
+<!--
+@Author: yingzhou xu
+@Date:   2017-04-14T09:53:10+08:00
+@Email:  dyyz1993@qq.com
+@Filename: tempModule.ejs
+@Last modified by:   yingzhou xu
+@Last modified time: 2017-05-11T18:00:28+08:00
+-->
+
+
+
 'use strict';
 
 const mono = require(rootPath.concat("/module/monologue.js"));
-
+const logger = log4js.getLogger('mysql');
 exports.select= ( conn,param ) => {
     param.page = param.page || 1;
     param.pagecount = param.pagecount || config.pagecount;
     let sql = mono().select('*','<%=table %>').limit(param.pagecount,(param.page - 1) * param.pagecount).query().sql;
-    return conn.queryAsync(sql);
+    return conn.queryAsync(sql)
+    .catch((err) => {
+      logger.error(sql);
+      throw err;
+    });
 }
 
 exports.count= ( conn,param ) => {
     let sql = mono().select('*','<%=table %>').query().sql;
-    return conn.queryAsync(sql).then((result)=>{
+    return conn.queryAsync(sql)
+    .then((result)=>{
       return result.length;
+    })
+    .catch((err) => {
+      logger.error(sql);
+      throw err;
     });
 }
 
 exports.get = ( conn,param ) => {
     let sql = mono().select('*','<%=table %>').where({<%=PK%>:param.id}).query().sql;
-    return conn.queryAsync(sql).then((result)=>{
+    return conn.queryAsync(sql)
+    .then((result)=>{
       return result[0];
+    })
+    .catch((err) => {
+      logger.error(sql);
+      throw err;
     });
 }
 
 exports.add = ( conn,param ) => {
     let sql = mono().insert('<%=table %>',param).query().sql;
-    return conn.queryAsync(sql).then((result)=> {
-        return result.insertId;
+    return conn.queryAsync(sql)
+    .then((result)=>{
+      return result.insertId;
+    })
+    .catch((err) => {
+      logger.error(sql);
+      throw err;
     });
 }
 
 exports.update = ( conn,data,param ) => {
     let sql = mono().update('<%=table %>',data).where({<%=PK%>:param.id}).query().sql;
-    return conn.queryAsync(sql);
+    return conn.queryAsync(sql)
+    .catch((err) => {
+      logger.error(sql);
+      throw err;
+    });
 }
 
 exports.delete = ( conn,param ) => {
     let sql = mono().delete('<%=table %>').where({<%=PK%>:param.id}).query().sql;
-    return conn.queryAsync(sql).then((result) => {
+    return conn.queryAsync(sql)
+    .then((result) => {
         return result.affectedRows;
+    })
+    .catch((err) => {
+      logger.error(sql);
+      throw err;
     });
 }

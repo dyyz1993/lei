@@ -4,7 +4,7 @@
  * @Email:  dyyz1993@qq.com
  * @Filename: util.js
  * @Last modified by:   yingzhou xu
- * @Last modified time: 2017-04-14T16:13:11+08:00
+ * @Last modified time: 2017-05-11T18:00:17+08:00
  */
 /**
  * 全局设置
@@ -38,6 +38,16 @@ log4js.configure({
       type: 'console',
       category: 'wechat',
     },
+    {
+      type: 'dateFile',
+      filename: 'logs/mysql.log',
+      pattern: '-yyyy-MM-dd',
+      category: 'mysql',
+    },
+    {
+      type: 'console',
+      category: 'mysql',
+    },
   ],
 });
 const logger = log4js.getLogger('system');
@@ -57,7 +67,12 @@ if(process.env.NODE_ENV === 'production'){
   Object.assign(global.config, require('./config/config.dev.js'));
   logger.info('开发环境');
 }
-
+// 输出当前环境
+exports.env = {
+  istest: process.env.NODE_ENV === 'test',
+  ispro: process.env.NODE_ENV === 'production',
+  isdev: process.env.NODE_ENV === 'dev',
+};
 
 /**
  * 连接redis数据库
