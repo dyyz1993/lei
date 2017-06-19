@@ -4,7 +4,7 @@
  * @Email:  dyyz1993@qq.com
  * @Filename: util.js
  * @Last modified by:   yingzhou xu
- * @Last modified time: 2017-05-11T18:00:17+08:00
+ * @Last modified time: 2017-06-19T10:22:47+08:00
  */
 /**
  * 全局设置
@@ -129,6 +129,7 @@ exports.parseForm = (req) => {
     const form = new multiparty.Form({
       maxFieldsSize: 10,
       maxFilesSize: 1024 * 1024 * 3, // 限制上传3m
+      uploadDir: '/tmp', //资源临时存储的位置
     });
     form.parse(req, function (err, fields, files) {
       if (err) {
@@ -151,12 +152,12 @@ exports.parseForm = (req) => {
  * 成功返回
  */
 exports.success = (obj) => {
-  return Object.assign(obj, config.message.success);
+  return Object.assign({}, obj, config.message.success);
 };
 
 /*
  * 返回失败
  */
 exports.fail = (obj) => {
-  return Object.assign(obj, config.message.error);
+  return Object.assign({}, obj, config.message.error);
 };

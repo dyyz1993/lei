@@ -4,7 +4,7 @@
  * @Email:  dyyz1993@qq.com
  * @Filename: index.js
  * @Last modified by:   yingzhou xu
- * @Last modified time: 2017-05-11T17:59:33+08:00
+ * @Last modified time: 2017-06-19T18:59:00+08:00
  */
 
 
@@ -20,13 +20,14 @@ const app = express();
 const logger = log4js.getLogger('system');
 const expressValidator = require('express-validator');
 
+app.enable('trust proxy');
+
 // 跨域
 app.all('*', function (req, res, next) {
   res.header('Access-Control-Allow-Origin', req.headers.origin);
   res.header('Access-Control-Allow-Credentials', true);
   res.header('Access-Control-Allow-Headers', 'Content-Type, Content-Length, Authorization, Accept, X-Requested-With , Cookie');
   res.header('Access-Control-Allow-Methods', 'PUT, POST, GET, DELETE, OPTIONS, PATCH');
-
   if (req.method === 'OPTIONS') {
     res.sendStatus(200);
   } else {
@@ -72,21 +73,11 @@ app.engine('.html', ejs.__express);
 // 当发生了未捕获的异常 守护中间件
 process.on('uncaughtException', (err) => {
   logger.error(err.stack);
-  const sub = util.redisClient();
-  sub.publish('error_to_wechat', JSON.stringify({
-    name: config.error_name,
-    content: err.stack,
-  }));
 });
 
 // Promise未補貨
 process.on('unhandledRejection', function (err, promise){
   logger.error(err.stack, promise);
-  const sub = util.redisClient();
-  sub.publish('error_to_wechat', JSON.stringify({
-    name: config.error_name,
-    content: JSON.stringify(err.stack || err) + JSON.stringify(promise),
-  }));
 });
 
 
