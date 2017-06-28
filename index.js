@@ -4,7 +4,7 @@
  * @Email:  dyyz1993@qq.com
  * @Filename: index.js
  * @Last modified by:   yingzhou xu
- * @Last modified time: 2017-06-19T18:59:00+08:00
+ * @Last modified time: 2017-06-20T11:38:10+08:00
  */
 
 
@@ -40,7 +40,7 @@ app.use('/public', express.static('public'));
 // 配置post body解析中间件
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({ extended: true }));
-
+app.use(require('./libs/ip')());
 // session配置
 const session = require('express-session');
 // const RedisStore = require('connect-redis')(session);

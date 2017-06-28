@@ -4,7 +4,7 @@
  * @Email:  dyyz1993@qq.com
  * @Filename: util.js
  * @Last modified by:   yingzhou xu
- * @Last modified time: 2017-06-19T10:22:47+08:00
+ * @Last modified time: 2017-06-23T18:06:27+08:00
  */
 /**
  * 全局设置
@@ -17,38 +17,31 @@ global.fs = Promise.promisifyAll(require('fs'));
  */
 global.log4js = require('log4js');
 log4js.configure({
-  appenders: [
-    {
-      type: 'dateFile',
-      filename: 'logs/system.log',
-      pattern: '-yyyy-MM-dd',
-      category: 'system',
-    },
-    {
-      type: 'console',
-      category: 'system',
-    },
-    {
-      type: 'dateFile',
-      filename: 'logs/wechat.log',
-      pattern: '-yyyy-MM-dd',
-      category: 'wechat',
-    },
-    {
-      type: 'console',
-      category: 'wechat',
-    },
-    {
-      type: 'dateFile',
-      filename: 'logs/mysql.log',
-      pattern: '-yyyy-MM-dd',
-      category: 'mysql',
-    },
-    {
-      type: 'console',
-      category: 'mysql',
-    },
-  ],
+  appenders: [{
+    type: 'dateFile',
+    filename: 'logs/system.log',
+    pattern: '-yyyy-MM-dd',
+    category: 'system',
+  }, {
+    type: 'console',
+    category: 'system',
+  }, {
+    type: 'dateFile',
+    filename: 'logs/wechat.log',
+    pattern: '-yyyy-MM-dd',
+    category: 'wechat',
+  }, {
+    type: 'console',
+    category: 'wechat',
+  }, {
+    type: 'dateFile',
+    filename: 'logs/mysql.log',
+    pattern: '-yyyy-MM-dd',
+    category: 'mysql',
+  }, {
+    type: 'console',
+    category: 'mysql',
+  }],
 });
 const logger = log4js.getLogger('system');
 /**
@@ -56,14 +49,14 @@ const logger = log4js.getLogger('system');
  */
 global.config = require('./config/config.base.js');
 
-if(process.env.NODE_ENV === 'production'){
+if (process.env.NODE_ENV === 'production') {
   // 生产
   Object.assign(global.config, require('./config/config.pro.js'));
   logger.info('生产环境');
-}else if(process.env.NODE_ENV === 'test'){
+} else if (process.env.NODE_ENV === 'test') {
   Object.assign(global.config, require('./config/config.test.js'));
   logger.info('测试环境');
-}else {
+} else {
   Object.assign(global.config, require('./config/config.dev.js'));
   logger.info('开发环境');
 }
@@ -86,31 +79,36 @@ exports.redisClient = () => {
  * 加载数据库配置文件
  */
 const mysql = require('mysql');
-Promise.promisifyAll(require('mysql/lib/Connection').prototype);
-Promise.promisifyAll(require('mysql/lib/Pool').prototype);
+Promise.promisifyAll(require('mysql/lib/Connection')
+  .prototype);
+Promise.promisifyAll(require('mysql/lib/Pool')
+  .prototype);
 exports.pool = mysql.createPool(config.mysql);
 
 /*
  * 获取数据库连接
  */
 exports.getConnect = () => {
-  return this.pool.getConnectionAsync().then((conn) => {
-    return conn;
-  });
+  return this.pool.getConnectionAsync()
+    .then((conn) => {
+      return conn;
+    });
 };
 
 // 配置文件上传
 const multer = require('multer');
 exports.upfile = () => {
   const storage = multer.diskStorage({
-        // 设置上传后文件路径，uploads文件夹会自动创建。
+    // 设置上传后文件路径，uploads文件夹会自动创建。
     destination(req, file, cb) {
       cb(null, './public/uploads');
     },
-        // 给上传文件重命名，获取添加后缀名
+      // 给上传文件重命名，获取添加后缀名
     filename(req, file, cb) {
-      const fileFormat = (file.originalname).split('.');
-      cb(null, file.fieldname + '-' + Date.now() + '.' + fileFormat[fileFormat.length - 1]);
+      const fileFormat = (file.originalname)
+          .split('.');
+      cb(null, file.fieldname + '-' + Date.now() + '.' + fileFormat[
+          fileFormat.length - 1]);
     },
   });
 
@@ -121,9 +119,9 @@ exports.upfile = () => {
 };
 
 const multiparty = require('multiparty');
- /*
-  * 提取form提交的文件
-  * */
+/*
+ * 提取form提交的文件
+ * */
 exports.parseForm = (req) => {
   return new Promise((resolve, reject) => {
     const form = new multiparty.Form({
@@ -143,11 +141,26 @@ exports.parseForm = (req) => {
       for (const key in files) {
         _files.push(files[key][0]);
       }
-      resolve({ fields, files: _files });
+      resolve({
+        fields, files: _files,
+      });
     });
   });
 };
-
+exports.checkParams = function (data, arr) {
+  const obj = {};
+  for (const key of arr) {
+    if (key instanceof Object) {
+      if (key['field'] !== undefined && typeof data[key['field']] === key[
+          'type']) {
+        obj[key['field']] = data[key['field']];
+      }
+    } else if (data[key] !== undefined) {
+      obj[key] = data[key];
+    }
+  }
+  return obj;
+};
 /*
  * 成功返回
  */

@@ -1,0 +1,27 @@
+[2017-06-22 10:27:51.512] [INFO] system - 开发环境
+[2017-06-22 10:27:52.148] [ERROR] system - Error: listen EADDRINUSE :::8888
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1307:14)
+    at listenInCluster (net.js:1355:12)
+    at Server.listen (net.js:1455:7)
+    at Function.listen (D:\project\lei\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (D:\project\lei\index.js:105:5)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:575:3
+[2017-06-22 10:28:17.562] [INFO] system - 开发环境
+[2017-06-22 10:28:17.913] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-06-22 10:28:36.454] [INFO] system - 开发环境
+[2017-06-22 10:28:36.806] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-06-22 10:28:48.476] [ERROR] system - / not found
+[2017-06-22 10:29:29.107] [ERROR] system - / not found
+[2017-06-22 10:30:33.309] [INFO] system - 开发环境
+[2017-06-22 10:30:33.662] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-06-22 10:30:44.945] [INFO] system - 开发环境
+[2017-06-22 10:30:45.300] [INFO] system - 服务器启动成功! 端口号: 8889
