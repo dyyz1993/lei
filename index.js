@@ -4,12 +4,19 @@
  * @Email:  dyyz1993@qq.com
  * @Filename: index.js
  * @Last modified by:   yingzhou xu
- * @Last modified time: 2017-06-20T11:38:10+08:00
+ * @Last modified time: 2017-07-10T20:14:49+08:00
  */
 
 
 'use strict';
-
+/**
+ * 全局设置
+ */
+global.rootPath = __dirname;
+const logger = log4js.getLogger('system');
+global.Promise = require('bluebird');
+global.fs = Promise.promisifyAll(require('fs'));
+global.config = require('./config');
 global.util = require('./util.js');
 global.express = require('express');
 global.moment = require('moment');
@@ -17,7 +24,6 @@ global.co = Promise.coroutine;
 const bodyparser = require('body-parser');
 const ejs = require('ejs');
 const app = express();
-const logger = log4js.getLogger('system');
 const expressValidator = require('express-validator');
 
 app.enable('trust proxy');

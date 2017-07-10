@@ -27,9 +27,9 @@ exports.select = Promise.coroutine(function* (req,res) {
         const result = yield Promise.all([ <%=table%>Module.select(conn, data), <%=table%>Module.count(conn, data) ]);
 
         const obj = {
-          totalCount: result[1],
-          limitCount: req.query.pagecount || config.pagecount,
-          currentPage: req.query.page || 1,
+          totalcount: result[1],
+          pagecount: req.query.pagecount || config.pagecount,
+          page: req.query.page || 1,
         };
 
         result[1] = obj;

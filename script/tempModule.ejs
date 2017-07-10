@@ -25,10 +25,10 @@ exports.select= ( conn,param ) => {
 }
 
 exports.count= ( conn,param ) => {
-    let sql = mono().select('*','<%=table %>').query().sql;
+    let sql = mono().select('count(*) count','<%=table %>').query().sql;
     return conn.queryAsync(sql)
     .then((result)=>{
-      return result.length;
+      return result.length>0?result[0].count:0;
     })
     .catch((err) => {
       logger.error(sql);

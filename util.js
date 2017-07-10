@@ -4,14 +4,9 @@
  * @Email:  dyyz1993@qq.com
  * @Filename: util.js
  * @Last modified by:   yingzhou xu
- * @Last modified time: 2017-06-23T18:06:27+08:00
+ * @Last modified time: 2017-07-10T20:13:05+08:00
  */
-/**
- * 全局设置
- */
-global.rootPath = __dirname;
-global.Promise = require('bluebird');
-global.fs = Promise.promisifyAll(require('fs'));
+
 /**
  * 配置日志
  */
@@ -43,23 +38,8 @@ log4js.configure({
     category: 'mysql',
   }],
 });
-const logger = log4js.getLogger('system');
-/**
- * 加载配置文件
- */
-global.config = require('./config/config.base.js');
 
-if (process.env.NODE_ENV === 'production') {
-  // 生产
-  Object.assign(global.config, require('./config/config.pro.js'));
-  logger.info('生产环境');
-} else if (process.env.NODE_ENV === 'test') {
-  Object.assign(global.config, require('./config/config.test.js'));
-  logger.info('测试环境');
-} else {
-  Object.assign(global.config, require('./config/config.dev.js'));
-  logger.info('开发环境');
-}
+
 // 输出当前环境
 exports.env = {
   istest: process.env.NODE_ENV === 'test',
@@ -160,6 +140,12 @@ exports.checkParams = function (data, arr) {
     }
   }
   return obj;
+};
+exports.getClientIp = function (req) {
+  return req.headers['x-forwarded-for'] ||
+      req.connection.remoteAddress ||
+      req.socket.remoteAddress ||
+      req.connection.socket.remoteAddress;
 };
 /*
  * 成功返回
