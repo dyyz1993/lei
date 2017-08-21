@@ -4,7 +4,7 @@
  * @Email:  dyyz1993@qq.com
  * @Filename: ip.js
  * @Last modified by:   yingzhou xu
- * @Last modified time: 2017-06-22T10:30:32+08:00
+ * @Last modified time: 2017-08-04T16:49:19+08:00
  */
 
 function getClientIp(req) {
@@ -17,7 +17,7 @@ function getClientIp(req) {
 const store = {};
 function handler(options){
   options = options || {};
-  options.maxCount = options.maxCount || 2;
+  options.maxCount = options.maxCount || 20;
   options.maxTime = options.maxTime || 1000;
   options.maxIpNum = options.maxIpNum || 1000;
   return function (req, res, next){

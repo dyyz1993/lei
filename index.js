@@ -12,19 +12,20 @@
 /**
  * 全局设置
  */
+
 global.rootPath = __dirname;
-const logger = log4js.getLogger('system');
 global.Promise = require('bluebird');
 global.fs = Promise.promisifyAll(require('fs'));
-global.config = require('./config');
 global.util = require('./util.js');
-global.express = require('express');
-global.moment = require('moment');
 global.co = Promise.coroutine;
+global.express = require('express');
+
 const bodyparser = require('body-parser');
 const ejs = require('ejs');
 const app = express();
 const expressValidator = require('express-validator');
+const logger = log4js.getLogger('system');
+
 
 app.enable('trust proxy');
 
@@ -40,6 +41,8 @@ app.all('*', function (req, res, next) {
     next();
   }
 });
+
+
 // 静态文件中间件
 app.use('/public', express.static('public'));
 
@@ -108,7 +111,17 @@ app.use((err, req, res) => {
 });
 
 // 开启web服务器
-app.listen(config.port, () => logger.info('服务器启动成功!', '端口号:', config.port));
+const server = app.listen(config.port, () => logger.info('服务器启动成功!', '端口号:', config.port));
+server.setTimeout(5000);
+server.on('timeout',function(){
+  const pool =	util.pool;
+  const info = {
+	  all:pool._allConnections.length,
+  	free:pool._freeConnections.length,
+  	queue:pool._connectionQueue.length,
+  }
+  logger.info('timeout','超时了 -- ', JSON.stringify(info));
+})
 
 // 开始socket服务器
 // const io = require('socket.io')(server);

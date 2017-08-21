@@ -16,6 +16,7 @@ module.exports = {
     'password': '',
     'database': '',
     'dateStrings': 'DATETIME',
+    'connectionLimit': 50
   },
   'redis': {
     'host': '127.0.0.1',

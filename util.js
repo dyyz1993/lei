@@ -4,13 +4,21 @@
  * @Email:  dyyz1993@qq.com
  * @Filename: util.js
  * @Last modified by:   yingzhou xu
- * @Last modified time: 2017-07-10T20:13:05+08:00
+ * @Last modified time: 2017-08-04T16:50:24+08:00
  */
 
 /**
  * 配置日志
  */
+
+exports.moment = require('moment');
+
+
+
 global.log4js = require('log4js');
+global.config = require('./config');
+
+
 log4js.configure({
   appenders: [{
     type: 'dateFile',
@@ -63,7 +71,7 @@ Promise.promisifyAll(require('mysql/lib/Connection')
   .prototype);
 Promise.promisifyAll(require('mysql/lib/Pool')
   .prototype);
-exports.pool = mysql.createPool(config.mysql);
+const pool = exports.pool = mysql.createPool(config.mysql);
 
 /*
  * 获取数据库连接
@@ -127,7 +135,7 @@ exports.parseForm = (req) => {
     });
   });
 };
-exports.checkParams = function (data, arr) {
+exports.filterParams = function (data, arr) {
   const obj = {};
   for (const key of arr) {
     if (key instanceof Object) {
@@ -141,6 +149,20 @@ exports.checkParams = function (data, arr) {
   }
   return obj;
 };
+
+/**
+ * 检查参数是否必填
+ */
+exports.checkParams = (data, arr) => {
+  for (const val of arr) {
+    if (data[val] === undefined) {
+      return val + `: is required \n`;
+    }
+  }
+  return false;
+};
+
+
 exports.getClientIp = function (req) {
   return req.headers['x-forwarded-for'] ||
       req.connection.remoteAddress ||

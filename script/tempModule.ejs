@@ -13,20 +13,57 @@
 
 const mono = require(rootPath.concat("/module/monologue.js"));
 const logger = log4js.getLogger('mysql');
-exports.select= ( conn,param ) => {
+const pool = util.pool;
+
+function querySql(sql, arr = []){
+  // logger.info(sql);
+  return pool.queryAsync(sql, arr).catch(e => {
+    logger.error(sql);
+    throw e;
+  });
+}
+
+
+// 回滚次数
+exports.transaction = co(function* (sqls){
+  let conn ;
+  try{
+    conn = yield pool.getConnectionAsync();
+    yield conn.beginTransactionAsync();
+    for(const sql of sqls){
+      yield query( sql);
+    }
+    yield conn.commitAsync();
+    return true;
+  }catch(e){
+    logger.error(`【异常】回滚`, e);
+    yield conn.rollbackAsync();
+    return false;
+  }finally{
+    conn && conn.release();
+  }
+});
+
+
+
+
+exports.select= ( param ) => {
     param.page = param.page || 1;
     param.pagecount = param.pagecount || config.pagecount;
-    let sql = mono().select('*','<%=table %>').limit(param.pagecount,(param.page - 1) * param.pagecount).query().sql;
-    return conn.queryAsync(sql)
+
+    let sql = mono().select('*','<%=table %>')
+    .limit(param.pagecount,(param.page - 1) * param.pagecount)
+    .query().sql;
+    return querySql(sql)
     .catch((err) => {
       logger.error(sql);
       throw err;
     });
 }
 
-exports.count= ( conn,param ) => {
+exports.count= ( param ) => {
     let sql = mono().select('count(*) count','<%=table %>').query().sql;
-    return conn.queryAsync(sql)
+    return querySql(sql)
     .then((result)=>{
       return result.length>0?result[0].count:0;
     })
@@ -36,9 +73,9 @@ exports.count= ( conn,param ) => {
     });
 }
 
-exports.get = ( conn,param ) => {
+exports.get = ( param ) => {
     let sql = mono().select('*','<%=table %>').where({<%=PK%>:param.id}).query().sql;
-    return conn.queryAsync(sql)
+    return querySql(sql)
     .then((result)=>{
       return result[0];
     })
@@ -48,9 +85,9 @@ exports.get = ( conn,param ) => {
     });
 }
 
-exports.add = ( conn,param ) => {
+exports.add = ( param ) => {
     let sql = mono().insert('<%=table %>',param).query().sql;
-    return conn.queryAsync(sql)
+    return querySql(sql)
     .then((result)=>{
       return result.insertId;
     })
@@ -60,18 +97,18 @@ exports.add = ( conn,param ) => {
     });
 }
 
-exports.update = ( conn,data,param ) => {
+exports.update = ( data,param ) => {
     let sql = mono().update('<%=table %>',data).where({<%=PK%>:param.id}).query().sql;
-    return conn.queryAsync(sql)
+    return querySql(sql)
     .catch((err) => {
       logger.error(sql);
       throw err;
     });
 }
 
-exports.delete = ( conn,param ) => {
+exports.delete = ( param ) => {
     let sql = mono().delete('<%=table %>').where({<%=PK%>:param.id}).query().sql;
-    return conn.queryAsync(sql)
+    return querySql(sql)
     .then((result) => {
         return result.affectedRows;
     })

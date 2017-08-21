@@ -18,8 +18,7 @@ const logger = log4js.getLogger('system');
 exports.select = Promise.coroutine(function* (req,res) {
     let conn,data;
     try {
-        conn = yield util.getConnect();
-
+    
         data = { };
 
         Object.assign(data, req.query);
@@ -41,88 +40,68 @@ exports.select = Promise.coroutine(function* (req,res) {
     } catch (error) {
         logger.error(error.stack);
         return res.json(config.message.error);
-    } finally {
-        conn.release();
-    }
+    } 
 });
 
 //获取具体记录
 exports.get = Promise.coroutine(function* (req,res) {
     let conn;
     try {
-        conn = yield util.getConnect();
-
+    
         let <%=table%> = yield <%=table%>Module.get(conn,req.params);
         return res.json(util.success( {data:<%=table%>} ));
 
     } catch (error) {
         logger.error(error.stack);
         return res.json(config.message.error);
-    } finally {
-        conn.release();
-    }
+    } 
 });
 
 exports.add = Promise.coroutine(function* (req,res) {
     let conn,data;
     try {
-        conn = yield util.getConnect();
+    
+        data = util.filterParams(result.data, [ 'openid', 'headimgurl', 'nickname', 'sex', 'city', 'province', 'country', 'subscribe', 'subscribe_time' ]);
 
-        <!-- req.checkParams('a', 'is not Empty').notEmpty();
-        req.checkQuery('b', 'is not Empty').notEmpty();
-        req.checkBody('c', 'is not Empty').notEmpty(); -->
+        result = util.checkParams(data, [ 'openid' ]);
+        
 
-        <!-- const errors = req.validationErrors();
-        if (errors) {
-          logger.warn(errors);
-          return res.json(util.fail({ data: errors }));
+        if (result) {
+            res.json(util.fail(config.message.paramsError, { msg: result }));
         }
 
-        data = {
-          a:req.params.a,
-          b:req.query.b,
-          c:req.body.c
-        } -->
-
-        const id = yield <%=table%>Module.add(conn,req.body);
+        const id = yield <%=table%>Module.add(conn,data);
 
         return res.json(util.success({data:id}));
 
     } catch (error) {
         logger.error(error.stack);
         return res.json(config.message.error);
-    } finally {
-        conn.release();
-    }
+    } 
 });
 
 //更新
 exports.update = Promise.coroutine(function* (req,res) {
     let conn;
     try {
-        conn = yield util.getConnect();
-
+    
         yield <%=table%>Module.update(conn,req.body,req.params);
         return res.json(config.message.success);
 
     } catch (error) {
         logger.error(error.stack);
         return res.json(config.message.error);
-    } finally {
-        conn.release();
-    }
+    } 
 });
 
 exports.delete = Promise.coroutine(function* (req,res) {
     let conn;
     try {
-        conn = yield util.getConnect();
-        yield <%=table%>Module.delete(conn,req.params);
+        
+yield <%=table%>Module.delete(conn,req.params);
         return res.json(config.message.success);
     } catch (error) {
         logger.error(error.stack);
         return res.json(config.message.error);
-    } finally {
-        conn.release();
-    }
+    } 
 });
