@@ -10,42 +10,34 @@
 /**
  * 配置日志
  */
-
-exports.moment = require('moment');
-
-
-
-global.log4js = require('log4js');
-global.config = require('./config');
-
-
-log4js.configure({
-  appenders: [{
-    type: 'dateFile',
-    filename: 'logs/system.log',
-    pattern: '-yyyy-MM-dd',
-    category: 'system',
-  }, {
-    type: 'console',
-    category: 'system',
-  }, {
-    type: 'dateFile',
-    filename: 'logs/wechat.log',
-    pattern: '-yyyy-MM-dd',
-    category: 'wechat',
-  }, {
-    type: 'console',
-    category: 'wechat',
-  }, {
-    type: 'dateFile',
-    filename: 'logs/mysql.log',
-    pattern: '-yyyy-MM-dd',
-    category: 'mysql',
-  }, {
-    type: 'console',
-    category: 'mysql',
-  }],
-});
+// global.log4js = require('log4js');
+// log4js.configure({
+//   appenders: [{
+//     type: 'dateFile',
+//     filename: 'logs/system.log',
+//     pattern: '-yyyy-MM-dd',
+//     category: 'system',
+//   }, {
+//     type: 'console',
+//     category: 'system',
+//   }, {
+//     type: 'dateFile',
+//     filename: 'logs/wechat.log',
+//     pattern: '-yyyy-MM-dd',
+//     category: 'wechat',
+//   }, {
+//     type: 'console',
+//     category: 'wechat',
+//   }, {
+//     type: 'dateFile',
+//     filename: 'logs/mysql.log',
+//     pattern: '-yyyy-MM-dd',
+//     category: 'mysql',
+//   }, {
+//     type: 'console',
+//     category: 'mysql',
+//   }],
+// });
 
 
 // 输出当前环境
@@ -58,30 +50,30 @@ exports.env = {
 /**
  * 连接redis数据库
  */
-const IoRedis = require('ioredis');
-exports.redisClient = () => {
-  return new IoRedis(config.redis);
-};
+// const IoRedis = require('ioredis');
+// exports.redisClient = () => {
+//   return new IoRedis(config.redis);
+// };
 
 /**
  * 加载数据库配置文件
  */
-const mysql = require('mysql');
-Promise.promisifyAll(require('mysql/lib/Connection')
-  .prototype);
-Promise.promisifyAll(require('mysql/lib/Pool')
-  .prototype);
-const pool = exports.pool = mysql.createPool(config.mysql);
+// const mysql = require('mysql');
+// Promise.promisifyAll(require('mysql/lib/Connection')
+//   .prototype);
+// Promise.promisifyAll(require('mysql/lib/Pool')
+//   .prototype);
+// exports.pool = mysql.createPool(config.mysql);
 
 /*
  * 获取数据库连接
  */
-exports.getConnect = () => {
-  return this.pool.getConnectionAsync()
-    .then((conn) => {
-      return conn;
-    });
-};
+// exports.getConnect = () => {
+//   return this.pool.getConnectionAsync()
+//     .then((conn) => {
+//       return conn;
+//     });
+// };
 
 // 配置文件上传
 const multer = require('multer');
@@ -161,8 +153,6 @@ exports.checkParams = (data, arr) => {
   }
   return false;
 };
-
-
 exports.getClientIp = function (req) {
   return req.headers['x-forwarded-for'] ||
       req.connection.remoteAddress ||

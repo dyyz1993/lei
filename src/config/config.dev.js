@@ -14,7 +14,7 @@ module.exports = {
     'port': '3306',
     'user': 'root',
     'password': '',
-    'database': 'libai',
+    'database': 'test',
     'dateStrings': 'DATETIME',
     'connectionLimit': 50
   },

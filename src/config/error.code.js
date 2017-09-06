@@ -25,20 +25,4 @@ module.exports = {
     'code': 9999,
     'msg': '操作失败!',
   },
-  'paramError':{
-    'code': 1001,
-    'msg': '参数错误!',
-  },
-  'notExistUser': {
-    'code': 1002,
-    'msg': '用户不存在!',
-  },
-  'existUser': {
-    'code': 1003,
-    'msg': '用户存在!',
-  },
-   'notLogin': {
-    'code': 1004,
-    'msg': '用户未登录!',
-  },
 };
