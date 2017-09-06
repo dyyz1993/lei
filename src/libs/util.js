@@ -4,75 +4,16 @@
  * @Email:  dyyz1993@qq.com
  * @Filename: util.js
  * @Last modified by:   yingzhou xu
- * @Last modified time: 2017-07-10T20:13:05+08:00
+ * @Last modified time: 2017-08-04T16:50:24+08:00
  */
 
-/**
- * 配置日志
- */
-global.log4js = require('log4js');
-log4js.configure({
-  appenders: [{
-    type: 'dateFile',
-    filename: 'logs/system.log',
-    pattern: '-yyyy-MM-dd',
-    category: 'system',
-  }, {
-    type: 'console',
-    category: 'system',
-  }, {
-    type: 'dateFile',
-    filename: 'logs/wechat.log',
-    pattern: '-yyyy-MM-dd',
-    category: 'wechat',
-  }, {
-    type: 'console',
-    category: 'wechat',
-  }, {
-    type: 'dateFile',
-    filename: 'logs/mysql.log',
-    pattern: '-yyyy-MM-dd',
-    category: 'mysql',
-  }, {
-    type: 'console',
-    category: 'mysql',
-  }],
-});
 
 
 // 输出当前环境
-exports.env = {
+const env = {
   istest: process.env.NODE_ENV === 'test',
   ispro: process.env.NODE_ENV === 'production',
   isdev: process.env.NODE_ENV === 'dev',
-};
-
-/**
- * 连接redis数据库
- */
-const IoRedis = require('ioredis');
-exports.redisClient = () => {
-  return new IoRedis(config.redis);
-};
-
-/**
- * 加载数据库配置文件
- */
-const mysql = require('mysql');
-Promise.promisifyAll(require('mysql/lib/Connection')
-  .prototype);
-Promise.promisifyAll(require('mysql/lib/Pool')
-  .prototype);
-exports.pool = mysql.createPool(config.mysql);
-
-/*
- * 获取数据库连接
- */
-exports.getConnect = () => {
-  return this.pool.getConnectionAsync()
-    .then((conn) => {
-      return conn;
-    });
 };
 
 // 配置文件上传
@@ -83,12 +24,12 @@ exports.upfile = () => {
     destination(req, file, cb) {
       cb(null, './public/uploads');
     },
-      // 给上传文件重命名，获取添加后缀名
+    // 给上传文件重命名，获取添加后缀名
     filename(req, file, cb) {
       const fileFormat = (file.originalname)
-          .split('.');
+        .split('.');
       cb(null, file.fieldname + '-' + Date.now() + '.' + fileFormat[
-          fileFormat.length - 1]);
+        fileFormat.length - 1]);
     },
   });
 
@@ -127,12 +68,13 @@ exports.parseForm = (req) => {
     });
   });
 };
-exports.checkParams = function (data, arr) {
+
+function filterParams(data, arr) {
   const obj = {};
   for (const key of arr) {
     if (key instanceof Object) {
       if (key['field'] !== undefined && typeof data[key['field']] === key[
-          'type']) {
+        'type']) {
         obj[key['field']] = data[key['field']];
       }
     } else if (data[key] !== undefined) {
@@ -141,22 +83,69 @@ exports.checkParams = function (data, arr) {
   }
   return obj;
 };
-exports.getClientIp = function (req) {
+
+/**
+ * 检查参数是否必填
+ */
+function checkParams(data, arr) {
+  for (const val of arr) {
+    if (data[val] === undefined) {
+      return val + `: is required \n`;
+    }
+  }
+  return false;
+};
+
+function getClientIp(req) {
   return req.headers['x-forwarded-for'] ||
-      req.connection.remoteAddress ||
-      req.socket.remoteAddress ||
-      req.connection.socket.remoteAddress;
+    req.connection.remoteAddress ||
+    req.socket.remoteAddress ||
+    req.connection.socket.remoteAddress;
 };
 /*
  * 成功返回
  */
-exports.success = (obj) => {
+function success(obj) {
   return Object.assign({}, obj, config.message.success);
 };
 
 /*
  * 返回失败
  */
-exports.fail = (obj) => {
+function fail(obj) {
   return Object.assign({}, obj, config.message.error);
 };
+
+
+/**
+ * 驼峰转下划线
+ * 
+ * @param {any} str 
+ * @returns 
+ */
+function camelToUnderline(str) {
+  return str.replace(/([A-Z])/g, "_$1").toLowerCase();
+}
+
+/**
+ * 下划线转驼峰
+ * 
+ * @param {any} str 
+ */
+function underlineToCamel(str) {
+  let re = /_(\w)/g;
+  return str.replace(re, function ($0, $1) {
+    return $1.toUpperCase();
+  });
+}
+
+module.exports = {
+  env,
+  underlineToCamel,
+  camelToUnderline,
+  fail,
+  success,
+  getClientIp,
+  checkParams,
+  filterParams
+}

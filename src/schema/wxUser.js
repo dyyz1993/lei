@@ -1,0 +1,4 @@
+
+        module.exports = 
+          {"type":"object","title":"base_wx_user","properties":{"id":{"type":"number"},"openid":{"type":"string"},"headimgurl":{"type":"string"},"nickname":{"type":"string"},"sex":{"type":"string"},"city":{"type":"string"},"province":{"type":"string"},"country":{"type":"string"},"subscribe":{"type":"number","description":"是否关注","default":"0"},"subscribe_time":{"type":"string","description":"关注时间","default":"CURRENT_TIMESTAMP","format":"YYYY-MM-DD HH:mm:ss"},"isblock":{"type":"number","description":"是否拉黑 0未拉黑 1拉黑","default":"0"},"createtime":{"type":"string","description":"创建时间","default":"CURRENT_TIMESTAMP","format":"YYYY-MM-DD HH:mm:ss"}},"required":["id","openid"]}
+      
