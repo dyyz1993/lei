@@ -4,13 +4,17 @@ const {
     config,
     log4js,
     TYPES,
-    util
+    utils
 } = require('../src/global');
 
 
 const logger = log4js.getLogger();
 const fs = require('fs');
 const path = require('path');
+const util = require('util');
+
+
+// console.log(util.inspect(util, { showHidden: true, depth: 3,colors:true }));
 
 co(function* () {
     let result = yield pool.queryAsync(`show tables`);
@@ -36,12 +40,12 @@ co(function* () {
 function wrireFile(table, schema) {
     let str = `
         module.exports = 
-          ${JSON.stringify(schema)}
+            ${util.inspect(schema, false,null)}
       `;
     try {
         //判断文件是否存在
         table = table.replace(eval('/^' + config.table_pre + '/g'), '');
-        let tableName = util.underlineToCamel(table);
+        let tableName = utils.underlineToCamel(table);
         let realFilePath = path.resolve(__dirname, `../src/schema/${tableName}.js`);
         if (fs.existsSync(realFilePath)) {
             throw new Error(`${tableName}.js 文件存在,写入失败`);

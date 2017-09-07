@@ -12,7 +12,9 @@ module.exports = {
     log4js: require('./log4js'),
     fs: Promise.promisifyAll(require('fs')),
     config: require('../config'),
-    util: require('../libs/util'),
+    utils: require('../libs/utils'),
     express: require('express'),
-    TYPES: require('./types')
+    TYPES: require('./types'),
+    _:require('lodash'),
+    errors:require('./errors')
 }

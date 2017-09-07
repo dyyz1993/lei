@@ -39,3 +39,4 @@ create table base_user
   primary key (username)
 )ENGINE=InnoDB CHARSET=utf8mb4 COMMENT '管理员用户';
 insert base_user (username,password)values('admin','123456');
+

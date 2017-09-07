@@ -1,7 +1,7 @@
 const {
     log4js,
     pool,
-    util,
+    utils,
     co
 } = require('../global');
 const Base = require('./base');

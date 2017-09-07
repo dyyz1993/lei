@@ -22,7 +22,15 @@ describe('Module - user', () => {
         });
         assert.equal(user, user2);
     });
-
+    it('user batchInsertUpdate', function* () {
+        let arr = [{
+            password: "1",
+            username: 2221222
+        }]
+        let result = yield userModule.batchInsertUpdate(arr);
+        console.log(result);
+        // assert.equal(1, 1);
+    });
     it('user delete', function* () {
 
         assert.equal(1, 1);

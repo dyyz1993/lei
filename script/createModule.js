@@ -4,7 +4,7 @@ const {
     config,
     log4js,
     TYPES,
-    util
+    utils
 } = require('../src/global');
 
 const logger = log4js.getLogger();
@@ -42,7 +42,7 @@ function createModule(table) {
 
 
         table = table.replace(eval('/^' + config.table_pre + '/g'), '');
-        let tableName = util.underlineToCamel(table);
+        let tableName = utils.underlineToCamel(table);
         let tmp = fs.readFileSync('./script/tempModule.js');
         tmp = ejs.render(tmp.toString(), {
             table,

@@ -1,0 +1,835 @@
+[2017-09-06 17:59:35.173] [ERROR] mysql - { Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+    --------------------
+    at Protocol._enqueue (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (d:\project\lei\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (d:\project\lei\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at Pool.ret [as getConnectionAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at Object.<anonymous> (d:\project\lei\src\global\mysql.js:12:6)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\global\index.js:8:10)
+    at Module._compile (module.js:569:30)
+  cause: 
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at Object.exports._errnoException (util.js:1016:11)
+       at exports._exceptionWithHostPort (util.js:1039:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+       --------------------
+       at Protocol._enqueue (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Protocol.handshake (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+       at PoolConnection.connect (d:\project\lei\node_modules\mysql\lib\Connection.js:130:18)
+       at Pool.getConnection (d:\project\lei\node_modules\mysql\lib\Pool.js:48:16)
+       at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at Pool.ret [as getConnectionAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at Object.<anonymous> (d:\project\lei\src\global\mysql.js:12:6)
+       at Module._compile (module.js:569:30)
+       at Object.Module._extensions..js (module.js:580:10)
+       at Module.load (module.js:503:32)
+       at tryModuleLoad (module.js:466:12)
+       at Function.Module._load (module.js:458:3)
+       at Module.require (module.js:513:17)
+       at require (internal/module.js:11:18)
+       at Object.<anonymous> (d:\project\lei\src\global\index.js:8:10)
+       at Module._compile (module.js:569:30)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  isOperational: true,
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+[2017-09-06 17:59:57.301] [ERROR] mysql - { Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+    --------------------
+    at Protocol._enqueue (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (d:\project\lei\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (d:\project\lei\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at Pool.ret [as getConnectionAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at Object.<anonymous> (d:\project\lei\src\global\mysql.js:12:6)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\global\index.js:8:10)
+    at Module._compile (module.js:569:30)
+  cause: 
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at Object.exports._errnoException (util.js:1016:11)
+       at exports._exceptionWithHostPort (util.js:1039:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+       --------------------
+       at Protocol._enqueue (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Protocol.handshake (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+       at PoolConnection.connect (d:\project\lei\node_modules\mysql\lib\Connection.js:130:18)
+       at Pool.getConnection (d:\project\lei\node_modules\mysql\lib\Pool.js:48:16)
+       at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at Pool.ret [as getConnectionAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at Object.<anonymous> (d:\project\lei\src\global\mysql.js:12:6)
+       at Module._compile (module.js:569:30)
+       at Object.Module._extensions..js (module.js:580:10)
+       at Module.load (module.js:503:32)
+       at tryModuleLoad (module.js:466:12)
+       at Function.Module._load (module.js:458:3)
+       at Module.require (module.js:513:17)
+       at require (internal/module.js:11:18)
+       at Object.<anonymous> (d:\project\lei\src\global\index.js:8:10)
+       at Module._compile (module.js:569:30)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  isOperational: true,
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+[2017-09-06 18:00:08.082] [ERROR] mysql - { Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+    --------------------
+    at Protocol._enqueue (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (d:\project\lei\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (d:\project\lei\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at Pool.ret [as getConnectionAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at Object.<anonymous> (d:\project\lei\src\global\mysql.js:12:6)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\global\index.js:8:10)
+    at Module._compile (module.js:569:30)
+  cause: 
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at Object.exports._errnoException (util.js:1016:11)
+       at exports._exceptionWithHostPort (util.js:1039:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+       --------------------
+       at Protocol._enqueue (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Protocol.handshake (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+       at PoolConnection.connect (d:\project\lei\node_modules\mysql\lib\Connection.js:130:18)
+       at Pool.getConnection (d:\project\lei\node_modules\mysql\lib\Pool.js:48:16)
+       at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at Pool.ret [as getConnectionAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at Object.<anonymous> (d:\project\lei\src\global\mysql.js:12:6)
+       at Module._compile (module.js:569:30)
+       at Object.Module._extensions..js (module.js:580:10)
+       at Module.load (module.js:503:32)
+       at tryModuleLoad (module.js:466:12)
+       at Function.Module._load (module.js:458:3)
+       at Module.require (module.js:513:17)
+       at require (internal/module.js:11:18)
+       at Object.<anonymous> (d:\project\lei\src\global\index.js:8:10)
+       at Module._compile (module.js:569:30)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  isOperational: true,
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+[2017-09-06 18:00:16.076] [ERROR] mysql - { Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+    --------------------
+    at Protocol._enqueue (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (d:\project\lei\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (d:\project\lei\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at Pool.ret [as getConnectionAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at Object.<anonymous> (d:\project\lei\src\global\mysql.js:12:6)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\global\index.js:8:10)
+    at Module._compile (module.js:569:30)
+  cause: 
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at Object.exports._errnoException (util.js:1016:11)
+       at exports._exceptionWithHostPort (util.js:1039:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+       --------------------
+       at Protocol._enqueue (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Protocol.handshake (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+       at PoolConnection.connect (d:\project\lei\node_modules\mysql\lib\Connection.js:130:18)
+       at Pool.getConnection (d:\project\lei\node_modules\mysql\lib\Pool.js:48:16)
+       at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at Pool.ret [as getConnectionAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at Object.<anonymous> (d:\project\lei\src\global\mysql.js:12:6)
+       at Module._compile (module.js:569:30)
+       at Object.Module._extensions..js (module.js:580:10)
+       at Module.load (module.js:503:32)
+       at tryModuleLoad (module.js:466:12)
+       at Function.Module._load (module.js:458:3)
+       at Module.require (module.js:513:17)
+       at require (internal/module.js:11:18)
+       at Object.<anonymous> (d:\project\lei\src\global\index.js:8:10)
+       at Module._compile (module.js:569:30)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  isOperational: true,
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+[2017-09-06 18:04:24.234] [ERROR] mysql - { Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+    --------------------
+    at Protocol._enqueue (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (d:\project\lei\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (d:\project\lei\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at Pool.ret [as getConnectionAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at Object.<anonymous> (d:\project\lei\src\global\mysql.js:12:6)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\global\index.js:8:10)
+    at Module._compile (module.js:569:30)
+  cause: 
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at Object.exports._errnoException (util.js:1016:11)
+       at exports._exceptionWithHostPort (util.js:1039:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+       --------------------
+       at Protocol._enqueue (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Protocol.handshake (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+       at PoolConnection.connect (d:\project\lei\node_modules\mysql\lib\Connection.js:130:18)
+       at Pool.getConnection (d:\project\lei\node_modules\mysql\lib\Pool.js:48:16)
+       at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at Pool.ret [as getConnectionAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at Object.<anonymous> (d:\project\lei\src\global\mysql.js:12:6)
+       at Module._compile (module.js:569:30)
+       at Object.Module._extensions..js (module.js:580:10)
+       at Module.load (module.js:503:32)
+       at tryModuleLoad (module.js:466:12)
+       at Function.Module._load (module.js:458:3)
+       at Module.require (module.js:513:17)
+       at require (internal/module.js:11:18)
+       at Object.<anonymous> (d:\project\lei\src\global\index.js:8:10)
+       at Module._compile (module.js:569:30)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  isOperational: true,
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+[2017-09-06 18:04:48.274] [ERROR] mysql - { Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+    --------------------
+    at Protocol._enqueue (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (d:\project\lei\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (d:\project\lei\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at Pool.ret [as getConnectionAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at Object.<anonymous> (d:\project\lei\src\global\mysql.js:12:6)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\global\index.js:8:10)
+    at Module._compile (module.js:569:30)
+  cause: 
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at Object.exports._errnoException (util.js:1016:11)
+       at exports._exceptionWithHostPort (util.js:1039:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+       --------------------
+       at Protocol._enqueue (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Protocol.handshake (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+       at PoolConnection.connect (d:\project\lei\node_modules\mysql\lib\Connection.js:130:18)
+       at Pool.getConnection (d:\project\lei\node_modules\mysql\lib\Pool.js:48:16)
+       at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at Pool.ret [as getConnectionAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at Object.<anonymous> (d:\project\lei\src\global\mysql.js:12:6)
+       at Module._compile (module.js:569:30)
+       at Object.Module._extensions..js (module.js:580:10)
+       at Module.load (module.js:503:32)
+       at tryModuleLoad (module.js:466:12)
+       at Function.Module._load (module.js:458:3)
+       at Module.require (module.js:513:17)
+       at require (internal/module.js:11:18)
+       at Object.<anonymous> (d:\project\lei\src\global\index.js:8:10)
+       at Module._compile (module.js:569:30)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  isOperational: true,
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+[2017-09-06 18:39:58.092] [ERROR] mysql - { Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+    --------------------
+    at Protocol._enqueue (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (d:\project\lei\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (d:\project\lei\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at Pool.ret [as getConnectionAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at Object.<anonymous> (d:\project\lei\src\global\mysql.js:12:6)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\global\index.js:8:10)
+    at Module._compile (module.js:569:30)
+  cause: 
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at Object.exports._errnoException (util.js:1016:11)
+       at exports._exceptionWithHostPort (util.js:1039:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+       --------------------
+       at Protocol._enqueue (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Protocol.handshake (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+       at PoolConnection.connect (d:\project\lei\node_modules\mysql\lib\Connection.js:130:18)
+       at Pool.getConnection (d:\project\lei\node_modules\mysql\lib\Pool.js:48:16)
+       at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at Pool.ret [as getConnectionAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at Object.<anonymous> (d:\project\lei\src\global\mysql.js:12:6)
+       at Module._compile (module.js:569:30)
+       at Object.Module._extensions..js (module.js:580:10)
+       at Module.load (module.js:503:32)
+       at tryModuleLoad (module.js:466:12)
+       at Function.Module._load (module.js:458:3)
+       at Module.require (module.js:513:17)
+       at require (internal/module.js:11:18)
+       at Object.<anonymous> (d:\project\lei\src\global\index.js:8:10)
+       at Module._compile (module.js:569:30)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  isOperational: true,
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+[2017-09-06 19:44:03.039] [ERROR] mysql - { Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+    --------------------
+    at Protocol._enqueue (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (d:\project\lei\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (d:\project\lei\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at Pool.ret [as getConnectionAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at Object.<anonymous> (d:\project\lei\src\global\mysql.js:12:6)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\global\index.js:8:10)
+    at Module._compile (module.js:569:30)
+  cause: 
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at Object.exports._errnoException (util.js:1016:11)
+       at exports._exceptionWithHostPort (util.js:1039:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+       --------------------
+       at Protocol._enqueue (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Protocol.handshake (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+       at PoolConnection.connect (d:\project\lei\node_modules\mysql\lib\Connection.js:130:18)
+       at Pool.getConnection (d:\project\lei\node_modules\mysql\lib\Pool.js:48:16)
+       at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at Pool.ret [as getConnectionAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at Object.<anonymous> (d:\project\lei\src\global\mysql.js:12:6)
+       at Module._compile (module.js:569:30)
+       at Object.Module._extensions..js (module.js:580:10)
+       at Module.load (module.js:503:32)
+       at tryModuleLoad (module.js:466:12)
+       at Function.Module._load (module.js:458:3)
+       at Module.require (module.js:513:17)
+       at require (internal/module.js:11:18)
+       at Object.<anonymous> (d:\project\lei\src\global\index.js:8:10)
+       at Module._compile (module.js:569:30)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  isOperational: true,
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+[2017-09-06 19:44:13.988] [ERROR] mysql - { Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+    --------------------
+    at Protocol._enqueue (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (d:\project\lei\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (d:\project\lei\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at Pool.ret [as getConnectionAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at Object.<anonymous> (d:\project\lei\src\global\mysql.js:12:6)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\global\index.js:8:10)
+    at Module._compile (module.js:569:30)
+  cause: 
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at Object.exports._errnoException (util.js:1016:11)
+       at exports._exceptionWithHostPort (util.js:1039:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+       --------------------
+       at Protocol._enqueue (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Protocol.handshake (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+       at PoolConnection.connect (d:\project\lei\node_modules\mysql\lib\Connection.js:130:18)
+       at Pool.getConnection (d:\project\lei\node_modules\mysql\lib\Pool.js:48:16)
+       at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at Pool.ret [as getConnectionAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at Object.<anonymous> (d:\project\lei\src\global\mysql.js:12:6)
+       at Module._compile (module.js:569:30)
+       at Object.Module._extensions..js (module.js:580:10)
+       at Module.load (module.js:503:32)
+       at tryModuleLoad (module.js:466:12)
+       at Function.Module._load (module.js:458:3)
+       at Module.require (module.js:513:17)
+       at require (internal/module.js:11:18)
+       at Object.<anonymous> (d:\project\lei\src\global\index.js:8:10)
+       at Module._compile (module.js:569:30)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  isOperational: true,
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+[2017-09-06 19:45:10.212] [ERROR] mysql - { Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+    --------------------
+    at Protocol._enqueue (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (d:\project\lei\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (d:\project\lei\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at Pool.ret [as getConnectionAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at Object.<anonymous> (d:\project\lei\src\global\mysql.js:12:6)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\global\index.js:8:10)
+    at Module._compile (module.js:569:30)
+  cause: 
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at Object.exports._errnoException (util.js:1016:11)
+       at exports._exceptionWithHostPort (util.js:1039:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+       --------------------
+       at Protocol._enqueue (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Protocol.handshake (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+       at PoolConnection.connect (d:\project\lei\node_modules\mysql\lib\Connection.js:130:18)
+       at Pool.getConnection (d:\project\lei\node_modules\mysql\lib\Pool.js:48:16)
+       at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at Pool.ret [as getConnectionAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at Object.<anonymous> (d:\project\lei\src\global\mysql.js:12:6)
+       at Module._compile (module.js:569:30)
+       at Object.Module._extensions..js (module.js:580:10)
+       at Module.load (module.js:503:32)
+       at tryModuleLoad (module.js:466:12)
+       at Function.Module._load (module.js:458:3)
+       at Module.require (module.js:513:17)
+       at require (internal/module.js:11:18)
+       at Object.<anonymous> (d:\project\lei\src\global\index.js:8:10)
+       at Module._compile (module.js:569:30)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  isOperational: true,
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+[2017-09-06 19:45:19.391] [ERROR] mysql - { Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+    --------------------
+    at Protocol._enqueue (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (d:\project\lei\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (d:\project\lei\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at Pool.ret [as getConnectionAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at Object.<anonymous> (d:\project\lei\src\global\mysql.js:12:6)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\global\index.js:8:10)
+    at Module._compile (module.js:569:30)
+  cause: 
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at Object.exports._errnoException (util.js:1016:11)
+       at exports._exceptionWithHostPort (util.js:1039:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+       --------------------
+       at Protocol._enqueue (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Protocol.handshake (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+       at PoolConnection.connect (d:\project\lei\node_modules\mysql\lib\Connection.js:130:18)
+       at Pool.getConnection (d:\project\lei\node_modules\mysql\lib\Pool.js:48:16)
+       at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at Pool.ret [as getConnectionAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at Object.<anonymous> (d:\project\lei\src\global\mysql.js:12:6)
+       at Module._compile (module.js:569:30)
+       at Object.Module._extensions..js (module.js:580:10)
+       at Module.load (module.js:503:32)
+       at tryModuleLoad (module.js:466:12)
+       at Function.Module._load (module.js:458:3)
+       at Module.require (module.js:513:17)
+       at require (internal/module.js:11:18)
+       at Object.<anonymous> (d:\project\lei\src\global\index.js:8:10)
+       at Module._compile (module.js:569:30)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  isOperational: true,
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+[2017-09-06 19:45:24.370] [ERROR] mysql - { Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+    --------------------
+    at Protocol._enqueue (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (d:\project\lei\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (d:\project\lei\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at Pool.ret [as getConnectionAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at Object.<anonymous> (d:\project\lei\src\global\mysql.js:12:6)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\global\index.js:8:10)
+    at Module._compile (module.js:569:30)
+  cause: 
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at Object.exports._errnoException (util.js:1016:11)
+       at exports._exceptionWithHostPort (util.js:1039:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+       --------------------
+       at Protocol._enqueue (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Protocol.handshake (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+       at PoolConnection.connect (d:\project\lei\node_modules\mysql\lib\Connection.js:130:18)
+       at Pool.getConnection (d:\project\lei\node_modules\mysql\lib\Pool.js:48:16)
+       at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at Pool.ret [as getConnectionAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at Object.<anonymous> (d:\project\lei\src\global\mysql.js:12:6)
+       at Module._compile (module.js:569:30)
+       at Object.Module._extensions..js (module.js:580:10)
+       at Module.load (module.js:503:32)
+       at tryModuleLoad (module.js:466:12)
+       at Function.Module._load (module.js:458:3)
+       at Module.require (module.js:513:17)
+       at require (internal/module.js:11:18)
+       at Object.<anonymous> (d:\project\lei\src\global\index.js:8:10)
+       at Module._compile (module.js:569:30)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  isOperational: true,
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+[2017-09-06 19:45:29.112] [ERROR] mysql - { Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.exports._errnoException (util.js:1016:11)
+    at exports._exceptionWithHostPort (util.js:1039:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+    --------------------
+    at Protocol._enqueue (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (d:\project\lei\node_modules\mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (d:\project\lei\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at Pool.ret [as getConnectionAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at Object.<anonymous> (d:\project\lei\src\global\mysql.js:12:6)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\global\index.js:8:10)
+    at Module._compile (module.js:569:30)
+  cause: 
+   { Error: connect ECONNREFUSED 127.0.0.1:3306
+       at Object.exports._errnoException (util.js:1016:11)
+       at exports._exceptionWithHostPort (util.js:1039:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:14)
+       --------------------
+       at Protocol._enqueue (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at Protocol.handshake (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+       at PoolConnection.connect (d:\project\lei\node_modules\mysql\lib\Connection.js:130:18)
+       at Pool.getConnection (d:\project\lei\node_modules\mysql\lib\Pool.js:48:16)
+       at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at Pool.ret [as getConnectionAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at Object.<anonymous> (d:\project\lei\src\global\mysql.js:12:6)
+       at Module._compile (module.js:569:30)
+       at Object.Module._extensions..js (module.js:580:10)
+       at Module.load (module.js:503:32)
+       at tryModuleLoad (module.js:466:12)
+       at Function.Module._load (module.js:458:3)
+       at Module.require (module.js:513:17)
+       at require (internal/module.js:11:18)
+       at Object.<anonymous> (d:\project\lei\src\global\index.js:8:10)
+       at Module._compile (module.js:569:30)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 3306,
+     fatal: true },
+  isOperational: true,
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+[2017-09-06 19:45:46.900] [DEBUG] mysql - MySQL connected
+[2017-09-06 19:45:49.787] [DEBUG] mysql - MySQL connected
+[2017-09-06 19:48:01.209] [DEBUG] mysql - MySQL connected
+[2017-09-06 19:48:05.656] [DEBUG] mysql - MySQL connected
+[2017-09-06 19:48:06.660] [DEBUG] mysql - MySQL connected
+[2017-09-06 19:48:07.836] [DEBUG] mysql - MySQL connected
+[2017-09-06 19:48:54.115] [DEBUG] mysql - MySQL connected
+[2017-09-06 19:51:38.596] [DEBUG] mysql - MySQL connected
+[2017-09-06 19:51:51.213] [DEBUG] mysql - MySQL connected
+[2017-09-06 19:52:09.245] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:04:01.789] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:04:06.471] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:04:19.187] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:04:32.953] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:04:59.182] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:05:06.591] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:05:09.946] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:05:19.604] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:05:30.826] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:05:56.364] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:06:02.952] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:06:04.839] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:06:43.379] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:09:21.548] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:11:24.443] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:11:49.143] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:11:56.388] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:12:01.467] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:12:06.746] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:12:57.480] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:13:13.421] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:13:16.992] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:13:30.136] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:14:02.291] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:14:15.051] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:15:21.251] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:23:10.572] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:23:52.263] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:23:54.777] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:23:58.530] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:24:00.451] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:24:05.198] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:27:25.669] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:27:38.293] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:27:48.449] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:27:53.525] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:27:55.158] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:28:01.972] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:28:06.728] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:28:11.265] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:28:19.455] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:28:27.552] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:28:36.724] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:29:04.070] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:30:20.461] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:30:52.625] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:31:26.384] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:32:33.807] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:32:41.457] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:32:53.357] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:33:18.100] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:33:19.076] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:33:24.731] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:34:05.904] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:34:07.241] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:34:08.875] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:34:09.754] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:34:24.704] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:34:45.830] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:35:04.936] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:35:23.938] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:35:34.615] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:37:03.963] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:37:34.794] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:42:02.954] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:42:14.541] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:42:18.313] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:42:24.850] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:49:40.322] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:51:28.973] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:51:37.759] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:51:40.256] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:52:02.201] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:52:31.205] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:52:56.047] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:53:12.396] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:53:36.006] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:53:44.030] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:54:06.798] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:54:13.990] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:54:16.297] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:55:17.021] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:55:40.889] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:56:00.645] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:56:09.771] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:56:23.228] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:56:41.611] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:56:53.734] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:56:55.798] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:56:58.405] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:57:06.075] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:57:08.731] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:57:14.012] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:57:21.332] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:57:23.446] [DEBUG] mysql - MySQL connected
+[2017-09-06 20:58:39.459] [DEBUG] mysql - MySQL connected
+[2017-09-06 21:03:38.331] [DEBUG] mysql - MySQL connected

@@ -10,10 +10,12 @@
 const {
   log4js,
   pool,
-  util,
+  utils,
   co,
   mono,
-  config
+  config,
+  _,
+  errors
 } = require('../global');
 const logger = log4js.getLogger('mysql');
 const Ajv = require('ajv');
@@ -31,7 +33,7 @@ class Base {
   constructor(table, options) {
     this.mono = mono;
     this.table = config.table_pre ? config.table_pre + table : table;
-    this.debug = !util.env.ispro;
+    this.debug = !utils.env.ispro;
     this.schema = options.schema;
     this.fields = Object.keys(this.schema['properties']);
     this.validate = ajv.compile(this.schema);
@@ -102,7 +104,7 @@ class Base {
   // 过滤掉表没有的字段
   _filter(condition) {
     if (typeof condition !== 'object') {
-      throw `必须为数组或者对象`;
+      throw errors.dataBaseError(`必须为数组或者对象`);
     }
     if (condition instanceof Array) {
       // 数组
@@ -156,6 +158,18 @@ class Base {
     return this.query(this.mono({
       backquote: false
     }).select(fields, this.table).where(condition).limit(limit, off).query().sql);
+  }
+
+  /**
+   * 查询所有数据
+   * @param {any} condition 
+   * @returns 
+   * @memberof Base
+   */
+  select(condition){
+    return this.query(this.mono({
+      backquote: false
+    }).select('*', this.table).where(condition).query().sql);
   }
 
   /**
@@ -217,22 +231,22 @@ class Base {
   /**
    * 批量插入或更新
    * 
-   * @param {any} array 
-   * @param {any} [updateFields=this.fields] 需要更新的字段
-   * @param {any} [fields=this.fields] 需要插入的字段
+   * @param {array} array 
+   * @param {array} [updateFields=this.fields] 需要更新的字段
+   * @param {array} [fields=this.fields] 需要插入的字段
    * @returns {number} 影响的行数
    * @memberof Base
    */
   batchInsertUpdate(array, updateFields = this.fields, fields = this.fields) {
     fields = this._filter(fields), updateFields = this._filter(updateFields);
     let updateSql = updateFields.map(k => `${k} = values (${k})`).join(',');
-    let valuesSql = array.map(item => `(${Object.values(item).join(',')})`).join(',');
+    let valuesSql = array.map(item => `(${_.values(item).join(',')})`).join(',');
     let sql = `
       insert into ${this.table} 
       (${fields.join(',')})
       values
       ${valuesSql}
-      duplicate key
+      on duplicate key
       update 
       ${updateSql}
     `;

@@ -1,0 +1,1841 @@
+[2017-09-06 17:59:34.158] [ERROR] system - ReferenceError: rootPath is not defined
+    at Object.<anonymous> (d:\project\lei\src\index.js:82:17)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:575:3
+[2017-09-06 17:59:56.299] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 18:00:07.062] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 18:00:15.049] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 18:04:23.218] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 18:04:47.271] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 18:39:57.060] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 19:44:02.015] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 19:44:12.989] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 19:45:09.209] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 19:45:18.381] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 19:45:23.338] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 19:45:28.106] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 19:45:46.884] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 19:45:49.772] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 19:48:01.192] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 19:48:05.630] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 19:48:06.644] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 19:48:07.816] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 19:48:54.100] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 19:51:38.579] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 19:51:51.199] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 19:52:09.225] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:04:01.768] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:04:06.455] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:04:19.173] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:04:32.937] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:04:59.153] [ERROR] system - AssertionError [ERR_ASSERTION]: missing path
+    at Module.require (module.js:511:3)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\index.js:85:1)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:575:3
+[2017-09-06 20:05:06.576] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:05:09.930] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:05:19.583] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:05:30.808] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:05:56.343] [ERROR] system - Error: Cannot find module '../golbal'
+    at Function.Module._resolveFilename (module.js:485:15)
+    at Function.Module._load (module.js:437:25)
+    at Function._load (d:\project\lei\node_modules\pmx\lib\transaction.js:94:21)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\service\index.js:1:80)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function._load (d:\project\lei\node_modules\pmx\lib\transaction.js:94:21)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\index.js:85:1)
+    at Module._compile (module.js:569:30)
+[2017-09-06 20:06:02.933] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:06:04.814] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:06:43.355] [ERROR] system - TypeError: pool.query(...).then is not a function
+    at Object.<anonymous> (d:\project\lei\src\service\index.js:2:27)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function._load (d:\project\lei\node_modules\pmx\lib\transaction.js:94:21)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\index.js:85:1)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+[2017-09-06 20:09:21.530] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:11:24.425] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:11:49.124] [ERROR] system - d:\project\lei\src\service\index.js:4
+    await pool.queryAsync(`show tables`);
+          ^^^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:74:10)
+    at Object.runInThisContext (vm.js:116:10)
+    at Module._compile (module.js:533:28)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function._load (d:\project\lei\node_modules\pmx\lib\transaction.js:94:21)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\index.js:85:1)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+[2017-09-06 20:11:56.371] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:12:01.441] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:12:06.730] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:12:57.452] [ERROR] system - TypeError: co(...) is not a function
+    at Object.<anonymous> (d:\project\lei\src\service\index.js:5:3)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function._load (d:\project\lei\node_modules\pmx\lib\transaction.js:94:21)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\index.js:85:1)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+[2017-09-06 20:13:13.400] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:13:16.971] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:13:30.113] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:14:02.275] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:14:15.031] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:15:21.232] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:23:10.554] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:23:52.241] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:23:54.755] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:23:58.490] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:24:00.430] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:24:05.176] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:27:25.650] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:27:38.277] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:27:48.430] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:27:53.509] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:27:55.136] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:28:01.952] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:28:06.705] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:28:11.246] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:28:19.438] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:28:27.534] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:28:36.708] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:29:04.052] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:30:20.444] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:30:52.605] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:31:26.362] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:32:33.788] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:32:41.439] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:32:53.335] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:32:53.371] [ERROR] system - TypeError: A value [object Generator] was yielded that could not be treated as a promise
+
+    See http://goo.gl/MqrFmX
+
+From coroutine:
+    at Promise.coroutine (d:\project\lei\node_modules\bluebird\js\release\generators.js:194:17)
+    at Object.<anonymous> (d:\project\lei\src\service\index.js:5:2)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function._load (d:\project\lei\node_modules\pmx\lib\transaction.js:94:21)
+    at Module.require (module.js:513:17)
+    at PromiseSpawn._continue (d:\project\lei\node_modules\bluebird\js\release\generators.js:159:21)
+    at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:99:10)
+    at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+    at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18)
+    at Promise._fulfill (d:\project\lei\node_modules\bluebird\js\release\promise.js:638:18)
+    at Query._callback (d:\project\lei\node_modules\bluebird\js\release\nodeback.js:42:21)
+    at Query.Sequence.end (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query._handleFinalResultPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:137:8)
+    at Query.EofPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:121:8)
+    at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (d:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (d:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7) Promise {
+  _bitField: 18087936,
+  _fulfillmentHandler0: 
+   { TypeError: A value [object Generator] was yielded that could not be treated as a promise
+   
+       See http://goo.gl/MqrFmX
+   
+   From coroutine:
+       at Promise.coroutine (d:\project\lei\node_modules\bluebird\js\release\generators.js:194:17)
+       at Object.<anonymous> (d:\project\lei\src\service\index.js:5:2)
+       at Module._compile (module.js:569:30)
+       at Object.Module._extensions..js (module.js:580:10)
+       at Module.load (module.js:503:32)
+       at tryModuleLoad (module.js:466:12)
+       at Function.Module._load (module.js:458:3)
+       at Function._load (d:\project\lei\node_modules\pmx\lib\transaction.js:94:21)
+       at Module.require (module.js:513:17)
+       at PromiseSpawn._continue (d:\project\lei\node_modules\bluebird\js\release\generators.js:159:21)
+       at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:99:10)
+       at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+       at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+       at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18)
+       at Promise._fulfill (d:\project\lei\node_modules\bluebird\js\release\promise.js:638:18)
+       at Query._callback (d:\project\lei\node_modules\bluebird\js\release\nodeback.js:42:21)
+       at Query.Sequence.end (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+       at Query._handleFinalResultPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:137:8)
+       at Query.EofPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:121:8)
+       at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:120:20)
+       at Socket.emit (events.js:210:7)
+     stackframes: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ] },
+  _rejectionHandler0: undefined,
+  _promise0: undefined,
+  _receiver0: undefined }
+[2017-09-06 20:33:18.076] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:33:18.120] [ERROR] system - TypeError: A value [object Generator] was yielded that could not be treated as a promise
+
+    See http://goo.gl/MqrFmX
+
+From coroutine:
+    at Promise.coroutine (d:\project\lei\node_modules\bluebird\js\release\generators.js:194:17)
+    at Object.<anonymous> (d:\project\lei\src\service\index.js:5:2)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function._load (d:\project\lei\node_modules\pmx\lib\transaction.js:94:21)
+    at Module.require (module.js:513:17)
+    at PromiseSpawn._continue (d:\project\lei\node_modules\bluebird\js\release\generators.js:159:21)
+    at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:99:10)
+    at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+    at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18)
+    at Promise._fulfill (d:\project\lei\node_modules\bluebird\js\release\promise.js:638:18)
+    at Query._callback (d:\project\lei\node_modules\bluebird\js\release\nodeback.js:42:21)
+    at Query.Sequence.end (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query._handleFinalResultPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:137:8)
+    at Query.EofPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:121:8)
+    at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (d:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (d:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7) Promise {
+  _bitField: 18087936,
+  _fulfillmentHandler0: 
+   { TypeError: A value [object Generator] was yielded that could not be treated as a promise
+   
+       See http://goo.gl/MqrFmX
+   
+   From coroutine:
+       at Promise.coroutine (d:\project\lei\node_modules\bluebird\js\release\generators.js:194:17)
+       at Object.<anonymous> (d:\project\lei\src\service\index.js:5:2)
+       at Module._compile (module.js:569:30)
+       at Object.Module._extensions..js (module.js:580:10)
+       at Module.load (module.js:503:32)
+       at tryModuleLoad (module.js:466:12)
+       at Function.Module._load (module.js:458:3)
+       at Function._load (d:\project\lei\node_modules\pmx\lib\transaction.js:94:21)
+       at Module.require (module.js:513:17)
+       at PromiseSpawn._continue (d:\project\lei\node_modules\bluebird\js\release\generators.js:159:21)
+       at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:99:10)
+       at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+       at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+       at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18)
+       at Promise._fulfill (d:\project\lei\node_modules\bluebird\js\release\promise.js:638:18)
+       at Query._callback (d:\project\lei\node_modules\bluebird\js\release\nodeback.js:42:21)
+       at Query.Sequence.end (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+       at Query._handleFinalResultPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:137:8)
+       at Query.EofPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:121:8)
+       at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:120:20)
+       at Socket.emit (events.js:210:7)
+     stackframes: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ] },
+  _rejectionHandler0: undefined,
+  _promise0: undefined,
+  _receiver0: undefined }
+[2017-09-06 20:33:19.062] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:33:19.089] [ERROR] system - TypeError: A value [object Generator] was yielded that could not be treated as a promise
+
+    See http://goo.gl/MqrFmX
+
+From coroutine:
+    at Promise.coroutine (d:\project\lei\node_modules\bluebird\js\release\generators.js:194:17)
+    at Object.<anonymous> (d:\project\lei\src\service\index.js:5:2)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function._load (d:\project\lei\node_modules\pmx\lib\transaction.js:94:21)
+    at Module.require (module.js:513:17)
+    at PromiseSpawn._continue (d:\project\lei\node_modules\bluebird\js\release\generators.js:159:21)
+    at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:99:10)
+    at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+    at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18)
+    at Promise._fulfill (d:\project\lei\node_modules\bluebird\js\release\promise.js:638:18)
+    at Query._callback (d:\project\lei\node_modules\bluebird\js\release\nodeback.js:42:21)
+    at Query.Sequence.end (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query._handleFinalResultPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:137:8)
+    at Query.EofPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:121:8)
+    at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (d:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (d:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7) Promise {
+  _bitField: 18087936,
+  _fulfillmentHandler0: 
+   { TypeError: A value [object Generator] was yielded that could not be treated as a promise
+   
+       See http://goo.gl/MqrFmX
+   
+   From coroutine:
+       at Promise.coroutine (d:\project\lei\node_modules\bluebird\js\release\generators.js:194:17)
+       at Object.<anonymous> (d:\project\lei\src\service\index.js:5:2)
+       at Module._compile (module.js:569:30)
+       at Object.Module._extensions..js (module.js:580:10)
+       at Module.load (module.js:503:32)
+       at tryModuleLoad (module.js:466:12)
+       at Function.Module._load (module.js:458:3)
+       at Function._load (d:\project\lei\node_modules\pmx\lib\transaction.js:94:21)
+       at Module.require (module.js:513:17)
+       at PromiseSpawn._continue (d:\project\lei\node_modules\bluebird\js\release\generators.js:159:21)
+       at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:99:10)
+       at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+       at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+       at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18)
+       at Promise._fulfill (d:\project\lei\node_modules\bluebird\js\release\promise.js:638:18)
+       at Query._callback (d:\project\lei\node_modules\bluebird\js\release\nodeback.js:42:21)
+       at Query.Sequence.end (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+       at Query._handleFinalResultPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:137:8)
+       at Query.EofPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:121:8)
+       at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:120:20)
+       at Socket.emit (events.js:210:7)
+     stackframes: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ] },
+  _rejectionHandler0: undefined,
+  _promise0: undefined,
+  _receiver0: undefined }
+[2017-09-06 20:33:24.714] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:33:24.774] [ERROR] system - TypeError: pool.queryAsync is not a function
+    at createScheme (d:\project\lei\src\service\index.js:17:30)
+    at createScheme.next (<anonymous>)
+    at d:\project\lei\src\service\index.js:11:16
+    at Generator.next (<anonymous>)
+    at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+    at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+    at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18)
+    at Promise._fulfill (d:\project\lei\node_modules\bluebird\js\release\promise.js:638:18)
+    at Query._callback (d:\project\lei\node_modules\bluebird\js\release\nodeback.js:42:21)
+    at Query.Sequence.end (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query._handleFinalResultPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:137:8)
+    at Query.EofPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:121:8)
+    at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (d:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12) Promise {
+  _bitField: 18087936,
+  _fulfillmentHandler0: 
+   { TypeError: pool.queryAsync is not a function
+       at createScheme (d:\project\lei\src\service\index.js:17:30)
+       at createScheme.next (<anonymous>)
+       at d:\project\lei\src\service\index.js:11:16
+       at Generator.next (<anonymous>)
+       at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+       at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+       at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+       at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18)
+       at Promise._fulfill (d:\project\lei\node_modules\bluebird\js\release\promise.js:638:18)
+       at Query._callback (d:\project\lei\node_modules\bluebird\js\release\nodeback.js:42:21)
+       at Query.Sequence.end (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+       at Query._handleFinalResultPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:137:8)
+       at Query.EofPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:121:8)
+       at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+     stackframes: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ] },
+  _rejectionHandler0: undefined,
+  _promise0: undefined,
+  _receiver0: undefined }
+[2017-09-06 20:33:24.790] [ERROR] system - Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1
+    at Query.Sequence._packetToError (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (d:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (d:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    at Socket.Readable.push (_stream_readable.js:197:10)
+    at TCP.onread (net.js:588:20)
+    --------------------
+    at Pool.query (d:\project\lei\node_modules\mysql\lib\Pool.js:199:23)
+    at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at Pool.ret [as queryAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:14:23)
+    at createScheme (d:\project\lei\src\service\index.js:17:30)
+    at createScheme.next (<anonymous>)
+    at d:\project\lei\src\service\index.js:11:16
+    at Generator.next (<anonymous>)
+    at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+    at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+    at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18)
+    at Promise._fulfill (d:\project\lei\node_modules\bluebird\js\release\promise.js:638:18)
+    at Query._callback (d:\project\lei\node_modules\bluebird\js\release\nodeback.js:42:21)
+    at Query.Sequence.end (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query._handleFinalResultPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:137:8) Promise {
+  _bitField: 152305664,
+  _fulfillmentHandler0: 
+   { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1
+       at Query.Sequence._packetToError (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:120:20)
+       at Socket.emit (events.js:210:7)
+       at addChunk (_stream_readable.js:252:12)
+       at readableAddChunk (_stream_readable.js:239:11)
+       at Socket.Readable.push (_stream_readable.js:197:10)
+       at TCP.onread (net.js:588:20)
+       --------------------
+       at Pool.query (d:\project\lei\node_modules\mysql\lib\Pool.js:199:23)
+       at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at Pool.ret [as queryAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:14:23)
+       at createScheme (d:\project\lei\src\service\index.js:17:30)
+       at createScheme.next (<anonymous>)
+       at d:\project\lei\src\service\index.js:11:16
+       at Generator.next (<anonymous>)
+       at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+       at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+       at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+       at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18)
+       at Promise._fulfill (d:\project\lei\node_modules\bluebird\js\release\promise.js:638:18)
+       at Query._callback (d:\project\lei\node_modules\bluebird\js\release\nodeback.js:42:21)
+       at Query.Sequence.end (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+       at Query._handleFinalResultPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:137:8)
+     cause: 
+      { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1
+          at Query.Sequence._packetToError (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+          at Query.ErrorPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+          at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+          at Parser.write (d:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+          at Protocol.write (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+          at Socket.<anonymous> (d:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+          at emitOne (events.js:120:20)
+          at Socket.emit (events.js:210:7)
+          at addChunk (_stream_readable.js:252:12)
+          at readableAddChunk (_stream_readable.js:239:11)
+          at Socket.Readable.push (_stream_readable.js:197:10)
+          at TCP.onread (net.js:588:20)
+          --------------------
+          at Pool.query (d:\project\lei\node_modules\mysql\lib\Pool.js:199:23)
+          at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+          at Pool.ret [as queryAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:14:23)
+          at createScheme (d:\project\lei\src\service\index.js:17:30)
+          at createScheme.next (<anonymous>)
+          at d:\project\lei\src\service\index.js:11:16
+          at Generator.next (<anonymous>)
+          at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+          at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+          at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+          at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+          at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18)
+          at Promise._fulfill (d:\project\lei\node_modules\bluebird\js\release\promise.js:638:18)
+          at Query._callback (d:\project\lei\node_modules\bluebird\js\release\nodeback.js:42:21)
+          at Query.Sequence.end (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+          at Query._handleFinalResultPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:137:8)
+        code: 'ER_PARSE_ERROR',
+        errno: 1064,
+        sqlState: '42000',
+        index: 0 },
+     isOperational: true,
+     code: 'ER_PARSE_ERROR',
+     errno: 1064,
+     sqlState: '42000',
+     index: 0 },
+  _rejectionHandler0: undefined,
+  _promise0: undefined,
+  _receiver0: undefined }
+[2017-09-06 20:34:05.885] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:34:05.943] [ERROR] system - ReferenceError: yield is not defined
+    at Promise (d:\project\lei\src\service\index.js:20:22)
+    at Promise (<anonymous>)
+    at createScheme (d:\project\lei\src\service\index.js:19:12)
+    at d:\project\lei\src\service\index.js:11:15
+    at Generator.next (<anonymous>)
+    at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+    at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+    at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18)
+    at Promise._fulfill (d:\project\lei\node_modules\bluebird\js\release\promise.js:638:18)
+    at Query._callback (d:\project\lei\node_modules\bluebird\js\release\nodeback.js:42:21)
+    at Query.Sequence.end (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query._handleFinalResultPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:137:8)
+    at Query.EofPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:121:8)
+    at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23) Promise {
+  _bitField: 18087936,
+  _fulfillmentHandler0: 
+   { ReferenceError: yield is not defined
+       at Promise (d:\project\lei\src\service\index.js:20:22)
+       at Promise (<anonymous>)
+       at createScheme (d:\project\lei\src\service\index.js:19:12)
+       at d:\project\lei\src\service\index.js:11:15
+       at Generator.next (<anonymous>)
+       at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+       at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+       at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+       at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18)
+       at Promise._fulfill (d:\project\lei\node_modules\bluebird\js\release\promise.js:638:18)
+       at Query._callback (d:\project\lei\node_modules\bluebird\js\release\nodeback.js:42:21)
+       at Query.Sequence.end (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+       at Query._handleFinalResultPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:137:8)
+       at Query.EofPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:121:8)
+       at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+     stackframes: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ] },
+  _rejectionHandler0: undefined,
+  _promise0: undefined,
+  _receiver0: undefined }
+[2017-09-06 20:34:07.221] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:34:07.261] [ERROR] system - ReferenceError: yield is not defined
+    at Promise (d:\project\lei\src\service\index.js:20:22)
+    at Promise (<anonymous>)
+    at createScheme (d:\project\lei\src\service\index.js:19:12)
+    at d:\project\lei\src\service\index.js:11:15
+    at Generator.next (<anonymous>)
+    at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+    at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+    at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18)
+    at Promise._fulfill (d:\project\lei\node_modules\bluebird\js\release\promise.js:638:18)
+    at Query._callback (d:\project\lei\node_modules\bluebird\js\release\nodeback.js:42:21)
+    at Query.Sequence.end (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query._handleFinalResultPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:137:8)
+    at Query.EofPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:121:8)
+    at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23) Promise {
+  _bitField: 18087936,
+  _fulfillmentHandler0: 
+   { ReferenceError: yield is not defined
+       at Promise (d:\project\lei\src\service\index.js:20:22)
+       at Promise (<anonymous>)
+       at createScheme (d:\project\lei\src\service\index.js:19:12)
+       at d:\project\lei\src\service\index.js:11:15
+       at Generator.next (<anonymous>)
+       at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+       at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+       at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+       at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18)
+       at Promise._fulfill (d:\project\lei\node_modules\bluebird\js\release\promise.js:638:18)
+       at Query._callback (d:\project\lei\node_modules\bluebird\js\release\nodeback.js:42:21)
+       at Query.Sequence.end (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+       at Query._handleFinalResultPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:137:8)
+       at Query.EofPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:121:8)
+       at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+     stackframes: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ] },
+  _rejectionHandler0: undefined,
+  _promise0: undefined,
+  _receiver0: undefined }
+[2017-09-06 20:34:08.857] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:34:08.889] [ERROR] system - ReferenceError: yield is not defined
+    at Promise (d:\project\lei\src\service\index.js:20:22)
+    at Promise (<anonymous>)
+    at createScheme (d:\project\lei\src\service\index.js:19:12)
+    at d:\project\lei\src\service\index.js:11:15
+    at Generator.next (<anonymous>)
+    at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+    at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+    at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18)
+    at Promise._fulfill (d:\project\lei\node_modules\bluebird\js\release\promise.js:638:18)
+    at Query._callback (d:\project\lei\node_modules\bluebird\js\release\nodeback.js:42:21)
+    at Query.Sequence.end (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query._handleFinalResultPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:137:8)
+    at Query.EofPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:121:8)
+    at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23) Promise {
+  _bitField: 18087936,
+  _fulfillmentHandler0: 
+   { ReferenceError: yield is not defined
+       at Promise (d:\project\lei\src\service\index.js:20:22)
+       at Promise (<anonymous>)
+       at createScheme (d:\project\lei\src\service\index.js:19:12)
+       at d:\project\lei\src\service\index.js:11:15
+       at Generator.next (<anonymous>)
+       at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+       at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+       at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+       at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18)
+       at Promise._fulfill (d:\project\lei\node_modules\bluebird\js\release\promise.js:638:18)
+       at Query._callback (d:\project\lei\node_modules\bluebird\js\release\nodeback.js:42:21)
+       at Query.Sequence.end (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+       at Query._handleFinalResultPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:137:8)
+       at Query.EofPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:121:8)
+       at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+     stackframes: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ] },
+  _rejectionHandler0: undefined,
+  _promise0: undefined,
+  _receiver0: undefined }
+[2017-09-06 20:34:09.735] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:34:09.768] [ERROR] system - ReferenceError: yield is not defined
+    at Promise (d:\project\lei\src\service\index.js:20:22)
+    at Promise (<anonymous>)
+    at createScheme (d:\project\lei\src\service\index.js:19:12)
+    at d:\project\lei\src\service\index.js:11:15
+    at Generator.next (<anonymous>)
+    at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+    at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+    at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18)
+    at Promise._fulfill (d:\project\lei\node_modules\bluebird\js\release\promise.js:638:18)
+    at Query._callback (d:\project\lei\node_modules\bluebird\js\release\nodeback.js:42:21)
+    at Query.Sequence.end (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query._handleFinalResultPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:137:8)
+    at Query.EofPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:121:8)
+    at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23) Promise {
+  _bitField: 18087936,
+  _fulfillmentHandler0: 
+   { ReferenceError: yield is not defined
+       at Promise (d:\project\lei\src\service\index.js:20:22)
+       at Promise (<anonymous>)
+       at createScheme (d:\project\lei\src\service\index.js:19:12)
+       at d:\project\lei\src\service\index.js:11:15
+       at Generator.next (<anonymous>)
+       at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+       at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+       at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+       at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18)
+       at Promise._fulfill (d:\project\lei\node_modules\bluebird\js\release\promise.js:638:18)
+       at Query._callback (d:\project\lei\node_modules\bluebird\js\release\nodeback.js:42:21)
+       at Query.Sequence.end (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+       at Query._handleFinalResultPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:137:8)
+       at Query.EofPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:121:8)
+       at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+     stackframes: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ] },
+  _rejectionHandler0: undefined,
+  _promise0: undefined,
+  _receiver0: undefined }
+[2017-09-06 20:34:24.678] [ERROR] system - d:\project\lei\src\service\index.js:20
+        let result = yield pool.queryAsync(`show FULL FIELDS  FROM ${tabel}`);
+                           ^^^^
+
+SyntaxError: Unexpected identifier
+    at createScript (vm.js:74:10)
+    at Object.runInThisContext (vm.js:116:10)
+    at Module._compile (module.js:533:28)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function._load (d:\project\lei\node_modules\pmx\lib\transaction.js:94:21)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\index.js:85:1)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+[2017-09-06 20:34:45.813] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:34:45.844] [ERROR] system - TypeError: A value function () {
+        var generator = generatorFunction.apply(this, arguments);
+        var spawn = new PromiseSpawn$(undefined, undefined, yieldHandler,
+                                      stack);
+        var ret = spawn.promise();
+        spawn._generator = generator;
+        spawn._promiseFulfilled(undefined);
+        return ret;
+    } was yielded that could not be treated as a promise
+
+    See http://goo.gl/MqrFmX
+
+From coroutine:
+    at Promise.coroutine (d:\project\lei\node_modules\bluebird\js\release\generators.js:194:17)
+    at Object.<anonymous> (d:\project\lei\src\service\index.js:5:2)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function._load (d:\project\lei\node_modules\pmx\lib\transaction.js:94:21)
+    at Module.require (module.js:513:17)
+    at PromiseSpawn._continue (d:\project\lei\node_modules\bluebird\js\release\generators.js:159:21)
+    at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:99:10)
+    at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+    at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18)
+    at Promise._fulfill (d:\project\lei\node_modules\bluebird\js\release\promise.js:638:18)
+    at Query._callback (d:\project\lei\node_modules\bluebird\js\release\nodeback.js:42:21)
+    at Query.Sequence.end (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query._handleFinalResultPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:137:8)
+    at Query.EofPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:121:8)
+    at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (d:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (d:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7) Promise {
+  _bitField: 18087936,
+  _fulfillmentHandler0: 
+   { TypeError: A value function () {
+           var generator = generatorFunction.apply(this, arguments);
+           var spawn = new PromiseSpawn$(undefined, undefined, yieldHandler,
+                                         stack);
+           var ret = spawn.promise();
+           spawn._generator = generator;
+           spawn._promiseFulfilled(undefined);
+           return ret;
+       } was yielded that could not be treated as a promise
+   
+       See http://goo.gl/MqrFmX
+   
+   From coroutine:
+       at Promise.coroutine (d:\project\lei\node_modules\bluebird\js\release\generators.js:194:17)
+       at Object.<anonymous> (d:\project\lei\src\service\index.js:5:2)
+       at Module._compile (module.js:569:30)
+       at Object.Module._extensions..js (module.js:580:10)
+       at Module.load (module.js:503:32)
+       at tryModuleLoad (module.js:466:12)
+       at Function.Module._load (module.js:458:3)
+       at Function._load (d:\project\lei\node_modules\pmx\lib\transaction.js:94:21)
+       at Module.require (module.js:513:17)
+       at PromiseSpawn._continue (d:\project\lei\node_modules\bluebird\js\release\generators.js:159:21)
+       at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:99:10)
+       at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+       at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+       at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18)
+       at Promise._fulfill (d:\project\lei\node_modules\bluebird\js\release\promise.js:638:18)
+       at Query._callback (d:\project\lei\node_modules\bluebird\js\release\nodeback.js:42:21)
+       at Query.Sequence.end (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+       at Query._handleFinalResultPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:137:8)
+       at Query.EofPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:121:8)
+       at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:120:20)
+       at Socket.emit (events.js:210:7)
+     stackframes: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ] },
+  _rejectionHandler0: undefined,
+  _promise0: undefined,
+  _receiver0: undefined }
+[2017-09-06 20:35:04.920] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:35:04.951] [ERROR] system - Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1
+    at Query.Sequence._packetToError (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (d:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (d:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    at Socket.Readable.push (_stream_readable.js:197:10)
+    at TCP.onread (net.js:588:20)
+    --------------------
+    at Pool.query (d:\project\lei\node_modules\mysql\lib\Pool.js:199:23)
+    at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at Pool.ret [as queryAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:14:23)
+    at d:\project\lei\src\service\index.js:20:33
+    at Generator.next (<anonymous>)
+    at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+    at d:\project\lei\node_modules\bluebird\js\release\generators.js:201:15
+    at createScheme (d:\project\lei\src\service\index.js:22:7)
+    at d:\project\lei\src\service\index.js:11:15
+    at Generator.next (<anonymous>)
+    at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+    at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+    at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18) Promise {
+  _bitField: 18087936,
+  _fulfillmentHandler0: 
+   { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1
+       at Query.Sequence._packetToError (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:120:20)
+       at Socket.emit (events.js:210:7)
+       at addChunk (_stream_readable.js:252:12)
+       at readableAddChunk (_stream_readable.js:239:11)
+       at Socket.Readable.push (_stream_readable.js:197:10)
+       at TCP.onread (net.js:588:20)
+       --------------------
+       at Pool.query (d:\project\lei\node_modules\mysql\lib\Pool.js:199:23)
+       at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at Pool.ret [as queryAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:14:23)
+       at d:\project\lei\src\service\index.js:20:33
+       at Generator.next (<anonymous>)
+       at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+       at d:\project\lei\node_modules\bluebird\js\release\generators.js:201:15
+       at createScheme (d:\project\lei\src\service\index.js:22:7)
+       at d:\project\lei\src\service\index.js:11:15
+       at Generator.next (<anonymous>)
+       at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+       at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+       at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+       at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18)
+     cause: 
+      { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1
+          at Query.Sequence._packetToError (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+          at Query.ErrorPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+          at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+          at Parser.write (d:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+          at Protocol.write (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+          at Socket.<anonymous> (d:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+          at emitOne (events.js:120:20)
+          at Socket.emit (events.js:210:7)
+          at addChunk (_stream_readable.js:252:12)
+          at readableAddChunk (_stream_readable.js:239:11)
+          at Socket.Readable.push (_stream_readable.js:197:10)
+          at TCP.onread (net.js:588:20)
+          --------------------
+          at Pool.query (d:\project\lei\node_modules\mysql\lib\Pool.js:199:23)
+          at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+          at Pool.ret [as queryAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:14:23)
+          at d:\project\lei\src\service\index.js:20:33
+          at Generator.next (<anonymous>)
+          at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+          at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+          at d:\project\lei\node_modules\bluebird\js\release\generators.js:201:15
+          at createScheme (d:\project\lei\src\service\index.js:22:7)
+          at d:\project\lei\src\service\index.js:11:15
+          at Generator.next (<anonymous>)
+          at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+          at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+          at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+          at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+          at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18)
+        code: 'ER_PARSE_ERROR',
+        errno: 1064,
+        sqlState: '42000',
+        index: 0 },
+     isOperational: true,
+     code: 'ER_PARSE_ERROR',
+     errno: 1064,
+     sqlState: '42000',
+     index: 0 },
+  _rejectionHandler0: undefined,
+  _promise0: undefined,
+  _receiver0: undefined }
+[2017-09-06 20:35:23.918] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:35:23.954] [ERROR] system - Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 1
+    at Query.Sequence._packetToError (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (d:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (d:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    at Socket.Readable.push (_stream_readable.js:197:10)
+    at TCP.onread (net.js:588:20)
+    --------------------
+    at Pool.query (d:\project\lei\node_modules\mysql\lib\Pool.js:199:23)
+    at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at Pool.ret [as queryAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:14:23)
+    at d:\project\lei\src\service\index.js:20:33
+    at Generator.next (<anonymous>)
+    at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+    at d:\project\lei\node_modules\bluebird\js\release\generators.js:201:15
+    at createScheme (d:\project\lei\src\service\index.js:22:7)
+    at d:\project\lei\src\service\index.js:11:15
+    at Generator.next (<anonymous>)
+    at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+    at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+    at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18) Promise {
+  _bitField: 18087936,
+  _fulfillmentHandler0: 
+   { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 1
+       at Query.Sequence._packetToError (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:120:20)
+       at Socket.emit (events.js:210:7)
+       at addChunk (_stream_readable.js:252:12)
+       at readableAddChunk (_stream_readable.js:239:11)
+       at Socket.Readable.push (_stream_readable.js:197:10)
+       at TCP.onread (net.js:588:20)
+       --------------------
+       at Pool.query (d:\project\lei\node_modules\mysql\lib\Pool.js:199:23)
+       at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at Pool.ret [as queryAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:14:23)
+       at d:\project\lei\src\service\index.js:20:33
+       at Generator.next (<anonymous>)
+       at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+       at d:\project\lei\node_modules\bluebird\js\release\generators.js:201:15
+       at createScheme (d:\project\lei\src\service\index.js:22:7)
+       at d:\project\lei\src\service\index.js:11:15
+       at Generator.next (<anonymous>)
+       at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+       at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+       at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+       at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18)
+     cause: 
+      { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 1
+          at Query.Sequence._packetToError (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+          at Query.ErrorPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+          at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+          at Parser.write (d:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+          at Protocol.write (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+          at Socket.<anonymous> (d:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+          at emitOne (events.js:120:20)
+          at Socket.emit (events.js:210:7)
+          at addChunk (_stream_readable.js:252:12)
+          at readableAddChunk (_stream_readable.js:239:11)
+          at Socket.Readable.push (_stream_readable.js:197:10)
+          at TCP.onread (net.js:588:20)
+          --------------------
+          at Pool.query (d:\project\lei\node_modules\mysql\lib\Pool.js:199:23)
+          at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+          at Pool.ret [as queryAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:14:23)
+          at d:\project\lei\src\service\index.js:20:33
+          at Generator.next (<anonymous>)
+          at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+          at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+          at d:\project\lei\node_modules\bluebird\js\release\generators.js:201:15
+          at createScheme (d:\project\lei\src\service\index.js:22:7)
+          at d:\project\lei\src\service\index.js:11:15
+          at Generator.next (<anonymous>)
+          at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+          at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+          at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+          at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+          at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18)
+        code: 'ER_PARSE_ERROR',
+        errno: 1064,
+        sqlState: '42000',
+        index: 0 },
+     isOperational: true,
+     code: 'ER_PARSE_ERROR',
+     errno: 1064,
+     sqlState: '42000',
+     index: 0 },
+  _rejectionHandler0: undefined,
+  _promise0: undefined,
+  _receiver0: undefined }
+[2017-09-06 20:35:34.592] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:35:34.630] [ERROR] system - Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1
+    at Query.Sequence._packetToError (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (d:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (d:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    at Socket.Readable.push (_stream_readable.js:197:10)
+    at TCP.onread (net.js:588:20)
+    --------------------
+    at Pool.query (d:\project\lei\node_modules\mysql\lib\Pool.js:199:23)
+    at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at Pool.ret [as queryAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:14:23)
+    at d:\project\lei\src\service\index.js:20:33
+    at Generator.next (<anonymous>)
+    at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+    at d:\project\lei\node_modules\bluebird\js\release\generators.js:201:15
+    at createScheme (d:\project\lei\src\service\index.js:22:7)
+    at d:\project\lei\src\service\index.js:11:15
+    at Generator.next (<anonymous>)
+    at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+    at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+    at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18) Promise {
+  _bitField: 18087936,
+  _fulfillmentHandler0: 
+   { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1
+       at Query.Sequence._packetToError (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:120:20)
+       at Socket.emit (events.js:210:7)
+       at addChunk (_stream_readable.js:252:12)
+       at readableAddChunk (_stream_readable.js:239:11)
+       at Socket.Readable.push (_stream_readable.js:197:10)
+       at TCP.onread (net.js:588:20)
+       --------------------
+       at Pool.query (d:\project\lei\node_modules\mysql\lib\Pool.js:199:23)
+       at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at Pool.ret [as queryAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:14:23)
+       at d:\project\lei\src\service\index.js:20:33
+       at Generator.next (<anonymous>)
+       at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+       at d:\project\lei\node_modules\bluebird\js\release\generators.js:201:15
+       at createScheme (d:\project\lei\src\service\index.js:22:7)
+       at d:\project\lei\src\service\index.js:11:15
+       at Generator.next (<anonymous>)
+       at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+       at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+       at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+       at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18)
+     cause: 
+      { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object Object]' at line 1
+          at Query.Sequence._packetToError (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+          at Query.ErrorPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+          at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+          at Parser.write (d:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+          at Protocol.write (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+          at Socket.<anonymous> (d:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+          at emitOne (events.js:120:20)
+          at Socket.emit (events.js:210:7)
+          at addChunk (_stream_readable.js:252:12)
+          at readableAddChunk (_stream_readable.js:239:11)
+          at Socket.Readable.push (_stream_readable.js:197:10)
+          at TCP.onread (net.js:588:20)
+          --------------------
+          at Pool.query (d:\project\lei\node_modules\mysql\lib\Pool.js:199:23)
+          at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+          at Pool.ret [as queryAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:14:23)
+          at d:\project\lei\src\service\index.js:20:33
+          at Generator.next (<anonymous>)
+          at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+          at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+          at d:\project\lei\node_modules\bluebird\js\release\generators.js:201:15
+          at createScheme (d:\project\lei\src\service\index.js:22:7)
+          at d:\project\lei\src\service\index.js:11:15
+          at Generator.next (<anonymous>)
+          at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+          at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+          at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+          at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+          at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18)
+        code: 'ER_PARSE_ERROR',
+        errno: 1064,
+        sqlState: '42000',
+        index: 0 },
+     isOperational: true,
+     code: 'ER_PARSE_ERROR',
+     errno: 1064,
+     sqlState: '42000',
+     index: 0 },
+  _rejectionHandler0: undefined,
+  _promise0: undefined,
+  _receiver0: undefined }
+[2017-09-06 20:37:03.945] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:37:04.111] [ERROR] system - Error: ER_NO_SUCH_TABLE: Table 'test.undefined' doesn't exist
+    at Query.Sequence._packetToError (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (d:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (d:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    at Socket.Readable.push (_stream_readable.js:197:10)
+    at TCP.onread (net.js:588:20)
+    --------------------
+    at Pool.query (d:\project\lei\node_modules\mysql\lib\Pool.js:199:23)
+    at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at Pool.ret [as queryAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:14:23)
+    at d:\project\lei\src\service\index.js:20:33
+    at Generator.next (<anonymous>)
+    at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+    at d:\project\lei\node_modules\bluebird\js\release\generators.js:201:15
+    at createScheme (d:\project\lei\src\service\index.js:22:7)
+    at d:\project\lei\src\service\index.js:11:15
+    at Generator.next (<anonymous>)
+    at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+    at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+    at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18) Promise {
+  _bitField: 18087936,
+  _fulfillmentHandler0: 
+   { Error: ER_NO_SUCH_TABLE: Table 'test.undefined' doesn't exist
+       at Query.Sequence._packetToError (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (d:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (d:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:120:20)
+       at Socket.emit (events.js:210:7)
+       at addChunk (_stream_readable.js:252:12)
+       at readableAddChunk (_stream_readable.js:239:11)
+       at Socket.Readable.push (_stream_readable.js:197:10)
+       at TCP.onread (net.js:588:20)
+       --------------------
+       at Pool.query (d:\project\lei\node_modules\mysql\lib\Pool.js:199:23)
+       at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at Pool.ret [as queryAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:14:23)
+       at d:\project\lei\src\service\index.js:20:33
+       at Generator.next (<anonymous>)
+       at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+       at d:\project\lei\node_modules\bluebird\js\release\generators.js:201:15
+       at createScheme (d:\project\lei\src\service\index.js:22:7)
+       at d:\project\lei\src\service\index.js:11:15
+       at Generator.next (<anonymous>)
+       at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+       at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+       at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+       at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18)
+     cause: 
+      { Error: ER_NO_SUCH_TABLE: Table 'test.undefined' doesn't exist
+          at Query.Sequence._packetToError (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+          at Query.ErrorPacket (d:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+          at Protocol._parsePacket (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+          at Parser.write (d:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+          at Protocol.write (d:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+          at Socket.<anonymous> (d:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+          at emitOne (events.js:120:20)
+          at Socket.emit (events.js:210:7)
+          at addChunk (_stream_readable.js:252:12)
+          at readableAddChunk (_stream_readable.js:239:11)
+          at Socket.Readable.push (_stream_readable.js:197:10)
+          at TCP.onread (net.js:588:20)
+          --------------------
+          at Pool.query (d:\project\lei\node_modules\mysql\lib\Pool.js:199:23)
+          at Pool.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+          at Pool.ret [as queryAsync] (eval at makeNodePromisifiedEval (d:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:14:23)
+          at d:\project\lei\src\service\index.js:20:33
+          at Generator.next (<anonymous>)
+          at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+          at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+          at d:\project\lei\node_modules\bluebird\js\release\generators.js:201:15
+          at createScheme (d:\project\lei\src\service\index.js:22:7)
+          at d:\project\lei\src\service\index.js:11:15
+          at Generator.next (<anonymous>)
+          at Generator.tryCatcher (d:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+          at PromiseSpawn._promiseFulfilled (d:\project\lei\node_modules\bluebird\js\release\generators.js:97:49)
+          at Promise._settlePromise (d:\project\lei\node_modules\bluebird\js\release\promise.js:574:26)
+          at Promise._settlePromise0 (d:\project\lei\node_modules\bluebird\js\release\promise.js:614:10)
+          at Promise._settlePromises (d:\project\lei\node_modules\bluebird\js\release\promise.js:693:18)
+        code: 'ER_NO_SUCH_TABLE',
+        errno: 1146,
+        sqlState: '42S02',
+        index: 0 },
+     isOperational: true,
+     code: 'ER_NO_SUCH_TABLE',
+     errno: 1146,
+     sqlState: '42S02',
+     index: 0 },
+  _rejectionHandler0: undefined,
+  _promise0: undefined,
+  _receiver0: undefined }
+[2017-09-06 20:37:34.775] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:42:02.938] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:42:14.521] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:42:18.292] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:42:24.834] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:49:40.299] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:51:28.948] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:51:37.735] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:51:40.237] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:52:02.185] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:52:31.192] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:52:56.030] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:53:12.372] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:53:35.976] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:53:44.012] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:54:06.773] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:54:13.974] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:54:16.282] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:55:17.000] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:55:40.873] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-06 20:56:00.612] [ERROR] system - TypeError: co(...) is not a function
+    at Object.<anonymous> (d:\project\lei\src\service\index.js:14:3)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function._load (d:\project\lei\node_modules\pmx\lib\transaction.js:94:21)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\index.js:85:1)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+[2017-09-06 20:56:00.653] [ERROR] system - TypeError: co(...) is not a function
+    at createScheme (d:\project\lei\src\service\index.js:22:7)
+    at d:\project\lei\src\service\index.js:11:15
+    at Generator.next (<anonymous>)
+    at step (d:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (d:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7) Promise {
+  <rejected> { TypeError: co(...) is not a function
+    at createScheme (d:\project\lei\src\service\index.js:22:7)
+    at d:\project\lei\src\service\index.js:11:15
+    at Generator.next (<anonymous>)
+    at step (d:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (d:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+  stackframes: 
+   [ [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object] ] } }
+[2017-09-06 20:56:09.740] [ERROR] system - TypeError: co(...) is not a function
+    at Object.<anonymous> (d:\project\lei\src\service\index.js:14:3)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function._load (d:\project\lei\node_modules\pmx\lib\transaction.js:94:21)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\index.js:85:1)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+[2017-09-06 20:56:09.778] [ERROR] system - TypeError: co(...) is not a function
+    at createScheme (d:\project\lei\src\service\index.js:22:7)
+    at d:\project\lei\src\service\index.js:11:15
+    at Generator.next (<anonymous>)
+    at step (d:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (d:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7) Promise {
+  <rejected> { TypeError: co(...) is not a function
+    at createScheme (d:\project\lei\src\service\index.js:22:7)
+    at d:\project\lei\src\service\index.js:11:15
+    at Generator.next (<anonymous>)
+    at step (d:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (d:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+  stackframes: 
+   [ [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object] ] } }
+[2017-09-06 20:56:23.169] [ERROR] system - TypeError: co(...) is not a function
+    at Object.<anonymous> (d:\project\lei\src\service\index.js:14:3)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function._load (d:\project\lei\node_modules\pmx\lib\transaction.js:94:21)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\index.js:85:1)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+[2017-09-06 20:56:23.234] [ERROR] system - TypeError: co(...) is not a function
+    at createScheme (d:\project\lei\src\service\index.js:22:7)
+    at d:\project\lei\src\service\index.js:11:15
+    at Generator.next (<anonymous>)
+    at step (d:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (d:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7) Promise {
+  <rejected> { TypeError: co(...) is not a function
+    at createScheme (d:\project\lei\src\service\index.js:22:7)
+    at d:\project\lei\src\service\index.js:11:15
+    at Generator.next (<anonymous>)
+    at step (d:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (d:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+  stackframes: 
+   [ [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object] ] } }
+[2017-09-06 20:56:41.576] [ERROR] system - TypeError: co(...) is not a function
+    at Object.<anonymous> (d:\project\lei\src\service\index.js:14:3)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function._load (d:\project\lei\node_modules\pmx\lib\transaction.js:94:21)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\index.js:85:1)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+[2017-09-06 20:56:41.622] [ERROR] system - TypeError: co(...) is not a function
+    at createScheme (d:\project\lei\src\service\index.js:22:7)
+    at d:\project\lei\src\service\index.js:11:15
+    at Generator.next (<anonymous>)
+    at step (d:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (d:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7) Promise {
+  <rejected> { TypeError: co(...) is not a function
+    at createScheme (d:\project\lei\src\service\index.js:22:7)
+    at d:\project\lei\src\service\index.js:11:15
+    at Generator.next (<anonymous>)
+    at step (d:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (d:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+  stackframes: 
+   [ [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object] ] } }
+[2017-09-06 20:56:53.692] [ERROR] system - TypeError: co(...) is not a function
+    at Object.<anonymous> (d:\project\lei\src\service\index.js:14:3)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function._load (d:\project\lei\node_modules\pmx\lib\transaction.js:94:21)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\index.js:85:1)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+[2017-09-06 20:56:53.741] [ERROR] system - TypeError: co(...) is not a function
+    at createScheme (d:\project\lei\src\service\index.js:22:7)
+    at d:\project\lei\src\service\index.js:11:15
+    at Generator.next (<anonymous>)
+    at step (d:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (d:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7) Promise {
+  <rejected> { TypeError: co(...) is not a function
+    at createScheme (d:\project\lei\src\service\index.js:22:7)
+    at d:\project\lei\src\service\index.js:11:15
+    at Generator.next (<anonymous>)
+    at step (d:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (d:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+  stackframes: 
+   [ [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object] ] } }
+[2017-09-06 20:56:55.769] [ERROR] system - TypeError: co(...) is not a function
+    at Object.<anonymous> (d:\project\lei\src\service\index.js:14:3)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function._load (d:\project\lei\node_modules\pmx\lib\transaction.js:94:21)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\index.js:85:1)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+[2017-09-06 20:56:55.804] [ERROR] system - TypeError: co(...) is not a function
+    at createScheme (d:\project\lei\src\service\index.js:22:7)
+    at d:\project\lei\src\service\index.js:11:15
+    at Generator.next (<anonymous>)
+    at step (d:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (d:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7) Promise {
+  <rejected> { TypeError: co(...) is not a function
+    at createScheme (d:\project\lei\src\service\index.js:22:7)
+    at d:\project\lei\src\service\index.js:11:15
+    at Generator.next (<anonymous>)
+    at step (d:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (d:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+  stackframes: 
+   [ [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object] ] } }
+[2017-09-06 20:56:58.363] [ERROR] system - TypeError: co(...) is not a function
+    at Object.<anonymous> (d:\project\lei\src\service\index.js:14:3)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function._load (d:\project\lei\node_modules\pmx\lib\transaction.js:94:21)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\index.js:85:1)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+[2017-09-06 20:57:06.046] [ERROR] system - TypeError: co(...) is not a function
+    at Object.<anonymous> (d:\project\lei\src\service\index.js:14:3)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function._load (d:\project\lei\node_modules\pmx\lib\transaction.js:94:21)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\index.js:85:1)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+[2017-09-06 20:57:06.082] [ERROR] system - TypeError: co(...) is not a function
+    at createScheme (d:\project\lei\src\service\index.js:22:7)
+    at d:\project\lei\src\service\index.js:11:15
+    at Generator.next (<anonymous>)
+    at step (d:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (d:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7) Promise {
+  <rejected> { TypeError: co(...) is not a function
+    at createScheme (d:\project\lei\src\service\index.js:22:7)
+    at d:\project\lei\src\service\index.js:11:15
+    at Generator.next (<anonymous>)
+    at step (d:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (d:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+  stackframes: 
+   [ [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object] ] } }
+[2017-09-06 20:57:08.704] [ERROR] system - TypeError: co(...) is not a function
+    at Object.<anonymous> (d:\project\lei\src\service\index.js:14:3)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function._load (d:\project\lei\node_modules\pmx\lib\transaction.js:94:21)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\index.js:85:1)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+[2017-09-06 20:57:13.983] [ERROR] system - TypeError: co(...) is not a function
+    at Object.<anonymous> (d:\project\lei\src\service\index.js:14:3)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function._load (d:\project\lei\node_modules\pmx\lib\transaction.js:94:21)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\index.js:85:1)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+[2017-09-06 20:57:21.305] [ERROR] system - TypeError: co(...) is not a function
+    at Object.<anonymous> (d:\project\lei\src\service\index.js:14:3)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function._load (d:\project\lei\node_modules\pmx\lib\transaction.js:94:21)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\index.js:85:1)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+[2017-09-06 20:57:23.416] [ERROR] system - TypeError: co(...) is not a function
+    at Object.<anonymous> (d:\project\lei\src\service\index.js:14:3)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function._load (d:\project\lei\node_modules\pmx\lib\transaction.js:94:21)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\index.js:85:1)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+[2017-09-06 20:57:23.453] [ERROR] system - TypeError: co(...) is not a function
+    at createScheme (d:\project\lei\src\service\index.js:22:7)
+    at d:\project\lei\src\service\index.js:11:15
+    at Generator.next (<anonymous>)
+    at step (d:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (d:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7) Promise {
+  <rejected> { TypeError: co(...) is not a function
+    at createScheme (d:\project\lei\src\service\index.js:22:7)
+    at d:\project\lei\src\service\index.js:11:15
+    at Generator.next (<anonymous>)
+    at step (d:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (d:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+  stackframes: 
+   [ [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object] ] } }
+[2017-09-06 20:58:39.430] [ERROR] system - TypeError: co(...) is not a function
+    at Object.<anonymous> (d:\project\lei\src\service\index.js:14:3)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function._load (d:\project\lei\node_modules\pmx\lib\transaction.js:94:21)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\index.js:85:1)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+[2017-09-06 20:58:39.466] [ERROR] system - TypeError: co(...) is not a function
+    at createScheme (d:\project\lei\src\service\index.js:25:7)
+    at d:\project\lei\src\service\index.js:11:15
+    at Generator.next (<anonymous>)
+    at step (d:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (d:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7) Promise {
+  <rejected> { TypeError: co(...) is not a function
+    at createScheme (d:\project\lei\src\service\index.js:25:7)
+    at d:\project\lei\src\service\index.js:11:15
+    at Generator.next (<anonymous>)
+    at step (d:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (d:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+  stackframes: 
+   [ [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object] ] } }
+[2017-09-06 21:03:38.288] [ERROR] system - TypeError: co(...) is not a function
+    at Object.<anonymous> (d:\project\lei\src\service\index.js:14:3)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function._load (d:\project\lei\node_modules\pmx\lib\transaction.js:94:21)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (d:\project\lei\src\index.js:85:1)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+[2017-09-06 21:03:38.339] [ERROR] system - TypeError: co(...) is not a function
+    at createScheme (d:\project\lei\src\service\index.js:29:7)
+    at d:\project\lei\src\service\index.js:11:15
+    at Generator.next (<anonymous>)
+    at step (d:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (d:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7) Promise {
+  <rejected> { TypeError: co(...) is not a function
+    at createScheme (d:\project\lei\src\service\index.js:29:7)
+    at d:\project\lei\src\service\index.js:11:15
+    at Generator.next (<anonymous>)
+    at step (d:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (d:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+  stackframes: 
+   [ [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object],
+     [Object] ] } }

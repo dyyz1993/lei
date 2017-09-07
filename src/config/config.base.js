@@ -11,11 +11,6 @@
 module.exports = {
   'pagecount': 20,
   'port': 8889,
-  'error_name': 'ticket1222', // 报错推送
   loggerDebug: true,
-  table_pre: 'base_',
-
-
-
-
+  table_pre: 'restaurant_',
 };

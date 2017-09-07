@@ -9,7 +9,6 @@ const log4js = require('log4js');
 const config = require('../config');
 
 const logTypes = [ 'system', 'express', 'pay', 'mysql', 'redis' ];
-
 const defaultLevel = process.env.NODE_ENV === 'production' ? 'warn' : 'all';
 const payLevel = process.env.NODE_ENV === 'production' ? 'debug' : 'all';
 const debug = config.loggerDebug;

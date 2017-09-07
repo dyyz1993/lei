@@ -22,26 +22,15 @@ const {
   log4js,
   redis
 } = require('./global');
+
 const logger = log4js.getLogger('system');
 const bodyparser = require('body-parser');
 const ejs = require('ejs');
 const app = express();
-
-
+require('./middleware')(app);
+const router = express.Router();
 app.enable('trust proxy');
 
-// 跨域
-// app.all('*', function (req, res, next) {
-//   res.header('Access-Control-Allow-Origin', req.headers.origin);
-//   res.header('Access-Control-Allow-Credentials', true);
-//   res.header('Access-Control-Allow-Headers', 'Content-Type, Content-Length, Authorization, Accept, X-Requested-With , Cookie');
-//   res.header('Access-Control-Allow-Methods', 'PUT, POST, GET, DELETE, OPTIONS, PATCH');
-//   if (req.method === 'OPTIONS') {
-//     res.sendStatus(200);
-//   } else {
-//     next();
-//   }
-// });
 
 
 // 静态文件中间件
@@ -94,6 +83,10 @@ const favicon = require('serve-favicon');
 
 require('./service/index');
 
+// 注册路由
+require('./router')(app,router);
+
+
 // 404错误中间件
 app.use((req, res) => {
   logger.error(req.url.concat(' not found'));
@@ -112,6 +105,8 @@ app.use((err, req, res) => {
 // 开启web服务器
 app.listen(config.port, () => logger.info('服务器启动成功!', '端口号:', config.port));
 
+
+module.exports = app;
 // 开始socket服务器
 // const io = require('socket.io')(server);
 // require(rootPath.concat("/router/wsRouter.js")).webSocket( io );

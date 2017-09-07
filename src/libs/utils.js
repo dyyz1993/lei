@@ -138,6 +138,28 @@ function underlineToCamel(str) {
     return $1.toUpperCase();
   });
 }
+/**
+ * 随机获取
+ * @param  {Array} gifts  用户的列表 [{ gift_name: 'day1', rate: 10, base: 100 },{ gift_name: 'day2', rate: 10, base: 100 },]
+ * @return {Object} 对象或者 null;
+ */
+function getGift(gifts)  {
+  const arr = [];
+  let total = 0,random;
+  gifts.forEach((gift) => {
+    gift.start = total;
+    total += gift.rate;
+    gift.end = total;
+  });
+  random = Math.random() * total;
+  for (let i = 0, len = gifts.length; i < len; i++) {
+    const gift = gifts[i];
+    if (gift.start <= random && gift.end > random) {
+      return gift;
+    }
+  }
+  return null;
+};
 
 module.exports = {
   env,
@@ -147,5 +169,8 @@ module.exports = {
   success,
   getClientIp,
   checkParams,
-  filterParams
+  filterParams,
+  getGift
+
 }
+
