@@ -1,0 +1,1259 @@
+[2017-09-07 12:57:09.631] [DEBUG] default - table [ 'restaurant_awards',
+  'restaurant_supermarket',
+  'restaurant_supermarket_wx_user',
+  'restaurant_user',
+  'restaurant_wx_user' ]
+[2017-09-07 12:57:09.650] [TRACE] default - awards 创建成功
+[2017-09-07 12:57:09.659] [TRACE] default - supermarket 创建成功
+[2017-09-07 12:57:09.671] [TRACE] default - supermarketWxUser 创建成功
+[2017-09-07 12:57:09.681] [TRACE] default - Error: user.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:47:19)
+    at D:\project\lei\script\createSchema.js:26:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 12:57:09.695] [TRACE] default - Error: wxUser.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:47:19)
+    at D:\project\lei\script\createSchema.js:26:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 13:57:33.808] [DEBUG] default - table [ 'restaurant_awards',
+  'restaurant_supermarket',
+  'restaurant_supermarket_wx_user',
+  'restaurant_user',
+  'restaurant_wx_user' ]
+[2017-09-07 13:57:33.819] [TRACE] default - Error: awards.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 13:57:33.833] [TRACE] default - Error: supermarket.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 13:57:33.842] [TRACE] default - Error: supermarketWxUser.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 13:57:33.851] [TRACE] default - Error: user.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 13:57:33.859] [TRACE] default - Error: wxUser.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 13:58:14.486] [DEBUG] default - table [ 'restaurant_awards',
+  'restaurant_supermarket',
+  'restaurant_supermarket_wx_user',
+  'restaurant_user',
+  'restaurant_wx_user' ]
+[2017-09-07 13:58:14.497] [TRACE] default - Error: awards.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 13:58:14.512] [TRACE] default - Error: supermarket.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 13:58:14.520] [TRACE] default - Error: supermarketWxUser.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 13:58:14.528] [TRACE] default - Error: user.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 13:58:14.535] [TRACE] default - Error: wxUser.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 13:58:29.898] [DEBUG] default - table [ 'restaurant_awards',
+  'restaurant_supermarket',
+  'restaurant_supermarket_wx_user',
+  'restaurant_user',
+  'restaurant_wx_user' ]
+[2017-09-07 13:58:29.913] [TRACE] default - Error: awards.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 13:58:29.928] [TRACE] default - Error: supermarket.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 13:58:29.935] [TRACE] default - Error: supermarketWxUser.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 13:58:29.944] [TRACE] default - Error: user.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 13:58:29.951] [TRACE] default - Error: wxUser.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 13:58:50.633] [DEBUG] default - table [ 'restaurant_awards',
+  'restaurant_supermarket',
+  'restaurant_supermarket_wx_user',
+  'restaurant_user',
+  'restaurant_wx_user' ]
+[2017-09-07 13:58:50.648] [TRACE] default - Error: awards.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 13:58:50.659] [TRACE] default - Error: supermarket.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 13:58:50.668] [TRACE] default - Error: supermarketWxUser.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 13:58:50.679] [TRACE] default - Error: user.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 13:58:50.688] [TRACE] default - Error: wxUser.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 13:59:55.044] [DEBUG] default - table [ 'restaurant_awards',
+  'restaurant_supermarket',
+  'restaurant_supermarket_wx_user',
+  'restaurant_user',
+  'restaurant_wx_user' ]
+[2017-09-07 13:59:55.064] [TRACE] default - Error: awards.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 13:59:55.083] [TRACE] default - Error: supermarket.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 13:59:55.094] [TRACE] default - Error: supermarketWxUser.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 13:59:55.133] [TRACE] default - Error: user.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 13:59:55.144] [TRACE] default - wxUser 创建成功
+[2017-09-07 14:00:31.681] [DEBUG] default - table [ 'restaurant_awards',
+  'restaurant_supermarket',
+  'restaurant_supermarket_wx_user',
+  'restaurant_user',
+  'restaurant_wx_user' ]
+[2017-09-07 14:00:31.697] [TRACE] default - Error: awards.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 14:00:31.714] [TRACE] default - Error: supermarket.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 14:00:31.724] [TRACE] default - Error: supermarketWxUser.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 14:00:31.735] [TRACE] default - Error: user.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 14:00:31.745] [TRACE] default - wxUser 创建成功
+[2017-09-07 14:01:05.709] [DEBUG] default - table [ 'restaurant_awards',
+  'restaurant_supermarket',
+  'restaurant_supermarket_wx_user',
+  'restaurant_user',
+  'restaurant_wx_user' ]
+[2017-09-07 14:01:05.725] [TRACE] default - Error: awards.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 14:01:05.740] [TRACE] default - Error: supermarket.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 14:01:05.750] [TRACE] default - Error: supermarketWxUser.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 14:01:05.758] [TRACE] default - Error: user.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 14:01:05.771] [TRACE] default - wxUser 创建成功
+[2017-09-07 14:01:49.769] [DEBUG] default - table [ 'restaurant_awards',
+  'restaurant_supermarket',
+  'restaurant_supermarket_wx_user',
+  'restaurant_user',
+  'restaurant_wx_user' ]
+[2017-09-07 14:01:49.785] [TRACE] default - Error: awards.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 14:01:49.801] [TRACE] default - Error: supermarket.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 14:01:49.810] [TRACE] default - Error: supermarketWxUser.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 14:01:49.819] [TRACE] default - Error: user.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 14:01:49.832] [TRACE] default - wxUser 创建成功
+[2017-09-07 14:22:16.201] [DEBUG] default - table [ 'restaurant_awards',
+  'restaurant_supermarket',
+  'restaurant_supermarket_wx_user',
+  'restaurant_user',
+  'restaurant_wx_user' ]
+[2017-09-07 14:22:16.217] [TRACE] default - Error: awards.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 14:22:16.228] [TRACE] default - Error: supermarket.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 14:22:16.237] [TRACE] default - Error: supermarketWxUser.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 14:22:16.245] [TRACE] default - Error: user.js 文件存在,写入失败
+    at wrireFile (D:\project\lei\script\createSchema.js:51:19)
+    at D:\project\lei\script\createSchema.js:30:9
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+[2017-09-07 14:22:16.261] [TRACE] default - wxUser 创建成功
+[2017-09-07 14:47:33.790] [DEBUG] default - table [ 'restaurant_awards',
+  'restaurant_supermarket',
+  'restaurant_supermarket_wx_user',
+  'restaurant_user',
+  'restaurant_wx_user' ]
+[2017-09-07 14:47:50.835] [DEBUG] default - table [ 'restaurant_awards',
+  'restaurant_supermarket',
+  'restaurant_supermarket_wx_user',
+  'restaurant_user',
+  'restaurant_wx_user' ]
+[2017-09-07 14:50:26.269] [DEBUG] default - table [ 'restaurant_awards',
+  'restaurant_supermarket',
+  'restaurant_supermarket_wx_user',
+  'restaurant_user',
+  'restaurant_wx_user' ]
+[2017-09-07 17:14:03.193] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 17:42:02.772] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 17:42:14.785] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 17:51:59.625] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 17:52:28.352] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 20:46:07.767] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 20:47:22.983] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 20:48:06.388] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 20:48:25.101] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 20:49:05.013] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 20:50:06.234] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 20:50:16.462] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 20:50:26.188] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 20:50:44.025] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 20:51:50.696] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 20:52:44.350] [TRACE] default - middleware handleResponse start
+[2017-09-07 20:52:44.512] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 20:52:44.570] [ERROR] system - /user not found
+[2017-09-07 20:55:00.722] [TRACE] default - middleware handleResponse start
+[2017-09-07 20:55:00.725] [TRACE] default - middleware crossDomain start
+[2017-09-07 20:55:00.886] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 20:55:00.946] [ERROR] system - /user not found
+[2017-09-07 20:57:08.174] [TRACE] default - middleware handleResponse start
+[2017-09-07 20:57:08.177] [TRACE] default - middleware crossDomain start
+[2017-09-07 20:57:08.177] [TRACE] default - middleware ipController start
+[2017-09-07 20:57:08.326] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 20:57:08.367] [ERROR] system - /user not found
+[2017-09-07 21:03:21.535] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:03:21.538] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:03:21.539] [TRACE] default - middleware ipController start
+[2017-09-07 21:03:21.692] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 21:03:21.729] [ERROR] system - /user not found
+[2017-09-07 21:20:12.030] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:20:12.033] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:20:12.034] [TRACE] default - middleware ipController start
+[2017-09-07 21:20:12.168] [DEBUG] default - Load: wxUser.js
+[2017-09-07 21:20:12.186] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 21:20:12.232] [ERROR] system - /user not found
+[2017-09-07 21:21:03.678] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:21:03.681] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:21:03.682] [TRACE] default - middleware ipController start
+[2017-09-07 21:21:03.821] [DEBUG] default - Load: wxUser.js
+[2017-09-07 21:21:03.835] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 21:21:03.875] [ERROR] system - /user not found
+[2017-09-07 21:21:50.888] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:21:50.891] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:21:50.891] [TRACE] default - middleware ipController start
+[2017-09-07 21:21:51.043] [DEBUG] default - Load: wxUser.js
+[2017-09-07 21:21:51.063] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 21:21:51.150] [ERROR] system - /wxUser not found
+[2017-09-07 21:22:56.108] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:22:56.111] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:22:56.111] [TRACE] default - middleware ipController start
+[2017-09-07 21:22:56.245] [DEBUG] default - Load: wxUser.js
+[2017-09-07 21:22:56.259] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 21:22:56.297] [ERROR] system - /wxUser not found
+[2017-09-07 21:23:07.107] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:23:07.110] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:23:07.110] [TRACE] default - middleware ipController start
+[2017-09-07 21:23:07.243] [DEBUG] default - Load: wxUser.js
+[2017-09-07 21:23:07.266] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 21:23:07.315] [ERROR] system - /wxUser/ not found
+[2017-09-07 21:24:49.240] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:24:49.243] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:24:49.243] [TRACE] default - middleware ipController start
+[2017-09-07 21:24:49.378] [DEBUG] default - Load: wxUser.js
+[2017-09-07 21:24:49.380] [ERROR] system - TypeError: new_path must be a string or Buffer
+    at Object.fs.rename (fs.js:761:11)
+    at module.exports (D:\project\lei\src\router\index.js:14:26)
+    at Object.<anonymous> (D:\project\lei\src\index.js:87:20)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\project\lei\test2\test-1.js:4:13)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:222:27
+    at Array.forEach (native)
+    at Mocha.loadFiles (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:219:14)
+    at Mocha.run (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:487:10)
+    at Object.<anonymous> (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\bin\_mocha:458:18)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:575:3
+[2017-09-07 21:28:12.173] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:28:12.176] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:28:12.180] [TRACE] default - middleware ipController start
+[2017-09-07 21:28:12.318] [DEBUG] default - Load: wxUser.js
+[2017-09-07 21:28:12.338] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 21:28:12.389] [ERROR] system - /wxUser/ not found
+[2017-09-07 21:30:08.510] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:30:08.514] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:30:08.514] [TRACE] default - middleware ipController start
+[2017-09-07 21:30:08.654] [DEBUG] default - Load: wxUser.js
+[2017-09-07 21:30:08.680] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 21:30:08.751] [ERROR] system - /wxUser/ not found
+[2017-09-07 21:30:18.320] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:30:18.324] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:30:18.324] [TRACE] default - middleware ipController start
+[2017-09-07 21:30:18.458] [DEBUG] default - Load: wxUser.js
+[2017-09-07 21:30:18.480] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 21:30:18.542] [ERROR] system - /wxUser/ not found
+[2017-09-07 21:30:20.810] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:30:20.813] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:30:20.814] [TRACE] default - middleware ipController start
+[2017-09-07 21:30:20.967] [DEBUG] default - Load: wxUser.js
+[2017-09-07 21:30:20.989] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 21:30:21.048] [ERROR] system - /wxUser/ not found
+[2017-09-07 21:31:32.924] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:31:32.927] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:31:32.928] [TRACE] default - middleware ipController start
+[2017-09-07 21:31:33.082] [DEBUG] default - Load: wxUser.js
+[2017-09-07 21:31:33.085] [ERROR] system - TypeError: Cannot read property 'login' of undefined
+    at module.exports (D:\project\lei\src\router\wxUser.js:3:24)
+    at module.exports (D:\project\lei\src\router\index.js:14:64)
+    at Object.<anonymous> (D:\project\lei\src\index.js:87:20)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\project\lei\test2\test-1.js:4:13)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:222:27
+    at Array.forEach (native)
+    at Mocha.loadFiles (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:219:14)
+    at Mocha.run (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:487:10)
+    at Object.<anonymous> (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\bin\_mocha:458:18)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:575:3
+[2017-09-07 21:32:11.888] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:32:11.893] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:32:11.894] [TRACE] default - middleware ipController start
+[2017-09-07 21:32:12.027] [DEBUG] default - Load: wxUser.js
+[2017-09-07 21:32:12.036] [ERROR] system - TypeError: Router.use() requires middleware function but got a undefined
+    at Function.use (D:\project\lei\node_modules\express\lib\router\index.js:458:13)
+    at Function.<anonymous> (D:\project\lei\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (native)
+    at Function.use (D:\project\lei\node_modules\express\lib\application.js:217:7)
+    at module.exports (D:\project\lei\src\router\index.js:14:15)
+    at Object.<anonymous> (D:\project\lei\src\index.js:87:20)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\project\lei\test2\test-1.js:4:13)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:222:27
+    at Array.forEach (native)
+    at Mocha.loadFiles (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:219:14)
+    at Mocha.run (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:487:10)
+    at Object.<anonymous> (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\bin\_mocha:458:18)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:575:3
+[2017-09-07 21:33:27.252] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:33:27.255] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:33:27.255] [TRACE] default - middleware ipController start
+[2017-09-07 21:33:27.389] [ERROR] system - TypeError: app.Router is not a function
+    at module.exports (D:\project\lei\src\router\index.js:11:22)
+    at Object.<anonymous> (D:\project\lei\src\index.js:87:20)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\project\lei\test2\test-1.js:4:13)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:222:27
+    at Array.forEach (native)
+    at Mocha.loadFiles (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:219:14)
+    at Mocha.run (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:487:10)
+    at Object.<anonymous> (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\bin\_mocha:458:18)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:575:3
+[2017-09-07 21:33:56.378] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:33:56.381] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:33:56.382] [TRACE] default - middleware ipController start
+[2017-09-07 21:33:56.515] [TRACE] default - { [EventEmitter: app]
+  domain: undefined,
+  _events: { mount: [Function: onmount] },
+  _maxListeners: undefined,
+  setMaxListeners: [Function: setMaxListeners],
+  getMaxListeners: [Function: getMaxListeners],
+  emit: [Function: emit],
+  addListener: [Function: addListener],
+  on: [Function: addListener],
+  prependListener: [Function: prependListener],
+  once: [Function: once],
+  prependOnceListener: [Function: prependOnceListener],
+  removeListener: [Function: removeListener],
+  removeAllListeners: [Function: removeAllListeners],
+  listeners: [Function: listeners],
+  listenerCount: [Function: listenerCount],
+  eventNames: [Function: eventNames],
+  init: [Function: init],
+  defaultConfiguration: [Function: defaultConfiguration],
+  lazyrouter: [Function: lazyrouter],
+  handle: [Function: handle],
+  use: [Function: use],
+  route: [Function: route],
+  engine: [Function: engine],
+  param: [Function: param],
+  set: [Function: set],
+  path: [Function: path],
+  enabled: [Function: enabled],
+  disabled: [Function: disabled],
+  enable: [Function: enable],
+  disable: [Function: disable],
+  acl: [Function],
+  bind: [Function],
+  checkout: [Function],
+  connect: [Function],
+  copy: [Function],
+  delete: [Function],
+  get: [Function],
+  head: [Function],
+  link: [Function],
+  lock: [Function],
+  'm-search': [Function],
+  merge: [Function],
+  mkactivity: [Function],
+  mkcalendar: [Function],
+  mkcol: [Function],
+  move: [Function],
+  notify: [Function],
+  options: [Function],
+  patch: [Function],
+  post: [Function],
+  propfind: [Function],
+  proppatch: [Function],
+  purge: [Function],
+  put: [Function],
+  rebind: [Function],
+  report: [Function],
+  search: [Function],
+  subscribe: [Function],
+  trace: [Function],
+  unbind: [Function],
+  unlink: [Function],
+  unlock: [Function],
+  unsubscribe: [Function],
+  all: [Function: all],
+  del: [Function],
+  render: [Function: render],
+  listen: [Function: listen],
+  request: IncomingMessage { app: [Circular] },
+  response: ServerResponse { app: [Circular] },
+  cache: {},
+  engines: {},
+  settings: 
+   { 'x-powered-by': true,
+     etag: 'weak',
+     'etag fn': [Function: wetag],
+     env: 'development',
+     'query parser': 'extended',
+     'query parser fn': [Function: parseExtendedQueryString],
+     'subdomain offset': 2,
+     'trust proxy': true,
+     'trust proxy fn': [Function],
+     view: [Function: View],
+     views: 'D:\\project\\lei\\views',
+     'jsonp callback name': 'callback' },
+  _eventsCount: 1,
+  locals: 
+   { settings: 
+      { 'x-powered-by': true,
+        etag: 'weak',
+        'etag fn': [Function: wetag],
+        env: 'development',
+        'query parser': 'extended',
+        'query parser fn': [Function: parseExtendedQueryString],
+        'subdomain offset': 2,
+        'trust proxy': true,
+        'trust proxy fn': [Function],
+        view: [Function: View],
+        views: 'D:\\project\\lei\\views',
+        'jsonp callback name': 'callback' } },
+  mountpath: '/',
+  _router: 
+   { [Function: router]
+     params: {},
+     _params: [],
+     caseSensitive: false,
+     mergeParams: undefined,
+     strict: false,
+     stack: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ] } }
+[2017-09-07 21:33:56.526] [ERROR] system - TypeError: app.Router is not a function
+    at module.exports (D:\project\lei\src\router\index.js:12:22)
+    at Object.<anonymous> (D:\project\lei\src\index.js:87:20)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\project\lei\test2\test-1.js:4:13)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:222:27
+    at Array.forEach (native)
+    at Mocha.loadFiles (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:219:14)
+    at Mocha.run (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:487:10)
+    at Object.<anonymous> (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\bin\_mocha:458:18)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:575:3
+[2017-09-07 21:34:24.946] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:34:24.948] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:34:24.949] [TRACE] default - middleware ipController start
+[2017-09-07 21:34:25.086] [TRACE] default - { [EventEmitter: app]
+  domain: undefined,
+  _events: { mount: [Function: onmount] },
+  _maxListeners: undefined,
+  setMaxListeners: [Function: setMaxListeners],
+  getMaxListeners: [Function: getMaxListeners],
+  emit: [Function: emit],
+  addListener: [Function: addListener],
+  on: [Function: addListener],
+  prependListener: [Function: prependListener],
+  once: [Function: once],
+  prependOnceListener: [Function: prependOnceListener],
+  removeListener: [Function: removeListener],
+  removeAllListeners: [Function: removeAllListeners],
+  listeners: [Function: listeners],
+  listenerCount: [Function: listenerCount],
+  eventNames: [Function: eventNames],
+  init: [Function: init],
+  defaultConfiguration: [Function: defaultConfiguration],
+  lazyrouter: [Function: lazyrouter],
+  handle: [Function: handle],
+  use: [Function: use],
+  route: [Function: route],
+  engine: [Function: engine],
+  param: [Function: param],
+  set: [Function: set],
+  path: [Function: path],
+  enabled: [Function: enabled],
+  disabled: [Function: disabled],
+  enable: [Function: enable],
+  disable: [Function: disable],
+  acl: [Function],
+  bind: [Function],
+  checkout: [Function],
+  connect: [Function],
+  copy: [Function],
+  delete: [Function],
+  get: [Function],
+  head: [Function],
+  link: [Function],
+  lock: [Function],
+  'm-search': [Function],
+  merge: [Function],
+  mkactivity: [Function],
+  mkcalendar: [Function],
+  mkcol: [Function],
+  move: [Function],
+  notify: [Function],
+  options: [Function],
+  patch: [Function],
+  post: [Function],
+  propfind: [Function],
+  proppatch: [Function],
+  purge: [Function],
+  put: [Function],
+  rebind: [Function],
+  report: [Function],
+  search: [Function],
+  subscribe: [Function],
+  trace: [Function],
+  unbind: [Function],
+  unlink: [Function],
+  unlock: [Function],
+  unsubscribe: [Function],
+  all: [Function: all],
+  del: [Function],
+  render: [Function: render],
+  listen: [Function: listen],
+  request: IncomingMessage { app: [Circular] },
+  response: ServerResponse { app: [Circular] },
+  cache: {},
+  engines: {},
+  settings: 
+   { 'x-powered-by': true,
+     etag: 'weak',
+     'etag fn': [Function: wetag],
+     env: 'development',
+     'query parser': 'extended',
+     'query parser fn': [Function: parseExtendedQueryString],
+     'subdomain offset': 2,
+     'trust proxy': true,
+     'trust proxy fn': [Function],
+     view: [Function: View],
+     views: 'D:\\project\\lei\\views',
+     'jsonp callback name': 'callback' },
+  _eventsCount: 1,
+  locals: 
+   { settings: 
+      { 'x-powered-by': true,
+        etag: 'weak',
+        'etag fn': [Function: wetag],
+        env: 'development',
+        'query parser': 'extended',
+        'query parser fn': [Function: parseExtendedQueryString],
+        'subdomain offset': 2,
+        'trust proxy': true,
+        'trust proxy fn': [Function],
+        view: [Function: View],
+        views: 'D:\\project\\lei\\views',
+        'jsonp callback name': 'callback' } },
+  mountpath: '/',
+  _router: 
+   { [Function: router]
+     params: {},
+     _params: [],
+     caseSensitive: false,
+     mergeParams: undefined,
+     strict: false,
+     stack: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ] } }
+[2017-09-07 21:34:25.096] [ERROR] system - Error: 'app.router' is deprecated!
+Please see the 3.x to 4.x migration guide for details on how to update your app.
+    at Function.get (D:\project\lei\node_modules\express\lib\application.js:124:13)
+    at module.exports (D:\project\lei\src\router\index.js:12:21)
+    at Object.<anonymous> (D:\project\lei\src\index.js:87:20)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\project\lei\test2\test-1.js:4:13)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:222:27
+    at Array.forEach (native)
+    at Mocha.loadFiles (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:219:14)
+    at Mocha.run (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:487:10)
+    at Object.<anonymous> (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\bin\_mocha:458:18)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:575:3
+[2017-09-07 21:38:37.533] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:38:37.536] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:38:37.537] [TRACE] default - middleware ipController start
+[2017-09-07 21:38:37.670] [TRACE] default - undefined
+[2017-09-07 21:38:37.671] [DEBUG] default - Load: wxUser.js
+[2017-09-07 21:38:37.675] [ERROR] system - TypeError: Cannot read property 'get' of undefined
+    at module.exports (D:\project\lei\src\router\wxUser.js:3:11)
+    at module.exports (D:\project\lei\src\router\index.js:15:64)
+    at Object.<anonymous> (D:\project\lei\src\index.js:87:20)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\project\lei\test2\test-1.js:4:13)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:222:27
+    at Array.forEach (native)
+    at Mocha.loadFiles (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:219:14)
+    at Mocha.run (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:487:10)
+    at Object.<anonymous> (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\bin\_mocha:458:18)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:575:3
+[2017-09-07 21:39:40.958] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:39:40.961] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:39:40.962] [TRACE] default - middleware ipController start
+[2017-09-07 21:39:41.105] [TRACE] default - { [Function: router]
+  params: {},
+  _params: [],
+  caseSensitive: undefined,
+  mergeParams: undefined,
+  strict: undefined,
+  stack: [] }
+[2017-09-07 21:39:41.108] [DEBUG] default - Load: wxUser.js
+[2017-09-07 21:39:41.113] [ERROR] system - TypeError: Router.use() requires middleware function but got a undefined
+    at Function.use (D:\project\lei\node_modules\express\lib\router\index.js:458:13)
+    at Function.<anonymous> (D:\project\lei\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (native)
+    at Function.use (D:\project\lei\node_modules\express\lib\application.js:217:7)
+    at module.exports (D:\project\lei\src\router\index.js:15:15)
+    at Object.<anonymous> (D:\project\lei\src\index.js:87:20)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\project\lei\test2\test-1.js:4:13)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:222:27
+    at Array.forEach (native)
+    at Mocha.loadFiles (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:219:14)
+    at Mocha.run (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:487:10)
+    at Object.<anonymous> (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\bin\_mocha:458:18)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:575:3
+[2017-09-07 21:41:20.466] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:41:20.472] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:41:20.472] [TRACE] default - middleware ipController start
+[2017-09-07 21:41:20.618] [TRACE] default - { [Function: router]
+  params: {},
+  _params: [],
+  caseSensitive: undefined,
+  mergeParams: undefined,
+  strict: undefined,
+  stack: [] }
+[2017-09-07 21:41:20.623] [DEBUG] default - Load: wxUser.js
+[2017-09-07 21:41:20.632] [ERROR] system - TypeError: Router.use() requires middleware function but got a undefined
+    at Function.use (D:\project\lei\node_modules\express\lib\router\index.js:458:13)
+    at Function.<anonymous> (D:\project\lei\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (native)
+    at Function.use (D:\project\lei\node_modules\express\lib\application.js:217:7)
+    at module.exports (D:\project\lei\src\router\index.js:15:15)
+    at Object.<anonymous> (D:\project\lei\src\index.js:87:20)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\project\lei\test2\test-1.js:4:13)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:222:27
+    at Array.forEach (native)
+    at Mocha.loadFiles (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:219:14)
+    at Mocha.run (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:487:10)
+    at Object.<anonymous> (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\bin\_mocha:458:18)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:575:3
+[2017-09-07 21:41:40.488] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:41:40.491] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:41:40.492] [TRACE] default - middleware ipController start
+[2017-09-07 21:41:40.636] [TRACE] default - { [Function: router]
+  params: {},
+  _params: [],
+  caseSensitive: undefined,
+  mergeParams: undefined,
+  strict: undefined,
+  stack: [] }
+[2017-09-07 21:41:40.638] [DEBUG] default - Load: wxUser.js
+[2017-09-07 21:41:40.642] [ERROR] system - TypeError: Router.use() requires middleware function but got a undefined
+    at Function.use (D:\project\lei\node_modules\express\lib\router\index.js:458:13)
+    at Function.<anonymous> (D:\project\lei\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (native)
+    at Function.use (D:\project\lei\node_modules\express\lib\application.js:217:7)
+    at module.exports (D:\project\lei\src\router\index.js:15:15)
+    at Object.<anonymous> (D:\project\lei\src\index.js:87:20)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\project\lei\test2\test-1.js:4:13)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Module.require (module.js:513:17)
+    at require (internal/module.js:11:18)
+    at C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:222:27
+    at Array.forEach (native)
+    at Mocha.loadFiles (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:219:14)
+    at Mocha.run (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:487:10)
+    at Object.<anonymous> (C:\Users\admin\AppData\Roaming\npm\node_modules\mocha\bin\_mocha:458:18)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:575:3
+[2017-09-07 21:43:45.777] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:43:45.780] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:43:45.781] [TRACE] default - middleware ipController start
+[2017-09-07 21:43:45.912] [TRACE] default - { [Function: router]
+  params: {},
+  _params: [],
+  caseSensitive: undefined,
+  mergeParams: undefined,
+  strict: undefined,
+  stack: [] }
+[2017-09-07 21:43:45.914] [DEBUG] default - Load: wxUser.js
+[2017-09-07 21:43:45.934] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 21:43:45.978] [ERROR] system - /wxUser/ not found
+[2017-09-07 21:46:34.070] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:46:34.079] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:46:34.080] [TRACE] default - middleware ipController start
+[2017-09-07 21:46:34.219] [TRACE] default - { [Function: router]
+  params: {},
+  _params: [],
+  caseSensitive: undefined,
+  mergeParams: undefined,
+  strict: undefined,
+  stack: [] }
+[2017-09-07 21:46:34.220] [DEBUG] default - Load: wxUser.js
+[2017-09-07 21:46:34.243] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 21:46:34.308] [ERROR] system - /wxUser not found
+[2017-09-07 21:46:45.346] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:46:45.350] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:46:45.351] [TRACE] default - middleware ipController start
+[2017-09-07 21:46:45.518] [TRACE] default - { [Function: router]
+  params: {},
+  _params: [],
+  caseSensitive: undefined,
+  mergeParams: undefined,
+  strict: undefined,
+  stack: [] }
+[2017-09-07 21:46:45.520] [DEBUG] default - Load: wxUser.js
+[2017-09-07 21:46:45.530] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 21:46:59.194] [ERROR] system - /wxUser/ not found
+[2017-09-07 21:46:59.479] [ERROR] system - /favicon.ico not found
+[2017-09-07 21:47:19.417] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:47:19.420] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:47:19.421] [TRACE] default - middleware ipController start
+[2017-09-07 21:47:19.576] [TRACE] default - { [Function: router]
+  params: {},
+  _params: [],
+  caseSensitive: undefined,
+  mergeParams: undefined,
+  strict: undefined,
+  stack: [] }
+[2017-09-07 21:47:19.579] [DEBUG] default - Load: wxUser.js
+[2017-09-07 21:47:19.593] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 21:48:02.128] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:48:02.132] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:48:02.132] [TRACE] default - middleware ipController start
+[2017-09-07 21:48:02.285] [TRACE] default - { [Function: router]
+  params: {},
+  _params: [],
+  caseSensitive: undefined,
+  mergeParams: undefined,
+  strict: undefined,
+  stack: [] }
+[2017-09-07 21:48:02.286] [DEBUG] default - Load: wxUser
+[2017-09-07 21:48:02.297] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 21:48:37.557] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:48:37.560] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:48:37.561] [TRACE] default - middleware ipController start
+[2017-09-07 21:48:37.716] [TRACE] default - { [Function: router]
+  params: {},
+  _params: [],
+  caseSensitive: undefined,
+  mergeParams: undefined,
+  strict: undefined,
+  stack: [] }
+[2017-09-07 21:48:37.718] [DEBUG] default - Load: wxUser
+[2017-09-07 21:48:37.742] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 21:48:47.442] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:48:47.445] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:48:47.445] [TRACE] default - middleware ipController start
+[2017-09-07 21:48:47.617] [TRACE] default - { [Function: router]
+  params: {},
+  _params: [],
+  caseSensitive: undefined,
+  mergeParams: undefined,
+  strict: undefined,
+  stack: [] }
+[2017-09-07 21:48:47.619] [DEBUG] default - Load: wxUser
+[2017-09-07 21:48:47.635] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 21:48:52.333] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:48:52.336] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:48:52.337] [TRACE] default - middleware ipController start
+[2017-09-07 21:48:52.498] [DEBUG] default - Load: wxUser
+[2017-09-07 21:48:52.514] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 21:49:14.256] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:49:14.259] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:49:14.260] [TRACE] default - middleware ipController start
+[2017-09-07 21:49:14.419] [DEBUG] default - Load: wxUser
+[2017-09-07 21:49:14.428] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 21:49:38.509] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:49:38.512] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:49:38.514] [TRACE] default - middleware ipController start
+[2017-09-07 21:49:38.666] [DEBUG] default - Load: wxUser
+[2017-09-07 21:49:38.682] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 21:50:08.627] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:50:08.630] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:50:08.631] [TRACE] default - middleware ipController start
+[2017-09-07 21:50:08.782] [DEBUG] default - Load: wxUser
+[2017-09-07 21:50:08.801] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 21:50:11.722] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:50:11.726] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:50:11.727] [TRACE] default - middleware ipController start
+[2017-09-07 21:50:11.893] [DEBUG] default - Load: wxUser
+[2017-09-07 21:50:11.909] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 21:50:40.735] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:50:40.741] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:50:40.742] [TRACE] default - middleware ipController start
+[2017-09-07 21:50:40.905] [DEBUG] default - Load: wxUser
+[2017-09-07 21:50:40.916] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 21:51:16.148] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:51:16.150] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:51:16.151] [TRACE] default - middleware ipController start
+[2017-09-07 21:51:16.304] [DEBUG] default - Load: wxUser
+[2017-09-07 21:51:16.326] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 21:51:47.912] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:51:47.916] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:51:47.917] [TRACE] default - middleware ipController start
+[2017-09-07 21:51:48.073] [DEBUG] default - Load: wxUser
+[2017-09-07 21:51:48.089] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 21:51:59.700] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:51:59.703] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:51:59.703] [TRACE] default - middleware ipController start
+[2017-09-07 21:51:59.871] [DEBUG] default - Load: wxUser
+[2017-09-07 21:51:59.890] [INFO] system - 服务器启动成功! 端口号: 8889
+[2017-09-07 21:52:10.429] [TRACE] default - middleware handleResponse start
+[2017-09-07 21:52:10.435] [TRACE] default - middleware crossDomain start
+[2017-09-07 21:52:10.435] [TRACE] default - middleware ipController start
+[2017-09-07 21:52:10.595] [DEBUG] default - Load: wxUser
+[2017-09-07 21:52:10.604] [INFO] system - 服务器启动成功! 端口号: 8889

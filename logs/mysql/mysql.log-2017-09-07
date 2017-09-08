@@ -1,0 +1,347 @@
+[2017-09-07 11:14:23.602] [DEBUG] mysql - MySQL connected
+[2017-09-07 11:14:23.618] [DEBUG] mysql - SELECT * FROM base_user WHERE username = 2221112
+[2017-09-07 11:14:23.623] [ERROR] mysql - { Error: ER_NO_SUCH_TABLE: Table 'test.base_user' doesn't exist
+    at Query.Sequence._packetToError (D:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (D:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    at Socket.Readable.push (_stream_readable.js:197:10)
+    at TCP.onread (net.js:588:20)
+    --------------------
+    at Protocol._enqueue (D:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (D:\project\lei\node_modules\mysql\lib\Connection.js:208:25)
+    at PoolConnection.tryCatcher (D:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (D:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at userModule._query (D:\project\lei\src\module\base.js:50:17)
+    at D:\project\lei\src\module\base.js:95:28
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+  cause: 
+   { Error: ER_NO_SUCH_TABLE: Table 'test.base_user' doesn't exist
+       at Query.Sequence._packetToError (D:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (D:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (D:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (D:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (D:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (D:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:120:20)
+       at Socket.emit (events.js:210:7)
+       at addChunk (_stream_readable.js:252:12)
+       at readableAddChunk (_stream_readable.js:239:11)
+       at Socket.Readable.push (_stream_readable.js:197:10)
+       at TCP.onread (net.js:588:20)
+       --------------------
+       at Protocol._enqueue (D:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at PoolConnection.query (D:\project\lei\node_modules\mysql\lib\Connection.js:208:25)
+       at PoolConnection.tryCatcher (D:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (D:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at userModule._query (D:\project\lei\src\module\base.js:50:17)
+       at D:\project\lei\src\module\base.js:95:28
+       at Generator.next (<anonymous>)
+       at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+       at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+       at <anonymous>
+       at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+     code: 'ER_NO_SUCH_TABLE',
+     errno: 1146,
+     sqlState: '42S02',
+     index: 0 },
+  isOperational: true,
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  index: 0 }
+[2017-09-07 11:14:23.634] [DEBUG] mysql - 
+      insert into base_user 
+      (username,password,type,e,time)
+      values
+      (1,2221222)
+      duplicate key
+      update 
+      username = values (username),password = values (password),type = values (type),e = values (e),time = values (time)
+    
+[2017-09-07 11:14:23.637] [ERROR] mysql - { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'duplicate key
+      update 
+      username = values (username),password = values' at line 3
+    at Query.Sequence._packetToError (D:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (D:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    at Socket.Readable.push (_stream_readable.js:197:10)
+    at TCP.onread (net.js:588:20)
+    --------------------
+    at Protocol._enqueue (D:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (D:\project\lei\node_modules\mysql\lib\Connection.js:208:25)
+    at PoolConnection.tryCatcher (D:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (D:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at userModule._query (D:\project\lei\src\module\base.js:50:17)
+    at D:\project\lei\src\module\base.js:95:28
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+  cause: 
+   { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'duplicate key
+         update 
+         username = values (username),password = values' at line 3
+       at Query.Sequence._packetToError (D:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (D:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (D:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (D:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (D:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (D:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:120:20)
+       at Socket.emit (events.js:210:7)
+       at addChunk (_stream_readable.js:252:12)
+       at readableAddChunk (_stream_readable.js:239:11)
+       at Socket.Readable.push (_stream_readable.js:197:10)
+       at TCP.onread (net.js:588:20)
+       --------------------
+       at Protocol._enqueue (D:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at PoolConnection.query (D:\project\lei\node_modules\mysql\lib\Connection.js:208:25)
+       at PoolConnection.tryCatcher (D:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (D:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at userModule._query (D:\project\lei\src\module\base.js:50:17)
+       at D:\project\lei\src\module\base.js:95:28
+       at Generator.next (<anonymous>)
+       at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+       at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+       at <anonymous>
+       at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+     code: 'ER_PARSE_ERROR',
+     errno: 1064,
+     sqlState: '42000',
+     index: 0 },
+  isOperational: true,
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+[2017-09-07 11:14:41.963] [DEBUG] mysql - MySQL connected
+[2017-09-07 11:14:41.972] [DEBUG] mysql - SELECT * FROM base_user WHERE username = 2221112
+[2017-09-07 11:14:41.976] [ERROR] mysql - { Error: ER_NO_SUCH_TABLE: Table 'test.base_user' doesn't exist
+    at Query.Sequence._packetToError (D:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (D:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    at Socket.Readable.push (_stream_readable.js:197:10)
+    at TCP.onread (net.js:588:20)
+    --------------------
+    at Protocol._enqueue (D:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (D:\project\lei\node_modules\mysql\lib\Connection.js:208:25)
+    at PoolConnection.tryCatcher (D:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (D:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at userModule._query (D:\project\lei\src\module\base.js:50:17)
+    at D:\project\lei\src\module\base.js:95:28
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+  cause: 
+   { Error: ER_NO_SUCH_TABLE: Table 'test.base_user' doesn't exist
+       at Query.Sequence._packetToError (D:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (D:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (D:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (D:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (D:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (D:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:120:20)
+       at Socket.emit (events.js:210:7)
+       at addChunk (_stream_readable.js:252:12)
+       at readableAddChunk (_stream_readable.js:239:11)
+       at Socket.Readable.push (_stream_readable.js:197:10)
+       at TCP.onread (net.js:588:20)
+       --------------------
+       at Protocol._enqueue (D:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at PoolConnection.query (D:\project\lei\node_modules\mysql\lib\Connection.js:208:25)
+       at PoolConnection.tryCatcher (D:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (D:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at userModule._query (D:\project\lei\src\module\base.js:50:17)
+       at D:\project\lei\src\module\base.js:95:28
+       at Generator.next (<anonymous>)
+       at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+       at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+       at <anonymous>
+       at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+     code: 'ER_NO_SUCH_TABLE',
+     errno: 1146,
+     sqlState: '42S02',
+     index: 0 },
+  isOperational: true,
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  index: 0 }
+[2017-09-07 11:14:41.984] [TRACE] mysql - 
+      insert into base_user 
+      (username,password,type,e,time)
+      values
+      (1,2221222)
+      duplicate key
+      update 
+      username = values (username),password = values (password),type = values (type),e = values (e),time = values (time)
+    
+[2017-09-07 11:14:41.985] [DEBUG] mysql - 
+      insert into base_user 
+      (username,password,type,e,time)
+      values
+      (1,2221222)
+      duplicate key
+      update 
+      username = values (username),password = values (password),type = values (type),e = values (e),time = values (time)
+    
+[2017-09-07 11:14:41.989] [ERROR] mysql - { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'duplicate key
+      update 
+      username = values (username),password = values' at line 3
+    at Query.Sequence._packetToError (D:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (D:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    at Socket.Readable.push (_stream_readable.js:197:10)
+    at TCP.onread (net.js:588:20)
+    --------------------
+    at Protocol._enqueue (D:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (D:\project\lei\node_modules\mysql\lib\Connection.js:208:25)
+    at PoolConnection.tryCatcher (D:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (D:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at userModule._query (D:\project\lei\src\module\base.js:50:17)
+    at D:\project\lei\src\module\base.js:95:28
+    at Generator.next (<anonymous>)
+    at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+  cause: 
+   { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'duplicate key
+         update 
+         username = values (username),password = values' at line 3
+       at Query.Sequence._packetToError (D:\project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (D:\project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (D:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (D:\project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (D:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (D:\project\lei\node_modules\mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:120:20)
+       at Socket.emit (events.js:210:7)
+       at addChunk (_stream_readable.js:252:12)
+       at readableAddChunk (_stream_readable.js:239:11)
+       at Socket.Readable.push (_stream_readable.js:197:10)
+       at TCP.onread (net.js:588:20)
+       --------------------
+       at Protocol._enqueue (D:\project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at PoolConnection.query (D:\project\lei\node_modules\mysql\lib\Connection.js:208:25)
+       at PoolConnection.tryCatcher (D:\project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (D:\project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at userModule._query (D:\project\lei\src\module\base.js:50:17)
+       at D:\project\lei\src\module\base.js:95:28
+       at Generator.next (<anonymous>)
+       at step (D:\project\lei\node_modules\lei-coroutine\index.js:66:25)
+       at Promise.resolve.then.v (D:\project\lei\node_modules\lei-coroutine\index.js:75:30)
+       at <anonymous>
+       at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+     code: 'ER_PARSE_ERROR',
+     errno: 1064,
+     sqlState: '42000',
+     index: 0 },
+  isOperational: true,
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 }
+[2017-09-07 12:57:09.622] [DEBUG] mysql - MySQL connected
+[2017-09-07 13:57:33.800] [DEBUG] mysql - MySQL connected
+[2017-09-07 13:58:14.479] [DEBUG] mysql - MySQL connected
+[2017-09-07 13:58:29.892] [DEBUG] mysql - MySQL connected
+[2017-09-07 13:58:50.626] [DEBUG] mysql - MySQL connected
+[2017-09-07 13:59:55.032] [DEBUG] mysql - MySQL connected
+[2017-09-07 14:00:31.673] [DEBUG] mysql - MySQL connected
+[2017-09-07 14:01:05.702] [DEBUG] mysql - MySQL connected
+[2017-09-07 14:01:49.760] [DEBUG] mysql - MySQL connected
+[2017-09-07 14:22:16.190] [DEBUG] mysql - MySQL connected
+[2017-09-07 14:47:33.781] [DEBUG] mysql - MySQL connected
+[2017-09-07 14:47:50.828] [DEBUG] mysql - MySQL connected
+[2017-09-07 14:50:26.259] [DEBUG] mysql - MySQL connected
+[2017-09-07 17:14:03.209] [DEBUG] mysql - MySQL connected
+[2017-09-07 17:42:02.794] [DEBUG] mysql - MySQL connected
+[2017-09-07 17:42:14.806] [DEBUG] mysql - MySQL connected
+[2017-09-07 17:51:59.639] [DEBUG] mysql - MySQL connected
+[2017-09-07 17:52:28.369] [DEBUG] mysql - MySQL connected
+[2017-09-07 20:46:07.790] [DEBUG] mysql - MySQL connected
+[2017-09-07 20:47:23.020] [DEBUG] mysql - MySQL connected
+[2017-09-07 20:48:06.420] [DEBUG] mysql - MySQL connected
+[2017-09-07 20:48:25.126] [DEBUG] mysql - MySQL connected
+[2017-09-07 20:49:05.036] [DEBUG] mysql - MySQL connected
+[2017-09-07 20:50:06.265] [DEBUG] mysql - MySQL connected
+[2017-09-07 20:50:16.486] [DEBUG] mysql - MySQL connected
+[2017-09-07 20:50:26.207] [DEBUG] mysql - MySQL connected
+[2017-09-07 20:50:44.053] [DEBUG] mysql - MySQL connected
+[2017-09-07 20:51:50.724] [DEBUG] mysql - MySQL connected
+[2017-09-07 20:52:44.539] [DEBUG] mysql - MySQL connected
+[2017-09-07 20:55:00.915] [DEBUG] mysql - MySQL connected
+[2017-09-07 20:57:08.346] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:03:21.709] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:20:12.206] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:21:03.852] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:21:51.120] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:22:56.278] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:23:07.291] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:24:49.415] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:28:12.360] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:30:08.726] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:30:18.509] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:30:21.019] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:31:33.111] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:32:12.060] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:33:27.431] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:33:56.547] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:34:25.132] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:38:37.702] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:39:41.132] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:41:20.655] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:41:40.665] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:43:45.957] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:46:34.277] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:46:45.544] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:47:19.617] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:48:02.311] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:48:37.767] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:48:47.654] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:48:52.536] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:49:14.454] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:49:38.710] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:50:08.824] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:50:11.932] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:50:40.932] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:51:16.354] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:51:48.112] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:51:59.919] [DEBUG] mysql - MySQL connected
+[2017-09-07 21:52:10.619] [DEBUG] mysql - MySQL connected
