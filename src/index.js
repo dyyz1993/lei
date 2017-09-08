@@ -17,12 +17,11 @@ const {
   co,
   config,
   util,
-  express,
   moment,
   log4js,
   redis
 } = require('./global');
-
+const express = require('express-coroutine')(require('express'));
 const logger = log4js.getLogger('system');
 const bodyparser = require('body-parser');
 const ejs = require('ejs');
@@ -84,7 +83,7 @@ const favicon = require('serve-favicon');
 require('./service/index');
 
 // 注册路由
-require('./router')(app,router);
+require('./router')(app, router);
 
 
 // 404错误中间件

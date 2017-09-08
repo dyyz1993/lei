@@ -47,7 +47,7 @@ class Base {
     }
     if (typeof sql !== 'string') {
       logger.trace(sql);
-      throw `sql must string`
+      throw errors.invalidParameterError(`sql must string`);
     };
     return conn.queryAsync(sql, param).catch(err => {
       logger.error(err);
@@ -103,8 +103,9 @@ class Base {
 
   // 过滤掉表没有的字段
   _filter(condition) {
+    logger.trace(this.schema);
     if (typeof condition !== 'object') {
-      throw errors.dataBaseError(`必须为数组或者对象`);
+      throw errors.invalidParameterError(`必须为数组或者对象`);
     }
     if (condition instanceof Array) {
       // 数组
@@ -114,7 +115,7 @@ class Base {
     } else {
       //对象
       for (let key in condition) {
-        if (!this.schema['properties'][key] || condition[key] === undefined) delete condition[key];
+        if (this.schema['properties'][key] === undefined || condition[key] === undefined) delete condition[key];
       }
 
     }
@@ -166,7 +167,7 @@ class Base {
    * @returns 
    * @memberof Base
    */
-  select(condition){
+  select(condition) {
     return this.query(this.mono({
       backquote: false
     }).select('*', this.table).where(condition).query().sql);
@@ -306,7 +307,9 @@ class Base {
   }
 
   get(condition) {
+    logger.trace(condition)
     condition = this._filter(condition);
+    logger.trace(condition)
     return this._one(this.mono({
       backquote: false
     }).select('*', this.table).where(condition).query().sql);

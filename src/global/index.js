@@ -13,8 +13,7 @@ module.exports = {
     fs: Promise.promisifyAll(require('fs')),
     config: require('../config'),
     utils: require('../libs/utils'),
-    express: require('express'),
     TYPES: require('./types'),
-    _:require('lodash'),
-    errors:require('./errors')
+    _: require('lodash'),
+    errors: require('./errors')
 }

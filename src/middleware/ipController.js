@@ -9,21 +9,21 @@
 
 function getClientIp(req) {
   return req.headers['x-forwarded-for'] ||
-        req.connection.remoteAddress ||
-        req.socket.remoteAddress ||
-        req.connection.socket.remoteAddress;
+    req.connection.remoteAddress ||
+    req.socket.remoteAddress ||
+    req.connection.socket.remoteAddress;
 }
 
 const store = {};
-function handler(options){
+function handler(options) {
   options = options || {};
   options.maxCount = options.maxCount || 20;
   options.maxTime = options.maxTime || 1000;
   options.maxIpNum = options.maxIpNum || 1000;
-  return function (req, res, next){
+  return function (req, res, next) {
     const ip = getClientIp(req);
     let obj = store[ip];
-    if(!obj){
+    if (!obj) {
       // 不存在
       obj = {};
       obj.cookie = req.cookie;
@@ -34,14 +34,15 @@ function handler(options){
       obj['timestamp'] = Date.now();
       store[ip] = obj;
       // if( options. )
-    }else if(Date.now() - obj['timestamp'] > options.maxTime){
+    } else if (Date.now() - obj['timestamp'] > options.maxTime) {
       delete store[ip];
-    }else{
-      obj.count ++ ;
-      if(obj.count > options.maxCount){
+    } else {
+      obj.count++;
+      if (obj.count > options.maxCount) {
         return res.status(500).send(`访问频率过快`);
       }
     }
+    req.ip = ip;
     next();
   };
 }

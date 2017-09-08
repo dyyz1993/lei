@@ -1,0 +1,1320 @@
+[2017-09-06 23:41:55.266] [DEBUG] mysql - MySQL connected
+[2017-09-06 23:44:40.840] [DEBUG] mysql - MySQL connected
+[2017-09-06 23:49:18.172] [DEBUG] mysql - MySQL connected
+[2017-09-06 23:50:03.093] [DEBUG] mysql - MySQL connected
+[2017-09-06 23:53:31.897] [DEBUG] mysql - MySQL connected
+[2017-09-06 23:54:24.923] [DEBUG] mysql - MySQL connected
+[2017-09-06 23:56:06.487] [DEBUG] mysql - MySQL connected
+[2017-09-06 23:56:52.649] [DEBUG] mysql - MySQL connected
+[2017-09-06 23:57:08.880] [DEBUG] mysql - MySQL connected
+[2017-09-06 23:57:58.367] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:00:21.112] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:00:49.930] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:03:04.056] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:07:53.845] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:08:10.523] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:08:40.379] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:09:09.402] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:09:23.941] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:10:14.089] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:10:20.549] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:10:36.665] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:10:44.534] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:11:16.839] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:12:19.803] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:12:31.248] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:12:34.983] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:12:46.814] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:12:58.793] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:13:08.488] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:13:21.177] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:13:25.904] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:13:48.725] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:14:03.784] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:14:12.865] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:14:43.910] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:14:53.207] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:15:00.995] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:15:17.080] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:15:59.612] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:16:20.371] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:16:44.336] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:16:48.372] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:17:24.282] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:17:39.651] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:17:43.228] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:17:52.911] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:18:03.169] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:18:44.658] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:19:21.223] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:19:25.562] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:19:48.426] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:21:23.971] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:21:32.835] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:21:46.172] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:21:47.682] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:21:49.397] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:22:17.091] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:22:24.056] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:22:34.288] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:22:50.472] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:22:58.681] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:23:05.346] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:23:18.604] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:23:26.884] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:23:44.688] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:24:06.631] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:24:36.145] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:24:44.402] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:24:48.949] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:25:00.299] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:25:16.683] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:25:20.184] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:25:25.955] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:25:36.473] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:25:41.851] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:28:20.052] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:28:40.369] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:29:31.167] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:30:29.261] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:30:47.236] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:30:50.794] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:30:56.904] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:32:17.011] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:32:54.821] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:35:06.136] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:35:18.737] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:35:54.136] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:35:55.164] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:35:56.210] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:35:57.278] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:35:58.337] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:35:59.464] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:00.579] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:01.955] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:03.059] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:04.106] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:05.143] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:06.630] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:08.344] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:10.039] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:11.411] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:12.468] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:13.616] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:14.640] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:15.604] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:16.659] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:17.752] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:18.970] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:20.522] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:21.603] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:22.664] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:23.709] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:24.848] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:26.172] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:27.375] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:28.495] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:29.616] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:30.747] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:32.380] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:33.473] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:34.516] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:35.632] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:36.662] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:37.726] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:38.830] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:40.070] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:41.065] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:42.082] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:43.067] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:44.149] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:45.289] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:46.311] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:47.482] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:48.585] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:49.672] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:50.850] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:52.133] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:53.222] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:54.291] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:55.984] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:57.221] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:36:58.663] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:37:00.915] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:37:02.164] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:37:03.350] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:37:04.517] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:37:05.753] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:37:07.477] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:37:08.516] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:37:09.539] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:37:10.557] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:37:11.567] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:37:12.564] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:37:13.569] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:37:14.591] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:37:15.626] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:37:16.639] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:37:18.030] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:37:19.456] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:37:21.142] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:37:22.358] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:37:24.183] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:37:38.054] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:38:23.774] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:38:24.852] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:38:26.296] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:38:27.515] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:38:28.573] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:38:29.625] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:38:30.676] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:02.861] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:03.922] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:04.959] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:06.045] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:07.102] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:08.151] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:09.232] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:10.296] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:11.768] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:12.888] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:13.974] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:15.050] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:16.116] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:17.209] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:18.327] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:19.547] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:20.640] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:21.688] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:22.798] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:24.138] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:25.390] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:27.026] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:28.162] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:29.267] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:30.434] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:31.500] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:32.693] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:33.803] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:34.900] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:35.862] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:36.952] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:38.072] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:39.169] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:40.237] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:41.486] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:42.623] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:44.179] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:45.426] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:46.547] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:47.612] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:48.700] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:50.195] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:51.345] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:52.412] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:53.491] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:54.534] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:55.595] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:56.689] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:57.833] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:39:59.168] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:00.302] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:01.404] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:02.402] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:03.621] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:04.962] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:06.611] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:07.695] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:08.782] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:09.914] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:11.070] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:12.362] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:13.476] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:14.886] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:16.113] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:17.328] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:18.563] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:19.541] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:20.566] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:21.764] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:22.908] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:24.201] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:25.317] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:26.480] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:27.623] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:28.776] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:29.932] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:31.046] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:32.217] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:33.826] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:34.959] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:36.297] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:37.466] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:38.633] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:39.718] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:40.669] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:41.834] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:43.131] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:44.296] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:45.370] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:46.424] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:47.569] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:48.831] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:49.921] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:50.993] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:52.106] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:53.219] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:54.346] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:40:55.532] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:04.511] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:05.554] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:06.602] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:07.662] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:08.707] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:09.736] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:10.808] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:11.883] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:12.989] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:14.561] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:15.978] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:17.061] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:18.198] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:19.314] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:20.450] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:21.546] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:22.665] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:23.833] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:24.744] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:25.859] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:26.949] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:28.133] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:29.337] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:30.562] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:32.112] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:33.181] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:34.291] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:35.375] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:36.460] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:37.702] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:38.950] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:40.172] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:41.363] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:41:42.881] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:42:06.624] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:42:07.688] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:42:08.790] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:42:09.869] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:42:10.938] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:42:12.012] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:42:13.074] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:42:14.164] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:42:15.246] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:42:16.342] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:42:17.441] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:42:18.482] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:42:19.562] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:42:20.464] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:42:21.547] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:42:22.651] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:42:24.184] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:42:52.076] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:42:53.141] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:42:54.220] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:42:55.306] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:42:56.368] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:42:57.411] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:42:58.461] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:42:59.549] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:43:00.637] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:43:02.676] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:43:04.013] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:43:05.395] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:43:06.666] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:43:07.767] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:43:08.960] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:43:11.019] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:43:20.958] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:43:22.025] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:43:23.092] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:43:24.169] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:43:25.242] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:43:26.303] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:43:27.392] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:43:28.687] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:43:29.709] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:43:30.765] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:43:31.801] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:43:32.682] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:43:33.603] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:43:35.151] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:45:02.334] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:45:03.377] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:45:04.469] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:45:05.686] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:45:07.075] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:45:08.122] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:45:09.158] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:45:10.294] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:45:11.666] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:45:12.753] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:45:13.989] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:45:15.148] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:45:16.361] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:45:17.735] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:45:18.897] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:45:20.115] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:45:21.904] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:45:22.982] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:45:24.028] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:45:25.146] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:45:26.295] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:45:27.373] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:45:28.499] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:45:29.605] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:45:30.729] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:45:32.001] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:45:32.916] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:45:38.960] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:45:40.026] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:46:05.284] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:46:08.119] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:46:13.651] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:46:43.595] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:46:46.530] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:47:05.003] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:47:16.425] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:48:13.245] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:48:27.991] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:48:30.246] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:49:28.268] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:49:48.735] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:49:57.674] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:57:18.655] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:59:01.441] [DEBUG] mysql - MySQL connected
+[2017-09-07 00:59:41.285] [DEBUG] mysql - MySQL connected
+[2017-09-07 01:00:02.489] [DEBUG] mysql - MySQL connected
+[2017-09-07 01:00:23.242] [DEBUG] mysql - MySQL connected
+[2017-09-07 01:00:54.543] [DEBUG] mysql - MySQL connected
+[2017-09-07 01:03:03.221] [DEBUG] mysql - MySQL connected
+[2017-09-07 01:03:33.878] [DEBUG] mysql - MySQL connected
+[2017-09-07 01:30:49.440] [DEBUG] mysql - MySQL connected
+[2017-09-07 01:31:25.451] [DEBUG] mysql - MySQL connected
+[2017-09-07 01:31:43.193] [DEBUG] mysql - MySQL connected
+[2017-09-07 01:33:58.737] [DEBUG] mysql - MySQL connected
+[2017-09-07 01:35:18.430] [DEBUG] mysql - MySQL connected
+[2017-09-07 01:35:33.702] [DEBUG] mysql - MySQL connected
+[2017-09-07 01:36:00.262] [DEBUG] mysql - MySQL connected
+[2017-09-07 01:53:28.873] [DEBUG] mysql - MySQL connected
+[2017-09-07 01:54:18.720] [DEBUG] mysql - MySQL connected
+[2017-09-07 01:54:22.310] [DEBUG] mysql - MySQL connected
+[2017-09-07 01:54:36.803] [DEBUG] mysql - MySQL connected
+[2017-09-07 02:09:37.216] [DEBUG] mysql - MySQL connected
+[2017-09-07 02:13:13.798] [DEBUG] mysql - MySQL connected
+[2017-09-07 02:13:40.688] [DEBUG] mysql - MySQL connected
+[2017-09-07 02:15:52.752] [DEBUG] mysql - MySQL connected
+[2017-09-07 02:17:54.581] [DEBUG] mysql - MySQL connected
+[2017-09-07 02:24:29.511] [DEBUG] mysql - MySQL connected
+[2017-09-07 02:24:39.941] [DEBUG] mysql - MySQL connected
+[2017-09-07 02:24:55.949] [DEBUG] mysql - MySQL connected
+[2017-09-07 02:25:17.122] [DEBUG] mysql - MySQL connected
+[2017-09-07 02:25:35.905] [DEBUG] mysql - MySQL connected
+[2017-09-07 02:26:33.670] [DEBUG] mysql - MySQL connected
+[2017-09-07 02:27:21.825] [DEBUG] mysql - MySQL connected
+[2017-09-07 02:27:59.651] [DEBUG] mysql - MySQL connected
+[2017-09-07 02:29:05.295] [DEBUG] mysql - MySQL connected
+[2017-09-07 02:29:08.353] [DEBUG] mysql - MySQL connected
+[2017-09-07 02:43:10.154] [DEBUG] mysql - MySQL connected
+[2017-09-07 02:47:52.116] [DEBUG] mysql - MySQL connected
+[2017-09-07 02:47:52.119] [DEBUG] mysql - undefined
+[2017-09-07 02:49:16.162] [DEBUG] mysql - MySQL connected
+[2017-09-07 02:49:16.165] [DEBUG] mysql - SELECT * FROM user LIMIT 20 OFFSET 0
+[2017-09-07 02:50:05.601] [DEBUG] mysql - MySQL connected
+[2017-09-07 02:50:05.604] [DEBUG] mysql - SELECT * FROM user LIMIT 20 OFFSET 0
+[2017-09-07 02:59:44.187] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:01:19.475] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:01:36.047] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:02:34.609] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:04:30.202] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:04:59.846] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:04:59.852] [DEBUG] mysql - INSERT INTO user () VALUES ()
+[2017-09-07 03:05:20.605] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:05:20.610] [DEBUG] mysql - INSERT INTO user () VALUES ()
+[2017-09-07 03:05:20.613] [ERROR] mysql - { Error: ER_DUP_ENTRY: Duplicate entry '' for key 'PRIMARY'
+    at Query.Sequence._packetToError (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (F:\Project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (F:\Project\lei\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    at Socket.Readable.push (_stream_readable.js:197:10)
+    at TCP.onread (net.js:588:20)
+    --------------------
+    at Protocol._enqueue (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (F:\Project\lei\node_modules\mysql\lib\Connection.js:208:25)
+    at PoolConnection.tryCatcher (F:\Project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (F:\Project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at userModule._query (F:\Project\lei\src\module\base.js:37:17)
+    at F:\Project\lei\src\module\base.js:82:28
+    at Generator.next (<anonymous>)
+    at step (F:\Project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (F:\Project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+  cause: 
+   { Error: ER_DUP_ENTRY: Duplicate entry '' for key 'PRIMARY'
+       at Query.Sequence._packetToError (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (F:\Project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (F:\Project\lei\node_modules\mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:120:20)
+       at Socket.emit (events.js:210:7)
+       at addChunk (_stream_readable.js:252:12)
+       at readableAddChunk (_stream_readable.js:239:11)
+       at Socket.Readable.push (_stream_readable.js:197:10)
+       at TCP.onread (net.js:588:20)
+       --------------------
+       at Protocol._enqueue (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at PoolConnection.query (F:\Project\lei\node_modules\mysql\lib\Connection.js:208:25)
+       at PoolConnection.tryCatcher (F:\Project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (F:\Project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at userModule._query (F:\Project\lei\src\module\base.js:37:17)
+       at F:\Project\lei\src\module\base.js:82:28
+       at Generator.next (<anonymous>)
+       at step (F:\Project\lei\node_modules\lei-coroutine\index.js:66:25)
+       at Promise.resolve.then.v (F:\Project\lei\node_modules\lei-coroutine\index.js:75:30)
+       at <anonymous>
+       at process._tickDomainCallback (internal/process/next_tick.js:208:7) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 },
+  isOperational: true,
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlState: '23000',
+  index: 0 }
+[2017-09-07 03:05:48.745] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:05:48.750] [DEBUG] mysql - INSERT INTO user () VALUES ()
+[2017-09-07 03:05:48.755] [ERROR] mysql - { Error: ER_DUP_ENTRY: Duplicate entry '' for key 'PRIMARY'
+    at Query.Sequence._packetToError (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (F:\Project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (F:\Project\lei\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    at Socket.Readable.push (_stream_readable.js:197:10)
+    at TCP.onread (net.js:588:20)
+    --------------------
+    at Protocol._enqueue (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (F:\Project\lei\node_modules\mysql\lib\Connection.js:208:25)
+    at PoolConnection.tryCatcher (F:\Project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (F:\Project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at userModule._query (F:\Project\lei\src\module\base.js:37:17)
+    at F:\Project\lei\src\module\base.js:82:28
+    at Generator.next (<anonymous>)
+    at step (F:\Project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (F:\Project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+  cause: 
+   { Error: ER_DUP_ENTRY: Duplicate entry '' for key 'PRIMARY'
+       at Query.Sequence._packetToError (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (F:\Project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (F:\Project\lei\node_modules\mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:120:20)
+       at Socket.emit (events.js:210:7)
+       at addChunk (_stream_readable.js:252:12)
+       at readableAddChunk (_stream_readable.js:239:11)
+       at Socket.Readable.push (_stream_readable.js:197:10)
+       at TCP.onread (net.js:588:20)
+       --------------------
+       at Protocol._enqueue (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at PoolConnection.query (F:\Project\lei\node_modules\mysql\lib\Connection.js:208:25)
+       at PoolConnection.tryCatcher (F:\Project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (F:\Project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at userModule._query (F:\Project\lei\src\module\base.js:37:17)
+       at F:\Project\lei\src\module\base.js:82:28
+       at Generator.next (<anonymous>)
+       at step (F:\Project\lei\node_modules\lei-coroutine\index.js:66:25)
+       at Promise.resolve.then.v (F:\Project\lei\node_modules\lei-coroutine\index.js:75:30)
+       at <anonymous>
+       at process._tickDomainCallback (internal/process/next_tick.js:208:7) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 },
+  isOperational: true,
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlState: '23000',
+  index: 0 }
+[2017-09-07 03:07:45.311] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:07:45.319] [DEBUG] mysql - INSERT INTO user () VALUES ()
+[2017-09-07 03:07:45.323] [ERROR] mysql - { Error: ER_DUP_ENTRY: Duplicate entry '' for key 'PRIMARY'
+    at Query.Sequence._packetToError (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (F:\Project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (F:\Project\lei\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    at Socket.Readable.push (_stream_readable.js:197:10)
+    at TCP.onread (net.js:588:20)
+    --------------------
+    at Protocol._enqueue (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (F:\Project\lei\node_modules\mysql\lib\Connection.js:208:25)
+    at PoolConnection.tryCatcher (F:\Project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (F:\Project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at userModule._query (F:\Project\lei\src\module\base.js:37:17)
+    at F:\Project\lei\src\module\base.js:82:28
+    at Generator.next (<anonymous>)
+    at step (F:\Project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (F:\Project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+  cause: 
+   { Error: ER_DUP_ENTRY: Duplicate entry '' for key 'PRIMARY'
+       at Query.Sequence._packetToError (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (F:\Project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (F:\Project\lei\node_modules\mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:120:20)
+       at Socket.emit (events.js:210:7)
+       at addChunk (_stream_readable.js:252:12)
+       at readableAddChunk (_stream_readable.js:239:11)
+       at Socket.Readable.push (_stream_readable.js:197:10)
+       at TCP.onread (net.js:588:20)
+       --------------------
+       at Protocol._enqueue (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at PoolConnection.query (F:\Project\lei\node_modules\mysql\lib\Connection.js:208:25)
+       at PoolConnection.tryCatcher (F:\Project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (F:\Project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at userModule._query (F:\Project\lei\src\module\base.js:37:17)
+       at F:\Project\lei\src\module\base.js:82:28
+       at Generator.next (<anonymous>)
+       at step (F:\Project\lei\node_modules\lei-coroutine\index.js:66:25)
+       at Promise.resolve.then.v (F:\Project\lei\node_modules\lei-coroutine\index.js:75:30)
+       at <anonymous>
+       at process._tickDomainCallback (internal/process/next_tick.js:208:7) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 },
+  isOperational: true,
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlState: '23000',
+  index: 0 }
+[2017-09-07 03:09:09.613] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:09:09.623] [DEBUG] mysql - INSERT INTO user () VALUES ()
+[2017-09-07 03:09:09.628] [ERROR] mysql - { Error: ER_DUP_ENTRY: Duplicate entry '' for key 'PRIMARY'
+    at Query.Sequence._packetToError (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (F:\Project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (F:\Project\lei\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    at Socket.Readable.push (_stream_readable.js:197:10)
+    at TCP.onread (net.js:588:20)
+    --------------------
+    at Protocol._enqueue (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (F:\Project\lei\node_modules\mysql\lib\Connection.js:208:25)
+    at PoolConnection.tryCatcher (F:\Project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (F:\Project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at userModule._query (F:\Project\lei\src\module\base.js:37:17)
+    at F:\Project\lei\src\module\base.js:82:28
+    at Generator.next (<anonymous>)
+    at step (F:\Project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (F:\Project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+  cause: 
+   { Error: ER_DUP_ENTRY: Duplicate entry '' for key 'PRIMARY'
+       at Query.Sequence._packetToError (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (F:\Project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (F:\Project\lei\node_modules\mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:120:20)
+       at Socket.emit (events.js:210:7)
+       at addChunk (_stream_readable.js:252:12)
+       at readableAddChunk (_stream_readable.js:239:11)
+       at Socket.Readable.push (_stream_readable.js:197:10)
+       at TCP.onread (net.js:588:20)
+       --------------------
+       at Protocol._enqueue (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at PoolConnection.query (F:\Project\lei\node_modules\mysql\lib\Connection.js:208:25)
+       at PoolConnection.tryCatcher (F:\Project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (F:\Project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at userModule._query (F:\Project\lei\src\module\base.js:37:17)
+       at F:\Project\lei\src\module\base.js:82:28
+       at Generator.next (<anonymous>)
+       at step (F:\Project\lei\node_modules\lei-coroutine\index.js:66:25)
+       at Promise.resolve.then.v (F:\Project\lei\node_modules\lei-coroutine\index.js:75:30)
+       at <anonymous>
+       at process._tickDomainCallback (internal/process/next_tick.js:208:7) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 },
+  isOperational: true,
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlState: '23000',
+  index: 0 }
+[2017-09-07 03:09:22.928] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:09:22.936] [DEBUG] mysql - INSERT INTO user () VALUES ()
+[2017-09-07 03:09:22.939] [ERROR] mysql - { Error: ER_DUP_ENTRY: Duplicate entry '' for key 'PRIMARY'
+    at Query.Sequence._packetToError (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (F:\Project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (F:\Project\lei\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    at Socket.Readable.push (_stream_readable.js:197:10)
+    at TCP.onread (net.js:588:20)
+    --------------------
+    at Protocol._enqueue (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (F:\Project\lei\node_modules\mysql\lib\Connection.js:208:25)
+    at PoolConnection.tryCatcher (F:\Project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (F:\Project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at userModule._query (F:\Project\lei\src\module\base.js:37:17)
+    at F:\Project\lei\src\module\base.js:82:28
+    at Generator.next (<anonymous>)
+    at step (F:\Project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (F:\Project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+  cause: 
+   { Error: ER_DUP_ENTRY: Duplicate entry '' for key 'PRIMARY'
+       at Query.Sequence._packetToError (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (F:\Project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (F:\Project\lei\node_modules\mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:120:20)
+       at Socket.emit (events.js:210:7)
+       at addChunk (_stream_readable.js:252:12)
+       at readableAddChunk (_stream_readable.js:239:11)
+       at Socket.Readable.push (_stream_readable.js:197:10)
+       at TCP.onread (net.js:588:20)
+       --------------------
+       at Protocol._enqueue (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at PoolConnection.query (F:\Project\lei\node_modules\mysql\lib\Connection.js:208:25)
+       at PoolConnection.tryCatcher (F:\Project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (F:\Project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at userModule._query (F:\Project\lei\src\module\base.js:37:17)
+       at F:\Project\lei\src\module\base.js:82:28
+       at Generator.next (<anonymous>)
+       at step (F:\Project\lei\node_modules\lei-coroutine\index.js:66:25)
+       at Promise.resolve.then.v (F:\Project\lei\node_modules\lei-coroutine\index.js:75:30)
+       at <anonymous>
+       at process._tickDomainCallback (internal/process/next_tick.js:208:7) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 },
+  isOperational: true,
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlState: '23000',
+  index: 0 }
+[2017-09-07 03:09:51.202] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:09:51.212] [DEBUG] mysql - INSERT INTO user () VALUES ()
+[2017-09-07 03:09:51.216] [ERROR] mysql - { Error: ER_DUP_ENTRY: Duplicate entry '' for key 'PRIMARY'
+    at Query.Sequence._packetToError (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (F:\Project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (F:\Project\lei\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    at Socket.Readable.push (_stream_readable.js:197:10)
+    at TCP.onread (net.js:588:20)
+    --------------------
+    at Protocol._enqueue (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (F:\Project\lei\node_modules\mysql\lib\Connection.js:208:25)
+    at PoolConnection.tryCatcher (F:\Project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (F:\Project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at userModule._query (F:\Project\lei\src\module\base.js:37:17)
+    at F:\Project\lei\src\module\base.js:82:28
+    at Generator.next (<anonymous>)
+    at step (F:\Project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (F:\Project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+  cause: 
+   { Error: ER_DUP_ENTRY: Duplicate entry '' for key 'PRIMARY'
+       at Query.Sequence._packetToError (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (F:\Project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (F:\Project\lei\node_modules\mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:120:20)
+       at Socket.emit (events.js:210:7)
+       at addChunk (_stream_readable.js:252:12)
+       at readableAddChunk (_stream_readable.js:239:11)
+       at Socket.Readable.push (_stream_readable.js:197:10)
+       at TCP.onread (net.js:588:20)
+       --------------------
+       at Protocol._enqueue (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at PoolConnection.query (F:\Project\lei\node_modules\mysql\lib\Connection.js:208:25)
+       at PoolConnection.tryCatcher (F:\Project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (F:\Project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at userModule._query (F:\Project\lei\src\module\base.js:37:17)
+       at F:\Project\lei\src\module\base.js:82:28
+       at Generator.next (<anonymous>)
+       at step (F:\Project\lei\node_modules\lei-coroutine\index.js:66:25)
+       at Promise.resolve.then.v (F:\Project\lei\node_modules\lei-coroutine\index.js:75:30)
+       at <anonymous>
+       at process._tickDomainCallback (internal/process/next_tick.js:208:7) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 },
+  isOperational: true,
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlState: '23000',
+  index: 0 }
+[2017-09-07 03:16:03.299] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:25:46.952] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:29:05.890] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:32:19.144] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:32:19.166] [DEBUG] mysql - INSERT INTO user () VALUES ()
+[2017-09-07 03:32:19.170] [ERROR] mysql - { Error: ER_DUP_ENTRY: Duplicate entry '' for key 'PRIMARY'
+    at Query.Sequence._packetToError (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (F:\Project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (F:\Project\lei\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    at Socket.Readable.push (_stream_readable.js:197:10)
+    at TCP.onread (net.js:588:20)
+    --------------------
+    at Protocol._enqueue (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (F:\Project\lei\node_modules\mysql\lib\Connection.js:208:25)
+    at PoolConnection.tryCatcher (F:\Project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (F:\Project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at userModule._query (F:\Project\lei\src\module\base.js:47:17)
+    at F:\Project\lei\src\module\base.js:92:28
+    at Generator.next (<anonymous>)
+    at step (F:\Project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (F:\Project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+  cause: 
+   { Error: ER_DUP_ENTRY: Duplicate entry '' for key 'PRIMARY'
+       at Query.Sequence._packetToError (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (F:\Project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (F:\Project\lei\node_modules\mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:120:20)
+       at Socket.emit (events.js:210:7)
+       at addChunk (_stream_readable.js:252:12)
+       at readableAddChunk (_stream_readable.js:239:11)
+       at Socket.Readable.push (_stream_readable.js:197:10)
+       at TCP.onread (net.js:588:20)
+       --------------------
+       at Protocol._enqueue (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at PoolConnection.query (F:\Project\lei\node_modules\mysql\lib\Connection.js:208:25)
+       at PoolConnection.tryCatcher (F:\Project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (F:\Project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at userModule._query (F:\Project\lei\src\module\base.js:47:17)
+       at F:\Project\lei\src\module\base.js:92:28
+       at Generator.next (<anonymous>)
+       at step (F:\Project\lei\node_modules\lei-coroutine\index.js:66:25)
+       at Promise.resolve.then.v (F:\Project\lei\node_modules\lei-coroutine\index.js:75:30)
+       at <anonymous>
+       at process._tickDomainCallback (internal/process/next_tick.js:208:7) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 },
+  isOperational: true,
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlState: '23000',
+  index: 0 }
+[2017-09-07 03:33:05.580] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:33:05.592] [DEBUG] mysql - INSERT INTO user (username) VALUES (2)
+[2017-09-07 03:33:05.599] [ERROR] mysql - { Error: ER_BAD_FIELD_ERROR: Unknown column 'username' in 'field list'
+    at Query.Sequence._packetToError (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (F:\Project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (F:\Project\lei\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    at Socket.Readable.push (_stream_readable.js:197:10)
+    at TCP.onread (net.js:588:20)
+    --------------------
+    at Protocol._enqueue (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (F:\Project\lei\node_modules\mysql\lib\Connection.js:208:25)
+    at PoolConnection.tryCatcher (F:\Project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (F:\Project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at userModule._query (F:\Project\lei\src\module\base.js:47:17)
+    at F:\Project\lei\src\module\base.js:92:28
+    at Generator.next (<anonymous>)
+    at step (F:\Project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (F:\Project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+  cause: 
+   { Error: ER_BAD_FIELD_ERROR: Unknown column 'username' in 'field list'
+       at Query.Sequence._packetToError (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (F:\Project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (F:\Project\lei\node_modules\mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:120:20)
+       at Socket.emit (events.js:210:7)
+       at addChunk (_stream_readable.js:252:12)
+       at readableAddChunk (_stream_readable.js:239:11)
+       at Socket.Readable.push (_stream_readable.js:197:10)
+       at TCP.onread (net.js:588:20)
+       --------------------
+       at Protocol._enqueue (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at PoolConnection.query (F:\Project\lei\node_modules\mysql\lib\Connection.js:208:25)
+       at PoolConnection.tryCatcher (F:\Project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (F:\Project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at userModule._query (F:\Project\lei\src\module\base.js:47:17)
+       at F:\Project\lei\src\module\base.js:92:28
+       at Generator.next (<anonymous>)
+       at step (F:\Project\lei\node_modules\lei-coroutine\index.js:66:25)
+       at Promise.resolve.then.v (F:\Project\lei\node_modules\lei-coroutine\index.js:75:30)
+       at <anonymous>
+       at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '42S22',
+     index: 0 },
+  isOperational: true,
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-07 03:33:46.559] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:34:01.208] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:34:06.474] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:34:11.289] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:34:11.302] [DEBUG] mysql - INSERT INTO user (username, type) VALUES ('2', 1)
+[2017-09-07 03:34:11.305] [ERROR] mysql - { Error: ER_BAD_FIELD_ERROR: Unknown column 'username' in 'field list'
+    at Query.Sequence._packetToError (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (F:\Project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (F:\Project\lei\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    at Socket.Readable.push (_stream_readable.js:197:10)
+    at TCP.onread (net.js:588:20)
+    --------------------
+    at Protocol._enqueue (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (F:\Project\lei\node_modules\mysql\lib\Connection.js:208:25)
+    at PoolConnection.tryCatcher (F:\Project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (F:\Project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at userModule._query (F:\Project\lei\src\module\base.js:47:17)
+    at F:\Project\lei\src\module\base.js:92:28
+    at Generator.next (<anonymous>)
+    at step (F:\Project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (F:\Project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+  cause: 
+   { Error: ER_BAD_FIELD_ERROR: Unknown column 'username' in 'field list'
+       at Query.Sequence._packetToError (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (F:\Project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (F:\Project\lei\node_modules\mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:120:20)
+       at Socket.emit (events.js:210:7)
+       at addChunk (_stream_readable.js:252:12)
+       at readableAddChunk (_stream_readable.js:239:11)
+       at Socket.Readable.push (_stream_readable.js:197:10)
+       at TCP.onread (net.js:588:20)
+       --------------------
+       at Protocol._enqueue (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at PoolConnection.query (F:\Project\lei\node_modules\mysql\lib\Connection.js:208:25)
+       at PoolConnection.tryCatcher (F:\Project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (F:\Project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at userModule._query (F:\Project\lei\src\module\base.js:47:17)
+       at F:\Project\lei\src\module\base.js:92:28
+       at Generator.next (<anonymous>)
+       at step (F:\Project\lei\node_modules\lei-coroutine\index.js:66:25)
+       at Promise.resolve.then.v (F:\Project\lei\node_modules\lei-coroutine\index.js:75:30)
+       at <anonymous>
+       at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '42S22',
+     index: 0 },
+  isOperational: true,
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-07 03:35:11.313] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:35:11.329] [DEBUG] mysql - INSERT INTO user (username, type) VALUES ('2', 1)
+[2017-09-07 03:35:11.335] [ERROR] mysql - { Error: ER_BAD_FIELD_ERROR: Unknown column 'username' in 'field list'
+    at Query.Sequence._packetToError (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (F:\Project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (F:\Project\lei\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    at Socket.Readable.push (_stream_readable.js:197:10)
+    at TCP.onread (net.js:588:20)
+    --------------------
+    at Protocol._enqueue (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (F:\Project\lei\node_modules\mysql\lib\Connection.js:208:25)
+    at PoolConnection.tryCatcher (F:\Project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (F:\Project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at userModule._query (F:\Project\lei\src\module\base.js:47:17)
+    at F:\Project\lei\src\module\base.js:92:28
+    at Generator.next (<anonymous>)
+    at step (F:\Project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (F:\Project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+  cause: 
+   { Error: ER_BAD_FIELD_ERROR: Unknown column 'username' in 'field list'
+       at Query.Sequence._packetToError (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (F:\Project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (F:\Project\lei\node_modules\mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:120:20)
+       at Socket.emit (events.js:210:7)
+       at addChunk (_stream_readable.js:252:12)
+       at readableAddChunk (_stream_readable.js:239:11)
+       at Socket.Readable.push (_stream_readable.js:197:10)
+       at TCP.onread (net.js:588:20)
+       --------------------
+       at Protocol._enqueue (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at PoolConnection.query (F:\Project\lei\node_modules\mysql\lib\Connection.js:208:25)
+       at PoolConnection.tryCatcher (F:\Project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (F:\Project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at userModule._query (F:\Project\lei\src\module\base.js:47:17)
+       at F:\Project\lei\src\module\base.js:92:28
+       at Generator.next (<anonymous>)
+       at step (F:\Project\lei\node_modules\lei-coroutine\index.js:66:25)
+       at Promise.resolve.then.v (F:\Project\lei\node_modules\lei-coroutine\index.js:75:30)
+       at <anonymous>
+       at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '42S22',
+     index: 0 },
+  isOperational: true,
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-07 03:36:35.753] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:37:25.958] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:37:53.263] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:37:53.274] [DEBUG] mysql - INSERT INTO user (password, username, type) VALUES ('1', '2', 1)
+[2017-09-07 03:37:53.281] [ERROR] mysql - { Error: ER_BAD_FIELD_ERROR: Unknown column 'password' in 'field list'
+    at Query.Sequence._packetToError (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (F:\Project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (F:\Project\lei\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    at Socket.Readable.push (_stream_readable.js:197:10)
+    at TCP.onread (net.js:588:20)
+    --------------------
+    at Protocol._enqueue (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (F:\Project\lei\node_modules\mysql\lib\Connection.js:208:25)
+    at PoolConnection.tryCatcher (F:\Project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (F:\Project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at userModule._query (F:\Project\lei\src\module\base.js:47:17)
+    at F:\Project\lei\src\module\base.js:92:28
+    at Generator.next (<anonymous>)
+    at step (F:\Project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (F:\Project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+  cause: 
+   { Error: ER_BAD_FIELD_ERROR: Unknown column 'password' in 'field list'
+       at Query.Sequence._packetToError (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (F:\Project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (F:\Project\lei\node_modules\mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:120:20)
+       at Socket.emit (events.js:210:7)
+       at addChunk (_stream_readable.js:252:12)
+       at readableAddChunk (_stream_readable.js:239:11)
+       at Socket.Readable.push (_stream_readable.js:197:10)
+       at TCP.onread (net.js:588:20)
+       --------------------
+       at Protocol._enqueue (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at PoolConnection.query (F:\Project\lei\node_modules\mysql\lib\Connection.js:208:25)
+       at PoolConnection.tryCatcher (F:\Project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (F:\Project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at userModule._query (F:\Project\lei\src\module\base.js:47:17)
+       at F:\Project\lei\src\module\base.js:92:28
+       at Generator.next (<anonymous>)
+       at step (F:\Project\lei\node_modules\lei-coroutine\index.js:66:25)
+       at Promise.resolve.then.v (F:\Project\lei\node_modules\lei-coroutine\index.js:75:30)
+       at <anonymous>
+       at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '42S22',
+     index: 0 },
+  isOperational: true,
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-07 03:39:07.981] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:39:07.991] [DEBUG] mysql - INSERT INTO user (password, username, type) VALUES ('1', '2', 1)
+[2017-09-07 03:39:07.995] [ERROR] mysql - { Error: ER_BAD_FIELD_ERROR: Unknown column 'password' in 'field list'
+    at Query.Sequence._packetToError (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (F:\Project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (F:\Project\lei\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    at Socket.Readable.push (_stream_readable.js:197:10)
+    at TCP.onread (net.js:588:20)
+    --------------------
+    at Protocol._enqueue (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (F:\Project\lei\node_modules\mysql\lib\Connection.js:208:25)
+    at PoolConnection.tryCatcher (F:\Project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (F:\Project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at userModule._query (F:\Project\lei\src\module\base.js:47:17)
+    at F:\Project\lei\src\module\base.js:92:28
+    at Generator.next (<anonymous>)
+    at step (F:\Project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (F:\Project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+  cause: 
+   { Error: ER_BAD_FIELD_ERROR: Unknown column 'password' in 'field list'
+       at Query.Sequence._packetToError (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (F:\Project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (F:\Project\lei\node_modules\mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:120:20)
+       at Socket.emit (events.js:210:7)
+       at addChunk (_stream_readable.js:252:12)
+       at readableAddChunk (_stream_readable.js:239:11)
+       at Socket.Readable.push (_stream_readable.js:197:10)
+       at TCP.onread (net.js:588:20)
+       --------------------
+       at Protocol._enqueue (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at PoolConnection.query (F:\Project\lei\node_modules\mysql\lib\Connection.js:208:25)
+       at PoolConnection.tryCatcher (F:\Project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (F:\Project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at userModule._query (F:\Project\lei\src\module\base.js:47:17)
+       at F:\Project\lei\src\module\base.js:92:28
+       at Generator.next (<anonymous>)
+       at step (F:\Project\lei\node_modules\lei-coroutine\index.js:66:25)
+       at Promise.resolve.then.v (F:\Project\lei\node_modules\lei-coroutine\index.js:75:30)
+       at <anonymous>
+       at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+     code: 'ER_BAD_FIELD_ERROR',
+     errno: 1054,
+     sqlState: '42S22',
+     index: 0 },
+  isOperational: true,
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  index: 0 }
+[2017-09-07 03:39:54.712] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:39:54.727] [DEBUG] mysql - INSERT INTO base_user (password, username, type) VALUES ('1', '2', 1)
+[2017-09-07 03:40:31.443] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:40:31.457] [DEBUG] mysql - INSERT INTO base_user (password, username, type) VALUES ('1', '2', 1)
+[2017-09-07 03:40:31.467] [ERROR] mysql - { Error: ER_DUP_ENTRY: Duplicate entry '2' for key 'PRIMARY'
+    at Query.Sequence._packetToError (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (F:\Project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (F:\Project\lei\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    at Socket.Readable.push (_stream_readable.js:197:10)
+    at TCP.onread (net.js:588:20)
+    --------------------
+    at Protocol._enqueue (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (F:\Project\lei\node_modules\mysql\lib\Connection.js:208:25)
+    at PoolConnection.tryCatcher (F:\Project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (F:\Project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at userModule._query (F:\Project\lei\src\module\base.js:47:17)
+    at F:\Project\lei\src\module\base.js:92:28
+    at Generator.next (<anonymous>)
+    at step (F:\Project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (F:\Project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+  cause: 
+   { Error: ER_DUP_ENTRY: Duplicate entry '2' for key 'PRIMARY'
+       at Query.Sequence._packetToError (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (F:\Project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (F:\Project\lei\node_modules\mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:120:20)
+       at Socket.emit (events.js:210:7)
+       at addChunk (_stream_readable.js:252:12)
+       at readableAddChunk (_stream_readable.js:239:11)
+       at Socket.Readable.push (_stream_readable.js:197:10)
+       at TCP.onread (net.js:588:20)
+       --------------------
+       at Protocol._enqueue (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at PoolConnection.query (F:\Project\lei\node_modules\mysql\lib\Connection.js:208:25)
+       at PoolConnection.tryCatcher (F:\Project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (F:\Project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at userModule._query (F:\Project\lei\src\module\base.js:47:17)
+       at F:\Project\lei\src\module\base.js:92:28
+       at Generator.next (<anonymous>)
+       at step (F:\Project\lei\node_modules\lei-coroutine\index.js:66:25)
+       at Promise.resolve.then.v (F:\Project\lei\node_modules\lei-coroutine\index.js:75:30)
+       at <anonymous>
+       at process._tickDomainCallback (internal/process/next_tick.js:208:7) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 },
+  isOperational: true,
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlState: '23000',
+  index: 0 }
+[2017-09-07 03:40:41.523] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:40:41.539] [DEBUG] mysql - INSERT INTO base_user (password, username, type) VALUES ('1', '22', 1)
+[2017-09-07 03:41:05.054] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:41:05.065] [DEBUG] mysql - INSERT INTO base_user (password, username, type) VALUES ('1', '222', 1)
+[2017-09-07 03:41:14.690] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:41:14.703] [DEBUG] mysql - INSERT INTO base_user (password, username, type) VALUES ('1', '2222', 1)
+[2017-09-07 03:41:44.969] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:41:44.983] [DEBUG] mysql - INSERT INTO base_user (password, username, type) VALUES ('1', '2221112', 1)
+[2017-09-07 03:44:20.143] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:44:20.154] [DEBUG] mysql - INSERT INTO base_user (password, username, type) VALUES ('1', '2221112', 1)
+[2017-09-07 03:44:20.158] [ERROR] mysql - { Error: ER_DUP_ENTRY: Duplicate entry '2221112' for key 'PRIMARY'
+    at Query.Sequence._packetToError (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (F:\Project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (F:\Project\lei\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:120:20)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:252:12)
+    at readableAddChunk (_stream_readable.js:239:11)
+    at Socket.Readable.push (_stream_readable.js:197:10)
+    at TCP.onread (net.js:588:20)
+    --------------------
+    at Protocol._enqueue (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (F:\Project\lei\node_modules\mysql\lib\Connection.js:208:25)
+    at PoolConnection.tryCatcher (F:\Project\lei\node_modules\bluebird\js\release\util.js:16:23)
+    at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (F:\Project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at userModule._query (F:\Project\lei\src\module\base.js:47:17)
+    at F:\Project\lei\src\module\base.js:92:28
+    at Generator.next (<anonymous>)
+    at step (F:\Project\lei\node_modules\lei-coroutine\index.js:66:25)
+    at Promise.resolve.then.v (F:\Project\lei\node_modules\lei-coroutine\index.js:75:30)
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:208:7)
+  cause: 
+   { Error: ER_DUP_ENTRY: Duplicate entry '2221112' for key 'PRIMARY'
+       at Query.Sequence._packetToError (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+       at Query.ErrorPacket (F:\Project\lei\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+       at Protocol._parsePacket (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+       at Parser.write (F:\Project\lei\node_modules\mysql\lib\protocol\Parser.js:75:12)
+       at Protocol.write (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+       at Socket.<anonymous> (F:\Project\lei\node_modules\mysql\lib\Connection.js:103:28)
+       at emitOne (events.js:120:20)
+       at Socket.emit (events.js:210:7)
+       at addChunk (_stream_readable.js:252:12)
+       at readableAddChunk (_stream_readable.js:239:11)
+       at Socket.Readable.push (_stream_readable.js:197:10)
+       at TCP.onread (net.js:588:20)
+       --------------------
+       at Protocol._enqueue (F:\Project\lei\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+       at PoolConnection.query (F:\Project\lei\node_modules\mysql\lib\Connection.js:208:25)
+       at PoolConnection.tryCatcher (F:\Project\lei\node_modules\bluebird\js\release\util.js:16:23)
+       at PoolConnection.ret [as queryAsync] (eval at makeNodePromisifiedEval (F:\Project\lei\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+       at userModule._query (F:\Project\lei\src\module\base.js:47:17)
+       at F:\Project\lei\src\module\base.js:92:28
+       at Generator.next (<anonymous>)
+       at step (F:\Project\lei\node_modules\lei-coroutine\index.js:66:25)
+       at Promise.resolve.then.v (F:\Project\lei\node_modules\lei-coroutine\index.js:75:30)
+       at <anonymous>
+       at process._tickDomainCallback (internal/process/next_tick.js:208:7) code: 'ER_DUP_ENTRY', errno: 1062, sqlState: '23000', index: 0 },
+  isOperational: true,
+  code: 'ER_DUP_ENTRY',
+  errno: 1062,
+  sqlState: '23000',
+  index: 0 }
+[2017-09-07 03:44:44.574] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:44:58.739] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:44:58.749] [DEBUG] mysql - { username: 22222 }
+[2017-09-07 03:47:13.605] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:47:13.613] [DEBUG] mysql - { username: 22222 }
+[2017-09-07 03:47:13.615] [TRACE] mysql - { username: 22222 }
+[2017-09-07 03:47:59.359] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:47:59.369] [DEBUG] mysql - { username: 22222 }
+[2017-09-07 03:47:59.375] [TRACE] mysql - { username: 22222 }
+[2017-09-07 03:48:11.734] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:48:30.382] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:48:30.393] [DEBUG] mysql - SELECT * FROM base_user WHERE username = 22222
+[2017-09-07 03:48:39.014] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:48:39.024] [DEBUG] mysql - SELECT * FROM base_user WHERE username = 2221112
+[2017-09-07 03:49:03.450] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:49:03.461] [DEBUG] mysql - SELECT * FROM base_user WHERE username = 2221112
+[2017-09-07 03:49:19.898] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:49:19.910] [DEBUG] mysql - SELECT * FROM base_user WHERE username = 2221112
+[2017-09-07 03:49:53.127] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:49:53.136] [DEBUG] mysql - SELECT * FROM base_user WHERE username = 2221112
+[2017-09-07 03:50:22.258] [DEBUG] mysql - MySQL connected
+[2017-09-07 03:50:22.277] [DEBUG] mysql - SELECT * FROM base_user WHERE username = 2221112
+[2017-09-07 23:36:48.327] [DEBUG] mysql - MySQL connected
+[2017-09-07 23:38:17.380] [DEBUG] mysql - MySQL connected
+[2017-09-07 23:38:50.111] [DEBUG] mysql - MySQL connected
+[2017-09-07 23:48:19.330] [DEBUG] mysql - MySQL connected
+[2017-09-07 23:56:27.018] [DEBUG] mysql - MySQL connected
+[2017-09-07 23:56:51.122] [DEBUG] mysql - MySQL connected
+[2017-09-07 23:57:41.860] [DEBUG] mysql - MySQL connected
+[2017-09-07 23:57:44.612] [DEBUG] mysql - MySQL connected
+[2017-09-07 23:58:01.400] [DEBUG] mysql - MySQL connected
