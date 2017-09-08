@@ -12,5 +12,5 @@ module.exports = {
   'pagecount': 20,
   'port': 8889,
   loggerDebug: true,
-  table_pre: 'restaurant_',
+  table_pre: 'restaurant_'
 };

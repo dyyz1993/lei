@@ -33,6 +33,7 @@ CREATE TABLE `restaurant_supermarket_wx_user` (
    `openid` varchar(30) NOT NULL COMMENT 'openid',
    `awardname` varchar(30) DEFAULT NULL COMMENT '奖品的名称',
    `award_id` int(11) DEFAULT NULL COMMENT '奖品ID',
+   `cuisine_type` int(11) DEFAULT NULL COMMENT '菜品ID',
    `username` varchar(30) DEFAULT NULL COMMENT '收货人',
    `ischance`  int(1) NOT NULL DEFAULT 1 COMMENT '是否有抽奖机会 0没有 1有',
    `markettype` int(1) NOT NULL COMMENT '超市类型',

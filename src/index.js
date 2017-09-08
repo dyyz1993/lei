@@ -17,18 +17,18 @@ const {
   co,
   config,
   util,
-  express,
   moment,
   log4js,
   redis
 } = require('./global');
-
+const express = require('express-coroutine')(require('express'));
 const logger = log4js.getLogger('system');
 const bodyparser = require('body-parser');
 const ejs = require('ejs');
 const app = express();
 require('./middleware')(app);
-const router = express.Router();
+const router = new express.Router();
+app.use(router);
 app.enable('trust proxy');
 
 
@@ -84,28 +84,26 @@ const favicon = require('serve-favicon');
 require('./service/index');
 
 // 注册路由
-require('./router')(app,router);
+require('./router')(app, router);
 
 
 // 404错误中间件
-app.use((req, res) => {
-  logger.error(req.url.concat(' not found'));
-  res.status(404)
-    .send(config.message.notfound);
-});
+// app.use(function(req, res)  {
+//   logger.error(req.url.concat(' not found'));
+//   res.status(404)
+//     .send(config.message.notfound);
+// });
 
 
 // 服务器内中错误处理
-app.use((err, req, res) => {
-  logger.error(err.stack);
-  res.status(500)
-    .send(config.message.servererr);
-});
+// app.use(function (err, req, res) {
+//   logger.error(err.stack);
+//   res.status(500)
+//     .send(config.message.servererr);
+// });
 
 // 开启web服务器
 app.listen(config.port, () => logger.info('服务器启动成功!', '端口号:', config.port));
-
-
 module.exports = app;
 // 开始socket服务器
 // const io = require('socket.io')(server);

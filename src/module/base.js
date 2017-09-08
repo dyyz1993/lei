@@ -17,6 +17,7 @@ const {
   _,
   errors
 } = require('../global');
+const util = require('util')
 const logger = log4js.getLogger('mysql');
 const Ajv = require('ajv');
 var ajv = new Ajv({
@@ -47,11 +48,11 @@ class Base {
     }
     if (typeof sql !== 'string') {
       logger.trace(sql);
-      throw `sql must string`
+      throw errors.invalidParameterError(`sql must string`);
     };
     return conn.queryAsync(sql, param).catch(err => {
       logger.error(err);
-      throw err;
+      throw errors.dataBaseError(err);
     });
   };
 
@@ -65,7 +66,7 @@ class Base {
   // 单个
   _one(sql, param) {
     return this.query(sql, param).then(res => {
-      return res[0];
+      return res && res[0];
     });
   }
 
@@ -103,8 +104,9 @@ class Base {
 
   // 过滤掉表没有的字段
   _filter(condition) {
+    // logger.trace(this.schema);
     if (typeof condition !== 'object') {
-      throw errors.dataBaseError(`必须为数组或者对象`);
+      throw errors.invalidParameterError(`${util.inspect(condition,false,null)},必须为数组或者对象`);
     }
     if (condition instanceof Array) {
       // 数组
@@ -114,7 +116,7 @@ class Base {
     } else {
       //对象
       for (let key in condition) {
-        if (!this.schema['properties'][key] || condition[key] === undefined) delete condition[key];
+        if (this.schema['properties'][key] === undefined || condition[key] === undefined) delete condition[key];
       }
 
     }
@@ -124,9 +126,9 @@ class Base {
 
   //校验参数
   _verify(condition) {
-    if (!this.validate(condition)) {
-      throw ajv.errorsText(this.validate.errors);
-    }
+    // if (!this.validate(condition)) {
+    //   throw ajv.errorsText(this.validate.errors);
+    // }
   }
 
   /**
@@ -154,7 +156,7 @@ class Base {
     let limit = pagecount,
       off = (page - 1) * pagecount;
     fields = typeof fields === 'string' ? fields : this._filter(fields);
-    condition = this._verify(condition);
+    // condition = this._verify(condition);
     return this.query(this.mono({
       backquote: false
     }).select(fields, this.table).where(condition).limit(limit, off).query().sql);
@@ -166,7 +168,7 @@ class Base {
    * @returns 
    * @memberof Base
    */
-  select(condition){
+  select(condition) {
     return this.query(this.mono({
       backquote: false
     }).select('*', this.table).where(condition).query().sql);
@@ -298,21 +300,59 @@ class Base {
   }
 
   insert(obj) {
+    logger.trace(obj)
     obj = this._filter(obj);
-    this._verify(obj);
+    
+    // this._verify(obj);
     return this._insert(this.mono({
       backquote: false
     }).insert(this.table, obj).query().sql);
   }
 
-  get(condition) {
+  get(condition) { 
     condition = this._filter(condition);
     return this._one(this.mono({
       backquote: false
     }).select('*', this.table).where(condition).query().sql);
   }
 
+  transaction(sqls){
+    let conn,_that = this;
+    return co(function*(){
+      try {
+        conn = yield pool.getConnectionAsync();
+        yield conn.beginTransactionAsync();
+        for(const sql of sqls) {
+          yield _that._query(conn,sql);
+        }
+        yield conn.commitAsync();
+      } catch (e) {        
+        yield conn.rollbackAsync();
+      } finally {
+        conn && conn.release();
+      }
+    })
+  }
+
+  _transaction(fn){
+    let conn,_that = this;
+    return co(function*(){
+      try {
+        conn = yield pool.getConnectionAsync();
+        yield conn.beginTransactionAsync();
+        let result = yield fn.call(this,conn);
+        yield conn.commitAsync();
+        return result;
+      } catch (e) {        
+        yield conn.rollbackAsync();
+        throw e;
+      } finally {
+        conn && conn.release();
+      }
+    })
+  }
 }
+
 
 
 module.exports = Base;

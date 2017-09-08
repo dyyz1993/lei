@@ -1,7 +1,8 @@
 
-        module.exports = 
-            { type: 'object',
+module.exports = 
+{ type: 'object',
   title: 'restaurant_wx_user',
+  table: 'restaurant_wx_user',
   additionalProperties: false,
   properties: 
    { user_id: { type: 'number' },

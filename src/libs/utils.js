@@ -7,7 +7,7 @@
  * @Last modified time: 2017-08-04T16:50:24+08:00
  */
 
-
+const assert = require('chai').assert;
 
 // 输出当前环境
 const env = {
@@ -161,6 +161,26 @@ function getGift(gifts)  {
   return null;
 };
 
+
+function randomStr(len){
+  let str1 = `abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890`;
+  let str = ``;
+  for(var i=0;i<len;i++){
+    str += str1[Math.floor(Math.random()*str1.length)];
+  }  
+  return str;
+} 
+
+/**
+ * 随机数组中的某一项
+ * @param {any} arr 
+ * @returns 
+ */
+function randItem(arr){
+  assert.isArray(arr);
+  return arr[Math.floor(Math.random()*arr.length)]
+}
+
 module.exports = {
   env,
   underlineToCamel,
@@ -170,7 +190,8 @@ module.exports = {
   getClientIp,
   checkParams,
   filterParams,
-  getGift
-
+  getGift,
+  randomStr,
+  randItem
 }
 

@@ -15,7 +15,7 @@ const middlewares = [
         title:`跨域`,
         entity:require('./crossDomain'),
         name:'crossDomain',
-        enabled:true
+        enabled:false
     },
     {
         title:`ip限流`,

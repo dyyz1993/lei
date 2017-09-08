@@ -1,0 +1,2 @@
+module.exports = {awards:require('./awards.js'),supermarket:require('./supermarket.js'),supermarketWxUser:require('./supermarketWxUser.js'),user:require('./user.js'),wxUser:require('./wxUser.js'),
+                                                                                }

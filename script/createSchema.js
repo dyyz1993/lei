@@ -12,8 +12,7 @@ const logger = log4js.getLogger();
 const fs = require('fs');
 const path = require('path');
 const util = require('util');
-
-
+const dirPath = path.resolve(__dirname, '../src/schema');
 // console.log(util.inspect(util, { showHidden: true, depth: 3,colors:true }));
 
 co(function* () {
@@ -51,7 +50,13 @@ function wrireFile(table, schema) {
             throw new Error(`${tableName}.js 文件存在,写入失败`);
         } else {
             fs.writeFileSync(realFilePath, str);
-            logger.trace(`${tableName} 创建成功`);
+            let index = fs.readFileSync(path.resolve(dirPath, './index.js'));
+            logger.trace(`${table} 创建成功`);
+
+            fs.writeFileSync(path.resolve(dirPath, './index.js'), index.toString().replace(/\n/,
+                `${tableName}:require('./${tableName}.js'),
+                `))
+            logger.trace(`${tableName} 添加成功`);
         }
 
     } catch (error) {
@@ -71,6 +76,7 @@ function createschema(table) {
             let schema = {
                 type: 'object',
                 title: table,
+                table,
                 additionalProperties: false,
                 properties: {},
                 required: [],
